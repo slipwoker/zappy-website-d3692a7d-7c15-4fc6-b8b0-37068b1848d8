@@ -1,0 +1,1927 @@
+<!DOCTYPE html><html data-zappy-site-type="ecommerce" lang="he" dir="rtl"><head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <title>אבקות חלבון מובילות במחיר השקה — פרוטאין סטוק - PROTEIN STOCK</title>
+    <meta name="description" content="גלה את המבחר הענק של אבקות חלבון, חטיפי חלבון מיובאים ומוצרי פאמפ ממיטב המותגים בעולם. כנס עכשיו לפרוטאין סטוק ותתחיל לבנות את הגוף שתמיד רצית!" />
+    <meta name="keywords" content="אבקות חלבון, חטיפי חלבון מיובאים ישראל, תזונת ספורט, קנייה אונליין אבקת חלבון, מוצרי פאמפ" />
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48x48.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512x512.png" />
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+    <!-- Zappy Analytics -->
+<script>
+(function() {
+  'use strict';
+  
+  // Configuration
+  var config = {
+    websiteId: 'd3692a7d-7c15-4fc6-b8b0-37068b1848d8',
+    apiUrl: 'https://qaapi.zappy5.com/api/analytics/track',
+    sessionDuration: 30 * 60 * 1000, // 30 minutes
+    visitorDuration: 30 * 24 * 60 * 60 * 1000, // 30 days
+    trackPageViews: true,
+    trackClicks: true,
+    trackFormSubmissions: true
+  };
+  
+  // Generate or retrieve persistent visitor ID (30 days)
+  function getVisitorId() {
+    var visitorKey = 'zappy_visitor_' + config.websiteId;
+    var visitor = null;
+    
+    try {
+      visitor = localStorage.getItem(visitorKey);
+      if (visitor) {
+        var visitorData = JSON.parse(visitor);
+        var now = Date.now();
+        
+        // Check if visitor ID is still valid (30 days)
+        if (now - visitorData.created < config.visitorDuration) {
+          // Update last seen timestamp
+          visitorData.lastSeen = now;
+          localStorage.setItem(visitorKey, JSON.stringify(visitorData));
+          return visitorData.id;
+        }
+      }
+    } catch (e) {
+      console.warn('Zappy Analytics: LocalStorage not available');
+    }
+    
+    // Generate new visitor ID
+    var newVisitorId = 'zv_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+    
+    try {
+      localStorage.setItem(visitorKey, JSON.stringify({
+        id: newVisitorId,
+        created: Date.now(),
+        lastSeen: Date.now()
+      }));
+    } catch (e) {
+      // Continue without local storage
+    }
+    
+    return newVisitorId;
+  }
+  
+  // Generate or retrieve session ID (30 minutes)
+  function getSessionId() {
+    var sessionKey = 'zappy_session_' + config.websiteId;
+    var session = null;
+    
+    try {
+      session = sessionStorage.getItem(sessionKey);
+      if (session) {
+        var sessionData = JSON.parse(session);
+        var now = Date.now();
+        
+        // Check if session is still valid
+        if (now - sessionData.timestamp < config.sessionDuration) {
+          // Update timestamp
+          sessionData.timestamp = now;
+          sessionStorage.setItem(sessionKey, JSON.stringify(sessionData));
+          return sessionData.id;
+        }
+      }
+    } catch (e) {
+      console.warn('Zappy Analytics: SessionStorage not available');
+    }
+    
+    // Generate new session ID
+    var newSessionId = 'zs_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+    
+    try {
+      sessionStorage.setItem(sessionKey, JSON.stringify({
+        id: newSessionId,
+        timestamp: Date.now()
+      }));
+    } catch (e) {
+      // Continue without session storage
+    }
+    
+    return newSessionId;
+  }
+  
+  var visitorId = getVisitorId();
+  var sessionId = getSessionId();
+  
+  // Site Optimization Agent — visual heatmap helpers
+  function getBandAnchor(el) {
+    var node = el;
+    while (node && node !== document.body) {
+      if (node.getAttribute && node.getAttribute('data-band-index') != null) {
+        return { bandIndex: node.getAttribute('data-band-index'), sectionId: node.id || null };
+      }
+      node = node.parentElement;
+    }
+    node = el;
+    while (node && node !== document.body) {
+      if (node.tagName === 'SECTION' && node.id) {
+        return { bandIndex: null, sectionId: node.id };
+      }
+      node = node.parentElement;
+    }
+    return { bandIndex: null, sectionId: null };
+  }
+  function heatmapFields(el, e) {
+    var anchor = getBandAnchor(el);
+    return {
+      x: Math.round((e && e.pageX) || 0),
+      y: Math.round((e && e.pageY) || 0),
+      bandIndex: anchor.bandIndex,
+      sectionId: anchor.sectionId
+    };
+  }
+  function mergeFields(base, extra) {
+    for (var k in extra) { if (Object.prototype.hasOwnProperty.call(extra, k)) base[k] = extra[k]; }
+    return base;
+  }
+  // Track an event
+  function trackEvent(eventType, data) {
+    data = data || {};
+    
+    var eventData = {
+      website_id: config.websiteId,
+      event_type: eventType,
+      page_path: window.location.pathname,
+      referrer: document.referrer || 'direct',
+      visitor_id: visitorId,
+      session_id: sessionId,
+      metadata: data
+    };
+    
+    // Use sendBeacon if available (better for page unload events)
+    if (navigator.sendBeacon) {
+      var blob = new Blob([JSON.stringify(eventData)], { type: 'application/json' });
+      navigator.sendBeacon(config.apiUrl, blob);
+    } else {
+      // Fallback to fetch
+      fetch(config.apiUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(eventData),
+        keepalive: true
+      }).catch(function(error) {
+        console.warn('Zappy Analytics: Failed to track event', error);
+      });
+    }
+  }
+  
+  // Track page view
+  if (config.trackPageViews) {
+    trackEvent('pageview', {
+      title: document.title,
+      url: window.location.href
+    });
+  }
+  
+  // Track clicks on important elements
+  if (config.trackClicks) {
+    document.addEventListener('click', function(e) {
+      var target = e.target;
+      
+      // Track button clicks (counted as actions)
+      if (target.tagName === 'BUTTON' || target.closest('button')) {
+        var button = target.tagName === 'BUTTON' ? target : target.closest('button');
+        var clickMeta = {
+          element: 'button',
+          text: button.textContent.trim().substring(0, 100),
+          id: button.id || null,
+          class: button.className || null
+        };
+        mergeFields(clickMeta, heatmapFields(button, e));
+        trackEvent('click', clickMeta);
+      }
+      
+      // Track link clicks (navigation - not counted as actions)
+      else if (target.tagName === 'A' || target.closest('a')) {
+        var link = target.tagName === 'A' ? target : target.closest('a');
+        var navMeta = {
+          element: 'link',
+          text: link.textContent.trim().substring(0, 100),
+          href: link.href,
+          external: link.hostname !== window.location.hostname
+        };
+        mergeFields(navMeta, heatmapFields(link, e));
+        trackEvent('navigation', navMeta);
+      }
+    }, true);
+  }
+  
+  // Track scroll depth milestones (visual heatmap reach signal)
+  (function() {
+    var milestones = [25, 50, 75, 100];
+    var fired = {};
+    var maxDepth = 0;
+    function computeDepth() {
+      var doc = document.documentElement;
+      var scrollable = (doc.scrollHeight - window.innerHeight);
+      if (scrollable <= 0) return 100;
+      return Math.min(100, Math.round(((window.scrollY || window.pageYOffset || 0) / scrollable) * 100));
+    }
+    var ticking = false;
+    function onScroll() {
+      if (ticking) return;
+      ticking = true;
+      window.requestAnimationFrame(function() {
+        var depth = computeDepth();
+        if (depth > maxDepth) maxDepth = depth;
+        for (var i = 0; i < milestones.length; i++) {
+          var m = milestones[i];
+          if (depth >= m && !fired[m]) {
+            fired[m] = true;
+            trackEvent('scroll_depth', { milestone: m, maxDepthPct: maxDepth });
+          }
+        }
+        ticking = false;
+      });
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+  })();
+  
+  // Track form submissions
+  if (config.trackFormSubmissions) {
+    document.addEventListener('submit', function(e) {
+      var form = e.target;
+      
+      trackEvent('form_submit', {
+        form_id: form.id || null,
+        form_name: form.name || null,
+        form_action: form.action || null,
+        form_method: form.method || 'GET'
+      });
+    }, true);
+  }
+  
+  // Track time on page (send on page unload)
+  var pageLoadTime = Date.now();
+  
+  window.addEventListener('beforeunload', function() {
+    var timeOnPage = Math.floor((Date.now() - pageLoadTime) / 1000); // in seconds
+    
+    trackEvent('page_unload', {
+      time_on_page: timeOnPage,
+      page_path: window.location.pathname
+    });
+  });
+  
+  // Expose tracking function globally for custom events
+  window.zappyAnalytics = {
+    track: trackEvent,
+    getVisitorId: function() { return visitorId; },
+    getSessionId: function() { return sessionId; }
+  };
+  
+})();
+</script>
+<!-- End Zappy Analytics -->
+<!-- Zappy Marketing Events -->
+<script>
+(function() {
+  'use strict';
+  if (window.zappyFireMarketingEvent) return;
+
+  var ECOM_MODE = "full";
+  var IS_CATALOG = false;
+  var IS_FULL = true;
+
+  var ECOM_ALIAS = {
+    begin_checkout: 'checkout_started',
+    purchase: 'checkout_complete',
+    add_to_cart: 'add_to_cart',
+    view_product: 'view_product'
+  };
+
+  function pagePath() {
+    try {
+      if (window.ZAPPY_CONFIG && window.ZAPPY_CONFIG.currentPagePath) {
+        return window.ZAPPY_CONFIG.currentPagePath;
+      }
+    } catch (e) {}
+    try { return window.location.pathname || '/'; } catch (e2) { return '/'; }
+  }
+
+  function normalizeItems(meta) {
+    meta = meta || {};
+    var raw = meta.items || meta.cartItems || meta.cart_items || meta.lineItems || [];
+    if (!Array.isArray(raw)) raw = [];
+    var out = [];
+    for (var i = 0; i < raw.length; i++) {
+      var item = raw[i];
+      if (!item || typeof item !== 'object') continue;
+      var id = String(item.item_id || item.productId || item.product_id || item.id || '').trim();
+      var name = String(item.item_name || item.productName || item.product_name || item.name || '').trim();
+      var price = parseFloat(item.price != null ? item.price : (item.unitPrice != null ? item.unitPrice : 0)) || 0;
+      var quantity = Math.max(1, parseInt(item.quantity != null ? item.quantity : (item.qty != null ? item.qty : 1), 10) || 1);
+      if (!id && !name) continue;
+      out.push({ item_id: id || name, item_name: name || id, price: price, quantity: quantity });
+    }
+    return out;
+  }
+
+  function buildGa4Params(eventId, meta) {
+    meta = meta || {};
+    var items = normalizeItems(meta);
+    var value = parseFloat(meta.value != null ? meta.value : (meta.total != null ? meta.total : 0)) || 0;
+    var currency = String(meta.currency || 'USD').toUpperCase();
+
+    if (eventId === 'checkout_complete') {
+      return {
+        transaction_id: String(meta.transaction_id || meta.orderId || meta.order_id || meta.orderNumber || '') || undefined,
+        value: value,
+        currency: currency,
+        items: items
+      };
+    }
+    if (eventId === 'checkout_started') {
+      return { value: value, currency: currency, items: items };
+    }
+    if (eventId === 'add_to_cart') {
+      var atcItems = items.length ? items : [{
+        item_id: String(meta.productId || meta.product_id || ''),
+        item_name: String(meta.productName || meta.product_name || ''),
+        price: parseFloat(meta.value != null ? meta.value : (meta.price != null ? meta.price : 0)) || 0,
+        quantity: parseInt(meta.quantity != null ? meta.quantity : 1, 10) || 1
+      }].filter(function(x) { return x.item_id || x.item_name; });
+      return {
+        value: value || (atcItems[0] ? atcItems[0].price * atcItems[0].quantity : 0),
+        currency: currency,
+        items: atcItems
+      };
+    }
+    if (eventId === 'view_product') {
+      var vpItems = items.length ? items : [{
+        item_id: String(meta.productId || meta.product_id || ''),
+        item_name: String(meta.productName || meta.product_name || ''),
+        price: parseFloat(meta.price != null ? meta.price : (meta.value != null ? meta.value : 0)) || 0,
+        quantity: 1
+      }].filter(function(x) { return x.item_id || x.item_name; });
+      return {
+        currency: currency,
+        value: value || (vpItems[0] ? vpItems[0].price : 0),
+        items: vpItems
+      };
+    }
+    if (eventId === 'whatsapp_click' || eventId === 'phone_click') {
+      return { method: eventId === 'whatsapp_click' ? 'whatsapp' : 'phone', page_path: meta.pagePath || pagePath() };
+    }
+    if (eventId === 'contact_form_submitted' || eventId === 'product_inquiry') {
+      return { page_path: meta.pagePath || pagePath() };
+    }
+    return meta;
+  }
+
+  function buildMetaParams(eventId, meta) {
+    meta = meta || {};
+    var items = normalizeItems(meta);
+    var value = parseFloat(meta.value != null ? meta.value : (meta.total != null ? meta.total : 0)) || 0;
+    var currency = String(meta.currency || 'USD').toUpperCase();
+    var contentIds = [];
+    var numItems = 0;
+    for (var i = 0; i < items.length; i++) {
+      if (items[i].item_id) contentIds.push(items[i].item_id);
+      numItems += items[i].quantity || 1;
+    }
+
+    if (eventId === 'checkout_complete') {
+      return {
+        value: value,
+        currency: currency,
+        content_ids: contentIds.length ? contentIds : undefined,
+        content_type: 'product',
+        num_items: numItems || undefined,
+        order_id: String(meta.order_id || meta.orderId || meta.transaction_id || meta.orderNumber || '') || undefined
+      };
+    }
+    if (eventId === 'checkout_started') {
+      return {
+        value: value,
+        currency: currency,
+        content_ids: contentIds.length ? contentIds : undefined,
+        content_type: 'product',
+        num_items: numItems || parseInt(meta.itemCount != null ? meta.itemCount : 0, 10) || undefined
+      };
+    }
+    if (eventId === 'add_to_cart') {
+      var id = String(meta.productId || meta.product_id || contentIds[0] || '');
+      return {
+        value: value || (items[0] ? items[0].price * items[0].quantity : 0),
+        currency: currency,
+        content_ids: id ? [id] : (contentIds.length ? contentIds : undefined),
+        content_type: 'product',
+        content_name: meta.productName || meta.product_name || (items[0] && items[0].item_name),
+        num_items: parseInt(meta.quantity != null ? meta.quantity : (numItems || 1), 10) || 1
+      };
+    }
+    if (eventId === 'view_product') {
+      var vid = String(meta.productId || meta.product_id || contentIds[0] || '');
+      return {
+        value: value || parseFloat(meta.price != null ? meta.price : 0) || 0,
+        currency: currency,
+        content_ids: vid ? [vid] : (contentIds.length ? contentIds : undefined),
+        content_type: 'product',
+        content_name: meta.productName || meta.product_name || (items[0] && items[0].item_name)
+      };
+    }
+    if (eventId === 'whatsapp_click' || eventId === 'phone_click') {
+      return {
+        content_name: eventId === 'whatsapp_click' ? 'WhatsApp' : 'Phone',
+        content_category: 'contact'
+      };
+    }
+    if (eventId === 'contact_form_submitted' || eventId === 'product_inquiry') {
+      return {
+        content_name: eventId === 'product_inquiry' ? 'Product inquiry' : 'Contact form',
+        content_category: meta.productName || meta.product_name || undefined
+      };
+    }
+    return meta;
+  }
+
+  var PLATFORM = {
+    whatsapp_click: { ga4: 'contact', meta: 'Contact', gtm: 'whatsapp_click', ecom: false },
+    phone_click: { ga4: 'contact', meta: 'Contact', gtm: 'phone_click', ecom: false },
+    contact_form_submitted: { ga4: 'generate_lead', meta: 'Lead', gtm: 'contact_form_submitted', ecom: false },
+    checkout_started: { ga4: 'begin_checkout', meta: 'InitiateCheckout', gtm: 'begin_checkout', ecom: true },
+    checkout_complete: { ga4: 'purchase', meta: 'Purchase', gtm: 'purchase', ecom: true },
+    product_inquiry: { ga4: 'generate_lead', meta: 'Lead', gtm: 'product_inquiry', ecom: false },
+    add_to_cart: { ga4: 'add_to_cart', meta: 'AddToCart', gtm: 'add_to_cart', ecom: true },
+    view_product: { ga4: 'view_item', meta: 'ViewContent', gtm: 'view_item', ecom: true }
+  };
+
+  function purchaseDedupKey(orderId) {
+    return 'zappy_purchase_fired_' + String(orderId || '');
+  }
+
+  function alreadyFiredPurchase(orderId) {
+    if (!orderId) return false;
+    try {
+      return sessionStorage.getItem(purchaseDedupKey(orderId)) === '1';
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function markPurchaseFired(orderId) {
+    if (!orderId) return;
+    try { sessionStorage.setItem(purchaseDedupKey(orderId), '1'); } catch (e) {}
+  }
+
+  /**
+   * Fire a marketing event to first-party analytics + GA4/GTM/Meta when present.
+   * @param {string} eventName marketing ID or ecommerce alias
+   * @param {object} [metadata]
+   * @param {{ skipFirstParty?: boolean }} [opts]
+   */
+  window.zappyFireMarketingEvent = function(eventName, metadata, opts) {
+    try {
+      opts = opts || {};
+      metadata = metadata || {};
+      var eventId = ECOM_ALIAS[eventName] || eventName;
+      var plat = PLATFORM[eventId];
+      if (!plat) return;
+
+      if (!metadata.pagePath && !metadata.page_path) {
+        metadata.pagePath = pagePath();
+      }
+
+      if (eventId === 'checkout_complete') {
+        var oid = String(metadata.orderId || metadata.order_id || metadata.transaction_id || '');
+        if (oid && alreadyFiredPurchase(oid)) return;
+        if (oid) markPurchaseFired(oid);
+      }
+
+      // First-party (skip when already tracked via zappyTrackEcomAnalytics path
+      // that opts out, or when caller already recorded under a different name)
+      if (!opts.skipFirstParty) {
+        try {
+          if (window.zappyAnalytics && typeof window.zappyAnalytics.track === 'function') {
+            window.zappyAnalytics.track(eventId, metadata);
+          }
+        } catch (e1) {}
+      }
+
+      // GTM / dataLayer — platform-standard ecommerce event names
+      try {
+        window.dataLayer = window.dataLayer || [];
+        if (plat.ecom) {
+          var ga4ForGtm = buildGa4Params(eventId, metadata);
+          var ecommerce = {};
+          if (ga4ForGtm.transaction_id) ecommerce.transaction_id = ga4ForGtm.transaction_id;
+          if (ga4ForGtm.value != null) ecommerce.value = ga4ForGtm.value;
+          if (ga4ForGtm.currency) ecommerce.currency = ga4ForGtm.currency;
+          if (ga4ForGtm.items) ecommerce.items = ga4ForGtm.items;
+          window.dataLayer.push({ event: plat.gtm, ecommerce: ecommerce });
+          // Secondary Zappy-specific trigger for merchants who want it
+          if (eventId === 'checkout_complete' || eventId === 'checkout_started') {
+            window.dataLayer.push({ event: eventId, ecommerce: ecommerce });
+          }
+        } else {
+          var dl = { event: plat.gtm };
+          for (var k in metadata) {
+            if (Object.prototype.hasOwnProperty.call(metadata, k)) dl[k] = metadata[k];
+          }
+          window.dataLayer.push(dl);
+        }
+      } catch (e2) {}
+
+      // GA4 gtag
+      try {
+        if (typeof window.gtag === 'function') {
+          window.gtag('event', plat.ga4, buildGa4Params(eventId, metadata));
+        }
+      } catch (e3) {}
+
+      // Meta Pixel (only when fbq is loaded — consent-gated lazy loader)
+      try {
+        if (typeof window.fbq === 'function') {
+          window.fbq('track', plat.meta, buildMetaParams(eventId, metadata));
+        }
+      } catch (e4) {}
+    } catch (err) {}
+  };
+
+  // ---- Click listeners (capture) ----
+  var recent = Object.create(null);
+  function dedupe(key) {
+    var now = Date.now();
+    if (recent[key] && now - recent[key] < 800) return true;
+    recent[key] = now;
+    return false;
+  }
+
+  function closest(el, selector) {
+    if (!el) return null;
+    if (el.closest) return el.closest(selector);
+    return null;
+  }
+
+  function findAnchor(el) {
+    var node = el;
+    while (node && node !== document) {
+      if (node.tagName === 'A') return node;
+      node = node.parentElement;
+    }
+    return null;
+  }
+
+  function isWhatsAppHref(href) {
+    if (!href) return false;
+    var h = String(href).toLowerCase();
+    return h.indexOf('wa.me/') !== -1 ||
+      h.indexOf('api.whatsapp.com') !== -1 ||
+      h.indexOf('whatsapp.com/send') !== -1 ||
+      h.indexOf('whatsapp:') === 0;
+  }
+
+  document.addEventListener('click', function(e) {
+    try {
+      var target = e.target;
+      if (!target) return;
+
+      // WhatsApp
+      var waFloat = closest(target, '.whatsapp-float, a.whatsapp-float, [data-zappy-whatsapp]');
+      var anchor = findAnchor(target);
+      var href = (anchor && anchor.href) || '';
+      if (waFloat || (anchor && isWhatsAppHref(href))) {
+        if (!dedupe('wa:' + href)) {
+          var waSource = waFloat ? 'float' : 'link';
+          window.zappyFireMarketingEvent('whatsapp_click', {
+            source: waSource,
+            href: href || null,
+            pagePath: pagePath()
+          });
+        }
+        return;
+      }
+
+      // Phone
+      var phoneBtn = closest(target, '.phone-header-btn, .nav-phone-btn, .call-btn, [data-zappy-phone]');
+      var telHref = '';
+      if (anchor && anchor.href && String(anchor.href).toLowerCase().indexOf('tel:') === 0) {
+        telHref = anchor.href;
+      } else if (phoneBtn && phoneBtn.href && String(phoneBtn.href).toLowerCase().indexOf('tel:') === 0) {
+        telHref = phoneBtn.href;
+      }
+      if (phoneBtn || telHref) {
+        var phone = '';
+        if (telHref) {
+          phone = String(telHref).replace(/^tel:/i, '').trim();
+        }
+        if (!dedupe('tel:' + (phone || (phoneBtn && phoneBtn.id) || 'btn'))) {
+          window.zappyFireMarketingEvent('phone_click', {
+            source: phoneBtn ? 'button' : 'link',
+            phone: phone || null,
+            href: telHref || null,
+            pagePath: pagePath()
+          });
+        }
+        return;
+      }
+
+      // Catalog / product inquiry
+      if (IS_CATALOG || IS_FULL) {
+        var inq = closest(target, '.card-inquiry-btn, #zappy-pdp-inquiry-btn, a.inquiry-btn');
+        if (inq) {
+          if (!dedupe('inq:' + (inq.id || inq.className))) {
+            var product = window.currentProduct || null;
+            var productId = (inq.getAttribute && inq.getAttribute('data-product-id')) ||
+              (product && product.id) || null;
+            var productName = (inq.getAttribute && inq.getAttribute('data-product-name')) ||
+              (product && product.name) || null;
+            var channel = 'contact_page';
+            var inqHref = (inq.tagName === 'A' && inq.href) ? inq.href : '';
+            if (inqHref && String(inqHref).toLowerCase().indexOf('mailto:') === 0) channel = 'mailto';
+            window.zappyFireMarketingEvent('product_inquiry', {
+              source: inq.id === 'zappy-pdp-inquiry-btn' ? 'pdp' : 'card',
+              productId: productId,
+              productName: productName,
+              channel: channel,
+              pagePath: pagePath()
+            });
+          }
+        }
+      }
+    } catch (err) {}
+  }, true);
+})();
+</script>
+    <meta property="og:title" content="אבקות חלבון מובילות במחיר השקה — פרוטאין סטוק - PROTEIN STOCK" />
+    <meta property="og:description" content="גלה את המבחר הענק של אבקות חלבון, חטיפי חלבון מיובאים ומוצרי פאמפ ממיטב המותגים בעולם. כנס עכשיו לפרוטאין סטוק ותתחיל לבנות את הגוף שתמיד רצית!" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="אבקות חלבון מובילות במחיר השקה — פרוטאין סטוק - PROTEIN STOCK" />
+    <meta name="twitter:description" content="גלה את המבחר הענק של אבקות חלבון, חטיפי חלבון מיובאים ומוצרי פאמפ ממיטב המותגים בעולם. כנס עכשיו לפרוטאין סטוק ותתחיל לבנות את הגוף שתמיד רצית!" />
+    <meta property="og:type" content="website" />
+  <meta property="og:locale" content="he_IL" />
+  
+  
+  
+  
+  
+  <style>
+    .skip-link { position: absolute; top: 0; left: 0; transform: translateY(-200%); padding: 12px 18px; background: var(--bg-dark, #1a1a1a); color: var(--text-light, #fff); font-weight: 600; border-radius: 0 0 8px 0; z-index: 10000; }
+    .skip-link:focus { transform: none; outline: 2px solid var(--ring, #fff); outline-offset: 2px; }
+    :focus-visible { outline: 2px solid var(--ring, currentColor); outline-offset: 3px; }
+  </style>
+
+
+  
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48x48.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512x512.png" />
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+    <!-- Cookie Consent -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css" />
+    
+    <!-- Mickidum Accessibility Toolbar -->
+    
+    <style id="zappy-critical-above-fold-css">
+html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{box-sizing:inherit}body{margin:0;min-width:320px;overflow-x:clip}img,svg,video{max-width:100%;height:auto}main{display:block}.container{width:min(100% - 32px,1200px);margin-inline:auto}.navbar,nav.navbar,header .navbar,header[role="banner"]{position:relative;z-index:1000;width:100%}.nav-container,.navbar .container{display:flex;align-items:center;justify-content:space-between;min-height:64px}.logo,.logo-link img{display:block;width:35px;height:35px;object-fit:contain}.nav-menu,#navMenu{list-style:none;margin:0;padding:0}.navbar a,.nav-menu a,#navMenu a,.navbar .nav-links a{color:inherit;text-decoration:none}.navbar .sub-menu,.nav-menu .sub-menu,#navMenu .sub-menu{display:none}.fa,.fas,.far,.fab,.fa-solid,.fa-regular,.fa-brands{display:inline-block;min-width:1em;text-align:center}html:not(#zappy-noop)[data-zappy-site-type="ecommerce"] .phone-header-btn,html:not(#zappy-noop) .navbar:has(.nav-ecommerce-icons)>.phone-header-btn{display:none!important;visibility:hidden!important;width:0!important;height:0!important;pointer-events:none!important}.zappy-preview-empty-store-cta{display:none!important;visibility:hidden!important;height:0!important;max-height:0!important;overflow:hidden!important;margin:0!important;padding:0!important;border:0!important;box-shadow:none!important}.zappy-catalog-menu{background:var(--surface-color,var(--surface,linear-gradient(135deg,#f8f9fa 0%,#fff 100%)));border-bottom:1px solid var(--border-color,#e5e7eb);padding:0;position:sticky;top:0;z-index:90}.zappy-catalog-menu[dir=rtl],.zappy-catalog-menu.rtl{direction:rtl}.zappy-catalog-menu[dir=ltr],.zappy-catalog-menu.ltr{direction:ltr}.catalog-menu-container{max-width:1440px;margin:0 auto;display:flex;align-items:center;gap:8px;padding:10px 24px;overflow:visible}.catalog-menu-categories,.catalog-menu-list{display:flex;align-items:center;gap:4px;flex-wrap:wrap;margin:0;padding:0;list-style:none}.catalog-menu-item{display:inline-flex;align-items:center;padding:8px 16px;font-size:14px;font-weight:500;color:var(--text-color,var(--text,#374151));text-decoration:none;border-radius:20px;white-space:nowrap}.catalog-menu-all{background:var(--primary-color,var(--primary,#111));color:var(--text-light,#fff)!important}.catalog-menu-parent{position:relative;display:inline-flex;align-items:center}.catalog-menu-trigger{display:inline-flex;align-items:center;gap:6px}.catalog-menu-chevron{flex-shrink:0}.catalog-menu-parent>.sub-menu{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}.hero-section,.index-hero-section,section[class*="hero"]{position:relative;overflow:hidden}.hero-section,.index-hero-section{min-height:560px}section[data-hero-type*="fullscreen"]{min-height:100vh}.hero-bg-wrapper,.hero-bg-image,section[class*="hero"] [class*="hero-bg"]{position:absolute;inset:0;width:100%;height:100%}.hero-bg-wrapper img,.hero-bg-image img,section[class*="hero"] [data-hero-bg],section[class*="hero"] img[data-hero-background="true"]{width:100%!important;height:100%!important;object-fit:cover!important;display:block}.hero-content,section[class*="hero"] .container{position:relative;z-index:2}@media(max-width:768px){:root{--header-height:72px;--total-header-height:72px;--zappy-mobile-menu-top:72px}html[data-zappy-site-type="ecommerce"] body{padding-top:var(--total-header-height,72px)}html[data-zappy-site-type="ecommerce"] body>nav.navbar,html[data-zappy-site-type="ecommerce"] body>.navbar:not(.zappy-catalog-menu){position:fixed!important;top:0;left:0;right:0;z-index:100000;width:100%;margin-bottom:0}.zappy-catalog-menu{position:fixed;top:var(--header-height,72px);left:0;right:0;z-index:99999}.nav-container,.navbar .container{min-height:60px}.nav-menu,#navMenu{max-width:100vw;overflow-x:hidden}.hero-section,.index-hero-section,section[class*="hero"],section[data-hero-type*="fullscreen"]{min-height:100svh}.hero-bg-wrapper,.hero-bg-image,.hero-scrim{min-height:100svh}}
+:root{--nav-bg:#FFFFFF}.navbar{background-color:#FFFFFF!important}
+
+/* ZAPPY_ANNOUNCEMENT_HEADER_OFFSET_CSS_V3 */
+:root {
+  --zappy-header-stack-height: calc(var(--zappy-announcement-height, 40px) + var(--header-height, 72px));
+}
+body:has(.zappy-announcement-bar) nav.navbar:not(.zappy-catalog-menu),
+body:has(.zappy-announcement-bar) header.navbar,
+body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-search-panel) {
+  top: var(--zappy-announcement-height, 40px) !important;
+}
+
+
+
+/* ZAPPY_CONTENT_ALIGNMENT_FIRST_PAINT_CSS_V1 */
+[data-zappy-content-align] {
+  display: flex !important;
+  flex-direction: column !important;
+}
+[data-zappy-content-align^="top-"] { justify-content: flex-start !important; }
+[data-zappy-content-align^="upper-"],
+[data-zappy-content-align^="center-"],
+[data-zappy-content-align^="lower-"] { justify-content: center !important; }
+[data-zappy-content-align^="bottom-"] { justify-content: flex-end !important; }
+[data-zappy-content-align$="-left"],
+[data-zappy-content-align$="-mid-left"] {
+  align-items: flex-start !important;
+  text-align: start !important;
+}
+[data-zappy-content-align$="-center"] {
+  align-items: center !important;
+  text-align: center !important;
+}
+[data-zappy-content-align$="-right"],
+[data-zappy-content-align$="-mid-right"] {
+  align-items: flex-end !important;
+  text-align: end !important;
+}
+[data-zappy-content-align] [data-zappy-align-target] {
+  margin-left: auto;
+  margin-right: auto;
+}
+[data-zappy-content-align$="-center"] [data-zappy-align-target],
+[data-zappy-content-align$="-center"] [data-zappy-align-target] > * {
+  text-align: center !important;
+}
+
+</style>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="preload" as="image" href="/assets/site-index-hero-image-1-1782631685137-7pp2zp.webp?v=1782631688449" fetchpriority="high" />
+
+    <style id="zappy-dropdown-submenu-styles">
+      /* ========== DESKTOP DROPDOWN SUBMENU STYLES ========== */
+      /* Base styles for dropdown submenus - parent must be positioned */
+      .nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu) { position: relative; }
+      /* Submenu base - hidden by default */
+      .nav-menu .sub-menu, nav .sub-menu, .navbar .sub-menu, #navMenu .sub-menu { display: block !important; position: absolute !important; top: 100%; left: 0; min-width: 220px; border-radius: 8px; box-shadow: 0 8px 25px rgba(0,0,0,0.15); padding: 8px 0; opacity: 0; visibility: hidden; transform: translateY(10px); transition: all 0.3s ease; z-index: 1000; list-style: none; pointer-events: none; }
+      /* CRITICAL: Desktop hover styles to show dropdown */
+      .nav-menu li:hover > .sub-menu, nav li:hover > .sub-menu, .navbar li:hover > .sub-menu, #navMenu li:hover > .sub-menu { opacity: 1 !important; visibility: visible !important; transform: translateY(0) !important; pointer-events: auto !important; }
+      /* Submenu item styling */
+      .sub-menu li { list-style: none; margin: 0; padding: 0; }
+      .sub-menu a { display: block !important; padding: 10px 16px !important; color: var(--text-dark, #333) !important; font-weight: 500; text-decoration: none; white-space: nowrap; transition: background-color 0.2s; }
+      .sub-menu .zappy-nav-child > a { padding-left: 28px !important; font-size: 0.9em !important; opacity: 0.85 !important; }
+      [dir="rtl"] .sub-menu .zappy-nav-child > a, html[lang="he"] .sub-menu .zappy-nav-child > a, html[lang="ar"] .sub-menu .zappy-nav-child > a { padding-left: 10px !important; padding-right: 28px !important; }
+      .sub-menu .zappy-nav-parent > a { font-weight: 600 !important; }
+      .sub-menu a:hover { background-color: #f5f5f5; }
+      /* RTL (Hebrew/Arabic) dropdown positioning */
+      [dir="rtl"] .nav-menu .sub-menu, [dir="rtl"] nav .sub-menu, [dir="rtl"] .navbar .sub-menu, html[lang="he"] .nav-menu .sub-menu, html[lang="he"] nav .sub-menu, html[lang="he"] .navbar .sub-menu, html[lang="ar"] .nav-menu .sub-menu, html[lang="ar"] nav .sub-menu, html[lang="ar"] .navbar .sub-menu { left: auto !important; right: 0 !important; }
+      /* Hide empty dropdown menus (exclude catalog sub-menus that use <a> children instead of <li>) */
+      .sub-menu:empty, .sub-menu:not(:has(li:not(.zappy-hidden-menu-item))):not(:has(> a)), .sub-menu:not(:has(li)):not(:has(> a)) { display: none !important; opacity: 0 !important; visibility: hidden !important; pointer-events: none !important; }
+      /* Desktop: show submenu on Menu Group hover */
+      li:has(.menu-group-title):hover > .sub-menu { opacity: 1 !important; visibility: visible !important; transform: translateY(0) !important; pointer-events: auto !important; }
+      /* Menu Group title styling */
+      .nav-menu > li > .menu-group-title, #navMenu > li > .menu-group-title { display: inline-block; padding: 0.5rem 1rem; cursor: default; user-select: none; }
+      
+      /* ========== MOBILE SUBMENU STYLES ========== */
+      @media (max-width: 768px) {
+        .nav-menu .sub-menu, nav .sub-menu, .navbar .sub-menu, #navMenu .sub-menu { position: static !important; transform: none !important; box-shadow: none !important; background: transparent !important; max-height: 0; overflow: hidden; opacity: 0; visibility: hidden; transition: max-height 0.3s ease, opacity 0.3s ease; padding: 0 !important; border-radius: 0 !important; }
+        .navbar .sub-menu.mobile-expanded, .nav-menu .sub-menu.mobile-expanded, #navMenu .sub-menu.mobile-expanded { max-height: none !important; overflow-y: visible !important; opacity: 1 !important; visibility: visible !important; padding: 8px 0 8px 16px !important; }
+        [dir="rtl"] .sub-menu.mobile-expanded, html[lang="he"] .sub-menu.mobile-expanded { padding: 8px 16px 8px 0 !important; }
+        /* Disable hover behavior on mobile */
+        .nav-menu li:hover > .sub-menu, nav li:hover > .sub-menu, .navbar li:hover > .sub-menu, #navMenu li:hover > .sub-menu { opacity: 0; visibility: hidden; pointer-events: none; }
+        .nav-menu li > .sub-menu.mobile-expanded, nav li > .sub-menu.mobile-expanded, .navbar li > .sub-menu.mobile-expanded, #navMenu li > .sub-menu.mobile-expanded { opacity: 1 !important; visibility: visible !important; pointer-events: auto !important; }
+        .nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu) { display: flex !important; flex-wrap: wrap !important; align-items: center !important; position: relative !important; min-height: 44px !important; }
+        .nav-menu li:has(.sub-menu) > a, nav li:has(.sub-menu) > a, .navbar li:has(.sub-menu) > a, #navMenu li:has(.sub-menu) > a { flex: 1 !important; min-width: 0 !important; }
+        .nav-menu li:has(.sub-menu) > .menu-group-title, nav li:has(.sub-menu) > .menu-group-title, .navbar li:has(.sub-menu) > .menu-group-title, #navMenu li:has(.sub-menu) > .menu-group-title { flex: 1 !important; min-width: 0 !important; display: flex !important; align-items: center !important; padding: 12px 16px !important; min-height: 44px !important; line-height: 1.4 !important; font-weight: 600 !important; box-sizing: border-box !important; }
+        .nav-menu li:has(.sub-menu) > .sub-menu, nav li:has(.sub-menu) > .sub-menu, .navbar li:has(.sub-menu) > .sub-menu, #navMenu li:has(.sub-menu) > .sub-menu { flex-basis: 100% !important; width: 100% !important; }
+        .nav-menu li:has(.sub-menu) > a [class*="chevron"], .nav-menu li:has(.sub-menu) > a [class*="arrow"], .nav-menu li:has(.sub-menu) > a .fa-chevron-down, .nav-menu li:has(.sub-menu) > a .fa-angle-down, nav li:has(.sub-menu) > a [class*="chevron"], nav li:has(.sub-menu) > a [class*="arrow"], #navMenu li:has(.sub-menu) > a [class*="chevron"], #navMenu li:has(.sub-menu) > a [class*="arrow"] { display: none !important; visibility: hidden !important; }
+        .mobile-submenu-toggle { display: flex !important; align-items: center !important; justify-content: center !important; width: 44px !important; height: auto !important; background: transparent !important; border: none !important; cursor: pointer !important; color: var(--text-dark) !important; position: static !important; flex-shrink: 0 !important; align-self: stretch !important; z-index: 2 !important; padding: 0 !important; margin: 0 !important; }
+        .mobile-submenu-toggle::after { content: '' !important; width: 0 !important; height: 0 !important; border-left: 6px solid transparent !important; border-right: 6px solid transparent !important; border-top: 7px solid currentColor !important; transition: transform 0.3s ease !important; }
+        .mobile-submenu-toggle.expanded::after { transform: rotate(180deg) !important; }
+        .sub-menu a { padding: 10px 0 !important; display: block !important; color: var(--text-dark) !important; white-space: normal !important; }
+        .sub-menu .zappy-nav-child > a { padding-left: 28px !important; font-size: 0.9em !important; opacity: 0.85 !important; }
+        [dir="rtl"] .sub-menu .zappy-nav-child > a, html[lang="he"] .sub-menu .zappy-nav-child > a, html[lang="ar"] .sub-menu .zappy-nav-child > a { padding-left: 0 !important; padding-right: 28px !important; }
+        .sub-menu .zappy-nav-parent > a { font-weight: 600 !important; }
+        .nav-menu.active, #navMenu.active { max-width: 100vw !important; overflow-x: hidden !important; box-sizing: border-box !important; }
+        .navbar .sub-menu li a, nav.navbar .sub-menu li a, .zappy-products-dropdown .sub-menu a { color: var(--text-dark) !important; }
+      }
+      @media (min-width: 769px) { .mobile-submenu-toggle { display: none !important; } }
+    </style>
+
+    <style id="zappy-widget-visibility">
+      html[dir="rtl"] .whatsapp-float { right: 20px !important; left: auto !important; }
+      html[dir="ltr"] .whatsapp-float, html:not([dir]) .whatsapp-float { left: 20px !important; right: auto !important; }
+      html[dir="rtl"] #mic-access-tool-general-button, html[dir="rtl"] .mic-access-tool-general-button,
+      html[dir="rtl"] #mic-init-access-tool .mic-access-tool-general-button,
+      html[dir="rtl"] #mic-init-access-tool #mic-access-tool-general-button,
+      html[dir="rtl"] ._access-icon { left: 20px !important; right: auto !important; }
+      html[dir="ltr"] #mic-access-tool-general-button, html[dir="ltr"] .mic-access-tool-general-button,
+      html[dir="ltr"] #mic-init-access-tool .mic-access-tool-general-button,
+      html[dir="ltr"] #mic-init-access-tool #mic-access-tool-general-button,
+      html[dir="ltr"] ._access-icon,
+      html:not([dir]) #mic-access-tool-general-button, html:not([dir]) .mic-access-tool-general-button,
+      html:not([dir]) #mic-init-access-tool .mic-access-tool-general-button,
+      html:not([dir]) #mic-init-access-tool #mic-access-tool-general-button,
+      html:not([dir]) ._access-icon { right: 20px !important; left: auto !important; }
+      @media (max-width: 768px) { .whatsapp-float { display: flex !important; } }
+      @media (min-width: 769px) { .whatsapp-float { display: flex !important; } }
+      @media (max-width: 768px) {
+        #mic-access-tool-general-button, .mic-access-tool-general-button,
+        #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
+        ._access-icon { display: flex !important; visibility: visible !important; opacity: 1 !important; pointer-events: auto !important; }
+        #mic-access-tool-box.opened-mic-access-tool, .mic-access-tool-box.opened-mic-access-tool,
+        #mic-init-access-tool #mic-access-tool-box.opened-mic-access-tool {
+          visibility: visible !important; opacity: 1 !important; pointer-events: auto !important;
+        }
+      }
+      @media (min-width: 769px) {
+        #mic-access-tool-general-button, .mic-access-tool-general-button,
+        #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
+        ._access-icon { display: flex !important; visibility: visible !important; opacity: 1 !important; pointer-events: auto !important; }
+        #mic-access-tool-box.opened-mic-access-tool, .mic-access-tool-box.opened-mic-access-tool,
+        #mic-init-access-tool #mic-access-tool-box.opened-mic-access-tool {
+          visibility: visible !important; opacity: 1 !important; pointer-events: auto !important;
+        }
+      }
+    </style>
+</head>
+<body>
+
+<script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/products";</script>
+
+    <div class="mobile-search-panel" id="mobile-search-panel">
+      <div class="search-wrapper">
+        <input type="text" id="mobile-search-input" placeholder="חיפוש מוצרים..." autocomplete="off" />
+        <button class="search-submit" id="mobile-search-submit" title="חיפוש">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+        </button>
+        <button class="close-search" id="close-mobile-search">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <div class="search-results" id="mobile-search-results"></div>
+    </div>
+<script>window.ZAPPY_WEBSITE_ID = "d3692a7d-7c15-4fc6-b8b0-37068b1848d8";window.ZAPPY_API_BASE = "https://qaapi.zappy5.com"</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+  <nav class="navbar" dir="rtl">
+  <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+    <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    </svg>
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display:none !important">
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    </svg>
+  </button>
+  
+  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+    </svg>
+  </button>
+
+  <div class="nav-container">
+    <div class="nav-right-group"><div class="nav-brand">
+      <a href="/" class="logo-link"><img class="logo" src="/assets/protein-stock-sports-nutrition-e-commerce-logo-1782294515508-d0rc3h.webp?v=1782294517073-2mbkpi" alt="פרוטאין סטוק - PROTEIN STOCK" decoding="async" width="35" height="35" /></a>
+    </div><ul class="nav-menu" id="navMenu">
+
+    <li class="menu-item-has-children zappy-products-dropdown">
+      <a href="/products">
+        מוצרים
+        <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M6 9l6 6 6-6"/>
+        </svg>
+      </a>
+      <ul class="sub-menu" id="zappy-nav-category-links" dir="rtl">
+        <li><a href="/products" data-i18n="ecom_products">מוצרים</a></li>
+        <!-- Categories will be loaded dynamically -->
+      <li class="zappy-nav-parent" data-category-id="d9fa2e29-3b75-4837-9118-10db0e524375" data-category-slug="protein-powders"><a href="/category/protein-powders" dir="rtl">אבקות חלבון</a></li><li class="zappy-nav-child" data-category-id="969934a2-3a72-48ba-8995-c3b1edb295e5" data-category-slug="low-calorie-protein-powders"><a href="/category/low-calorie-protein-powders" dir="rtl">אבקות חלבון דלות קלוריות</a></li><li class="zappy-nav-child" data-category-id="5b3b4dfd-2808-4dd2-b0d6-1af84446aaa4" data-category-slug="weight-gain-supplement"><a href="/category/weight-gain-supplement" dir="rtl">גיינר לעלייה במשקל</a></li><li class="zappy-nav-child" data-category-id="2915e9cb-1f1a-4675-a543-6b35dfb26282" data-category-slug="protein-fortified-oatmeal"><a href="/category/protein-fortified-oatmeal" dir="rtl">שיבולת שועל בתוספת חלבון</a></li><li data-category-id="2dfdb279-60fe-476d-b2f3-e052e4e40c30" data-category-slug="protein-snacks"><a href="/category/protein-snacks" dir="rtl">חטיפי חלבון</a></li><li data-category-id="eaff0f89-cd0b-4194-8d74-7a7e39c7fdaa" data-category-slug="savory-protein-snacks"><a href="/category/savory-protein-snacks" dir="rtl">חטיפי חלבון מלוחים</a></li><li data-category-id="2e88cdde-fca8-4b7a-ab14-045dc3d612b7" data-category-slug="energy-drinks"><a href="/category/energy-drinks" dir="rtl">משקאות אנרגיה</a></li><li data-category-id="ddad9c51-7738-496e-9b4e-49e707270eb8" data-category-slug="protein-beverages"><a href="/category/protein-beverages" dir="rtl">משקאות חלבון</a></li><li data-category-id="6a2ba438-3af2-4018-992b-df1b9235a723" data-category-slug="protein-cookies"><a href="/category/protein-cookies" dir="rtl">עוגיות חלבון</a></li><li data-category-id="f571eb15-9046-4eba-94c4-c7ad12f772ee" data-category-slug="creatine-and-nutritional-supplements"><a href="/category/creatine-and-nutritional-supplements" dir="rtl">קריאטין ותוספי תזונה</a></li></ul>
+    </li>
+  
+
+    
+  
+
+    
+  
+
+    
+  <li><a href="/">דף הבית</a></li><li><a href="/why-protein-stock">למה פרוטין סטוק</a></li><li><a href="/global-brands">מותגים מכל העולם</a></li><li><a href="/contact">צור קשר</a></li></ul><div class="nav-ecommerce-icons nav-icons-left"><a href="/login" class="login-link nav-login" title="התחברות"><svg class="login-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></a><a href="#cart" class="cart-link nav-cart" id="cart-drawer-toggle" title="עגלת קניות"><svg class="cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg><span class="cart-count">0</span></a><div class="nav-search-box">
+    <input type="text" class="nav-search-input" id="nav-search-input" placeholder="חיפוש מוצרים..." autocomplete="off" />
+    <button class="nav-search-btn" id="nav-search-btn" title="חיפוש">
+      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+    </button>
+    <div class="nav-search-results" id="nav-search-results"></div>
+  </div></div><div class="nav-ecommerce-icons nav-icons-right"><button class="nav-search-toggle" id="mobile-search-toggle" title="חיפוש"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></button></div></div>
+    
+    
+    
+    
+  </div>
+</nav>
+<script>
+
+// Navbar Mobile Menu Toggle and Contrast Fix
+(function() {
+  // Use 'load' event instead of 'DOMContentLoaded' to ensure we run AFTER all other scripts
+  window.addEventListener('load', function() {
+    
+    // FIX MOBILE BUTTON CONTRAST
+    // Detect navbar background color and apply contrasting color to mobile buttons
+    const navbar = document.querySelector('.navbar, nav, header');
+    if (!navbar) {
+      console.log('[Navbar] Navbar element not found');
+      return;
+    }
+    
+    // DECLARE VARIABLES EARLY to avoid Temporal Dead Zone errors
+    // These are used in multiple places below
+    let mobileToggle = document.getElementById('mobileToggle') ||
+                       document.querySelector('.mobile-toggle') ||
+                       document.querySelector('.hamburger') ||
+                       document.querySelector('.hamburger-menu') ||
+                       document.querySelector('.menu-toggle') ||
+                       document.querySelector('.burger-menu') ||
+                       document.querySelector('[aria-label="Menu"]') ||
+                       document.querySelector('[aria-label="תפריט"]');
+    
+    const phoneBtn = document.querySelector('.phone-header-btn');
+    
+    const computedStyle = window.getComputedStyle(navbar);
+    let bgColor = computedStyle.backgroundColor;
+    
+    console.log('[Navbar] Initial navbar background:', bgColor);
+    
+    // Check if background is transparent or rgba with 0 alpha
+    const isTransparent = bgColor === 'transparent' || 
+                         bgColor === 'rgba(0, 0, 0, 0)' ||
+                         (bgColor.startsWith('rgba') && bgColor.includes(', 0)'));
+    
+    if (isTransparent) {
+      // Check for background-image or gradient
+      const bgImage = computedStyle.backgroundImage;
+      if (bgImage && bgImage !== 'none') {
+        console.log('[Navbar] Navbar has background image/gradient, using dark text');
+        bgColor = 'rgb(240, 240, 240)'; // Assume light background
+      } else {
+        // Transparent navbar - check body background
+        const bodyBg = window.getComputedStyle(document.body).backgroundColor;
+        console.log('[Navbar] Navbar transparent, using body background:', bodyBg);
+        bgColor = bodyBg;
+      }
+    }
+    
+    // Calculate luminance to determine if background is light or dark
+    const rgb = bgColor.match(/\d+/g);
+    if (rgb && rgb.length >= 3) {
+      const r = parseInt(rgb[0]);
+      const g = parseInt(rgb[1]);
+      const b = parseInt(rgb[2]);
+      const luminance = (0.299 * r + 0.587 * g + 0.114 * b) / 255;
+      
+      // Mobile button colors are set by Claude's AI-generated CSS (same as .nav-menu a)
+      // No dynamic color overrides needed - colors come from the generated navbar CSS
+      console.log('[Navbar] Mobile button colors preserved from Claude CSS (luminance:', luminance.toFixed(2) + ')');
+      
+      // FIX ICON SIZES - Ensure SVGs are properly sized and visible
+      // INJECT CRITICAL CSS TO OVERRIDE ANY CONFLICTING RULES
+      const criticalCSS = document.createElement('style');
+      criticalCSS.id = 'zappy-mobile-nav-fix';
+      const htmlLang = document.documentElement.lang || 'en';
+      const htmlDir = document.documentElement.dir || 'ltr';
+      // Check both dir attribute AND lang for RTL detection
+      // dir="rtl" is the most reliable indicator
+      const isRTL = htmlDir === 'rtl' || htmlLang === 'he' || htmlLang === 'ar';
+      
+      criticalCSS.textContent = `
+        /* Hide mobile buttons on desktop, show only on mobile */
+        @media (min-width: 769px) {
+          .mobile-toggle,
+          .phone-header-btn {
+            display: none !important;
+          }
+        }
+        
+        /* Show and position mobile buttons correctly on mobile */
+        @media (max-width: 768px) {
+          .navbar,
+          nav.navbar {
+            min-height: 70px !important;
+          }
+
+          .mobile-toggle,
+          .phone-header-btn {
+            position: absolute !important;
+            top: 0 !important;
+            bottom: 0 !important;
+            margin-top: auto !important;
+            margin-bottom: auto !important;
+            transform: none !important;
+            z-index: 1001 !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            width: 36px !important;
+            height: 36px !important;
+            border-radius: 50% !important;
+            border: none !important;
+            cursor: pointer !important;
+            padding: 6px !important;
+            background: none !important;
+            color: var(--nav-text, var(--text-dark)) !important;
+            touch-action: manipulation !important;
+            -webkit-tap-highlight-color: transparent !important;
+          }
+
+          html[data-zappy-site-type="ecommerce"] .phone-header-btn,
+          body[data-zappy-site-type="ecommerce"] .phone-header-btn,
+          html[data-zappy-site-type="ecommerce"] header .phone-header-btn,
+          html[data-zappy-site-type="ecommerce"] nav .phone-header-btn {
+            display: none !important;
+            visibility: hidden !important;
+            width: 0 !important;
+            height: 0 !important;
+            min-width: 0 !important;
+            overflow: hidden !important;
+          }
+          
+          /* LTR positioning (default): hamburger LEFT, phone RIGHT */
+          html:not([dir="rtl"]):not([lang="he"]):not([lang="ar"]) .mobile-toggle,
+          html[dir="ltr"] .mobile-toggle {
+            left: 12px !important;
+            right: auto !important;
+          }
+          html:not([dir="rtl"]):not([lang="he"]):not([lang="ar"]) .phone-header-btn,
+          html[dir="ltr"] .phone-header-btn {
+            right: 12px !important;
+            left: auto !important;
+          }
+          
+          /* RTL positioning: hamburger RIGHT, phone LEFT */
+          html[dir="rtl"] .mobile-toggle,
+          html[lang="he"] .mobile-toggle,
+          html[lang="ar"] .mobile-toggle {
+            right: 12px !important;
+            left: auto !important;
+          }
+          html[dir="rtl"] .phone-header-btn,
+          html[lang="he"] .phone-header-btn,
+          html[lang="ar"] .phone-header-btn {
+            left: 12px !important;
+            right: auto !important;
+          }
+          
+          /* CRITICAL: Ensure nav-container has min-height on mobile */
+          /* All children are positioned absolutely/fixed on mobile, so height:auto collapses to 0 */
+          .nav-container {
+            min-height: 70px !important;
+            position: relative !important;
+          }
+          
+          /* Ensure SVG icons are properly sized and inherit color */
+          .mobile-toggle svg,
+          .phone-header-btn svg {
+            width: 24px !important;
+            height: 24px !important;
+            /* Don't force display - let JavaScript control hamburger/close toggle */
+          }
+          
+          /* Reset nav-cta-container on mobile - remove desktop box-shadow/padding */
+          /* that creates a visible ghost box when CTA button is hidden */
+          .nav-cta-container {
+            box-shadow: none !important;
+            padding: 0 !important;
+          }
+          
+          /* Hide nav-cta-container entirely on mobile when there's no lang-switcher */
+          /* (only the CTA button is inside, and it's hidden on mobile) */
+          .nav-cta-container:not(:has(.lang-switcher)) {
+            display: none !important;
+          }
+          
+          /* CRITICAL: Prevent hero image fade gradient from bleeding over headline text */
+          /* The .image-fade-gradient has bottom: -30px (extends below parent) */
+          /* On mobile stacked layout, this overlaps the h1 text below the image */
+          .hero-image-column {
+            overflow: hidden !important;
+          }
+          .image-fade-gradient {
+            bottom: 0 !important;
+          }
+          
+          /* Hide desktop language switcher on mobile - hamburger menu handles it */
+          /* High specificity to override stored CSS */
+          .lang-switcher,
+          .nav-cta-container .lang-switcher,
+          .nav-container .lang-switcher,
+          .navbar .lang-switcher,
+          .navbar .nav-cta-container .lang-switcher {
+            display: none !important;
+          }
+        }
+      `;
+      
+      // Remove existing fix if present and inject new one
+      const existing = document.getElementById('zappy-mobile-nav-fix');
+      if (existing) existing.remove();
+      document.head.appendChild(criticalCSS);
+      
+      console.log('[Navbar] Critical CSS injected for mobile nav positioning');
+      
+      // ONLY apply inline positioning styles on mobile viewport
+      // On desktop, the CSS handles hiding these buttons with display: none
+      // Inline styles were breaking desktop layout by overriding CSS
+      const isMobileViewport = window.innerWidth <= 768;
+      
+      if (mobileToggle) {
+        // Icon sizing applies to all viewports for consistency
+        const hamburgerIcon = mobileToggle.querySelector('.hamburger-icon');
+        const closeIcon = mobileToggle.querySelector('.close-icon');
+        
+        if (hamburgerIcon) {
+          hamburgerIcon.style.setProperty('width', '24px', 'important');
+          hamburgerIcon.style.setProperty('height', '24px', 'important');
+          hamburgerIcon.style.setProperty('display', 'block', 'important'); // Show hamburger by default
+        }
+        if (closeIcon) {
+          closeIcon.style.setProperty('width', '24px', 'important');
+          closeIcon.style.setProperty('height', '24px', 'important');
+          closeIcon.style.setProperty('display', 'none', 'important'); // Hide close icon by default
+        }
+        
+        // ONLY set positioning inline styles on mobile
+        if (isMobileViewport) {
+          mobileToggle.style.setProperty('position', 'absolute', 'important');
+          mobileToggle.style.setProperty('top', '0', 'important');
+          mobileToggle.style.setProperty('bottom', '0', 'important');
+          mobileToggle.style.setProperty('margin-top', 'auto', 'important');
+          mobileToggle.style.setProperty('margin-bottom', 'auto', 'important');
+          mobileToggle.style.setProperty('transform', 'none', 'important');
+          mobileToggle.style.setProperty('z-index', '1001', 'important');
+          
+          // Clear any inline left/right so CSS can take over based on html[dir]
+          mobileToggle.style.removeProperty('left');
+          mobileToggle.style.removeProperty('right');
+          
+          console.log('[Navbar] Mobile toggle positioning applied (mobile viewport)');
+        } else {
+          // On desktop, clear any positioning styles to let CSS handle it
+          mobileToggle.style.removeProperty('position');
+          mobileToggle.style.removeProperty('top');
+          mobileToggle.style.removeProperty('transform');
+          mobileToggle.style.removeProperty('z-index');
+          mobileToggle.style.removeProperty('left');
+          mobileToggle.style.removeProperty('right');
+          console.log('[Navbar] Desktop viewport - cleared mobile toggle inline positioning');
+        }
+      }
+      
+      if (phoneBtn) {
+        // Icon sizing applies to all viewports
+        const phoneIcon = phoneBtn.querySelector('svg');
+        if (phoneIcon) {
+          phoneIcon.style.width = '24px';
+          phoneIcon.style.height = '24px';
+          phoneIcon.setAttribute('width', '24');
+          phoneIcon.setAttribute('height', '24');
+        }
+        
+        // ONLY set positioning inline styles on mobile
+        if (isMobileViewport) {
+          phoneBtn.style.setProperty('position', 'absolute', 'important');
+          phoneBtn.style.setProperty('top', '0', 'important');
+          phoneBtn.style.setProperty('bottom', '0', 'important');
+          phoneBtn.style.setProperty('margin-top', 'auto', 'important');
+          phoneBtn.style.setProperty('margin-bottom', 'auto', 'important');
+          phoneBtn.style.setProperty('transform', 'none', 'important');
+          phoneBtn.style.setProperty('z-index', '1001', 'important');
+          
+          // Clear any inline left/right so CSS can take over based on html[dir]
+          phoneBtn.style.removeProperty('left');
+          phoneBtn.style.removeProperty('right');
+          
+          console.log('[Navbar] Phone button positioning applied (mobile viewport)');
+        } else {
+          // On desktop, clear any positioning styles to let CSS handle it
+          phoneBtn.style.removeProperty('position');
+          phoneBtn.style.removeProperty('top');
+          phoneBtn.style.removeProperty('transform');
+          phoneBtn.style.removeProperty('z-index');
+          phoneBtn.style.removeProperty('left');
+          phoneBtn.style.removeProperty('right');
+          console.log('[Navbar] Desktop viewport - cleared phone button inline positioning');
+        }
+      }
+    } else {
+      console.log('[Navbar] Could not parse background color:', bgColor);
+    }
+    
+    // MOBILE MENU TOGGLE
+    // Re-query in case DOM changed (mobileToggle already declared at top of function)
+    mobileToggle = document.getElementById('mobileToggle') ||
+                   document.querySelector('.mobile-toggle') ||
+                   document.querySelector('.hamburger') ||
+                   document.querySelector('.hamburger-menu') ||
+                   document.querySelector('.menu-toggle') ||
+                   document.querySelector('.burger-menu') ||
+                   document.querySelector('[aria-label="Menu"]') ||
+                   document.querySelector('[aria-label="תפריט"]');
+    
+    // EXPANDED SEARCH: Find nav menu by ID or class
+    const navMenu = document.getElementById('navMenu') ||
+                  document.querySelector('.nav-menu') ||
+                  document.querySelector('.nav-links') ||
+                  document.querySelector('nav ul:not(.submenu)');
+    
+    if (!mobileToggle || !navMenu) {
+      console.log('[Navbar] Mobile toggle or menu not found:', { toggle: !!mobileToggle, menu: !!navMenu });
+      return;
+    }
+    
+    // Ensure navMenu has ID for CSS targeting
+    if (!navMenu.id) {
+      navMenu.id = 'navMenu';
+    }
+    
+    console.log('[Navbar] Initializing mobile menu...');
+    
+    // Remove any existing event listeners by cloning the button
+    const newToggle = mobileToggle.cloneNode(true);
+    mobileToggle.parentNode.replaceChild(newToggle, mobileToggle);
+    
+    // Toggle menu handler (shared by click and touchend)
+    function handleToggle(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      
+      const hamburgerIcon = newToggle.querySelector('.hamburger-icon');
+      const closeIcon = newToggle.querySelector('.close-icon');
+      const isActive = navMenu.classList.contains('active');
+      
+      if (isActive) {
+        // Close menu
+        navMenu.classList.remove('active');
+        if (hamburgerIcon) hamburgerIcon.style.setProperty('display', 'block', 'important');
+        if (closeIcon) closeIcon.style.setProperty('display', 'none', 'important');
+        document.body.style.overflow = '';
+        console.log('[Navbar] Menu closed');
+      } else {
+        // Open menu
+        navMenu.classList.add('active');
+        if (hamburgerIcon) hamburgerIcon.style.setProperty('display', 'none', 'important');
+        if (closeIcon) closeIcon.style.setProperty('display', 'block', 'important');
+        document.body.style.overflow = 'hidden';
+        console.log('[Navbar] Menu opened');
+      }
+    }
+    
+    // Use click for desktop/emulation and touchend as iOS Safari fallback.
+    // Prevent double-fire with a timestamp guard.
+    var lastToggleTime = 0;
+    function guardedToggle(e) {
+      var now = Date.now();
+      if (now - lastToggleTime < 300) return;
+      lastToggleTime = now;
+      handleToggle(e);
+    }
+    
+    newToggle.addEventListener('click', guardedToggle);
+    newToggle.addEventListener('touchend', guardedToggle);
+    
+    // Close menu when clicking nav links (but NOT dropdown toggles)
+    const navLinks = navMenu.querySelectorAll('a');
+    navLinks.forEach(function(link) {
+      link.addEventListener('click', function() {
+        // Don't close if it's a dropdown child (unless it's a real navigation link)
+        if (this.getAttribute('href') === '#') return;
+        
+        const hamburgerIcon = newToggle.querySelector('.hamburger-icon');
+        const closeIcon = newToggle.querySelector('.close-icon');
+        
+        navMenu.classList.remove('active');
+        if (hamburgerIcon) hamburgerIcon.style.setProperty('display', 'block', 'important');
+        if (closeIcon) closeIcon.style.setProperty('display', 'none', 'important');
+        document.body.style.overflow = '';
+        console.log('[Navbar] Menu closed (link clicked)');
+      });
+    });
+    
+    // DROPDOWN MENU TOGGLE (for mobile and touch devices)
+    var dropdownToggles = navMenu.querySelectorAll('.dropdown-toggle');
+    dropdownToggles.forEach(function(toggle) {
+      toggle.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var parent = this.closest('.nav-dropdown');
+        if (!parent) return;
+        
+        // Close other open dropdowns at the same level
+        var siblings = parent.parentNode.querySelectorAll('.nav-dropdown.open');
+        siblings.forEach(function(sib) {
+          if (sib !== parent) sib.classList.remove('open');
+        });
+        
+        parent.classList.toggle('open');
+        console.log('[Navbar] Dropdown toggled:', parent.classList.contains('open') ? 'open' : 'closed');
+      });
+    });
+    
+    // Close dropdowns when clicking outside
+    document.addEventListener('click', function(e) {
+      if (!e.target.closest('.nav-dropdown')) {
+        var openDropdowns = document.querySelectorAll('.nav-dropdown.open');
+        openDropdowns.forEach(function(dd) { dd.classList.remove('open'); });
+      }
+    });
+    
+    console.log('[Navbar] Dropdown handlers initialized for ' + dropdownToggles.length + ' dropdowns');
+    
+    // Phone button functionality (phoneBtn already declared at top of function)
+    if (phoneBtn) {
+      phoneBtn.addEventListener('click', function() {
+        // Get phone number from placeholder in page or use default
+        const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
+        const phoneNumber = phoneLinks.length > 0 
+          ? phoneLinks[0].getAttribute('href').replace('tel:', '')
+          : '[business_phone]';
+        
+        window.location.href = 'tel:' + phoneNumber;
+        console.log('[Navbar] Phone button clicked');
+      });
+    }
+    
+    console.log('[Navbar] Mobile menu initialized successfully');
+    
+    // WhatsApp button visibility is now controlled via CSS (siteSettings).
+    // No JS-based desktop hiding — the button is visible on both mobile and desktop by default.
+  });
+})();
+
+</script>
+  
+  <main id="main">
+    
+
+
+
+
+
+
+
+
+
+    
+  
+
+    
+  
+
+
+
+
+
+
+
+
+  <section class="featured-products-section" id="featured-products" data-zappy-dynamic="true">
+      <div class="container">
+        <h2 class="section-title">מוצרים מומלצים</h2>
+        <div class="product-grid featured-grid" id="zappy-featured-products"><div class="loading-products"></div></div>
+        <div class="view-all-products" style="text-align: center !important; display: flex !important; justify-content: center !important; align-items: flex-start !important; width: 100% !important;">
+          <a href="/products" class="btn btn-primary" style="outline: none; color: rgb(255, 255, 255) !important; border-color: rgb(10, 117, 17) !important; background-color: rgb(10, 117, 17) !important; background-image: none !important;" data-element-type="button" data-element-id="btn-1782800222263-jnilxeush" data-native-element="true">צפה בכל המוצרים →</a>
+        </div>
+      </div>
+    </section>
+<section data-band-index="0" class="index-hero-section" data-layout-spec="דף הבית-hero" data-hero-type="fullscreen-scrim" id="index-hero-section-dup-1782800241271" data-zappy-content-align="upper-center" data-zappy-bg-overlay-color="#14181f" data-zappy-bg-overlay-opacity="52" style="opacity: 1; min-height: 655.6px !important;">
+  <!-- Full-bleed background image -->
+  <div data-zappy-zoom-wrapper="true" data-element-id="img-1782130504277-xuxq0wen2" data-element-type="image" data-zappy-zoom-wrapper-width-mode="full" style="position: absolute; top: 0px !important; left: 0px !important; width: 100%; height: 100%; max-width: none; margin-left: 0px !important; margin-right: 0px !important; z-index: 1 !important; overflow: hidden; inset: 0; max-height: none" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-zoom-wrapper-align="center"><img loading="eager" fetchpriority="high" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A bright, premium supplement retail scene with a cinematic feel. An athlete in athletic wear stands in a modern, well-lit gym or functional fitness space, holding a shaker bottle. In the foreground, imported sports nutrition products (protein powders, bars, pump supplements) from recognizable global brands like MnM, Snickers, Warrior, and Mars are arranged on a clean surface. The lighting is dynamic with strong contrast, deep shadows, and a bold, energetic atmosphere. The composition leaves ample negative space on the right side for text overlay." width="1200" height="600" src="/assets/site-index-hero-image-1-1782631685137-7pp2zp.webp?v=1782631688449" alt="סצנת ספורטאים עם תוספי תזונה מיובאים של Protein Stock" class="hero-bg-image" data-hero-background="true" data-element-type="image" data-element-id="img-1782130504277-xuxq0wen2" style="object-position: 50% 50%; pointer-events: auto !important; object-fit: cover; width: 100%; height: 100%; margin: 0; position: absolute; max-width: none; max-height: none; display: block !important; inset: 0" data-zappy-object-position="50% 50%" data-zappy-zoom="1" data-zappy-hero-img-base-opacity="1" data-zappy-hero-img-base-blend="normal" data-zappy-mobile-object-position="50% 50%" data-zappy-mobile-zoom="1" data-zappy-mobile-src="/assets/site-index-hero-image-1-1782631781317-4bsekd.webp?v=1782631784166" decoding="async" /></div>
+
+  <!-- Scrim overlay for text legibility -->
+  <div class="hero-scrim" aria-hidden="true" data-zappy-scrim-base-opacity="88" data-zappy-gradient-scrim="true" style="opacity: 0.590909;"></div>
+
+  <!-- Text overlay group -->
+  <div class="hero-overlay-group" data-zappy-align-target="true">
+    <h1>פרוטאין סטוק מותגים מהעולם.</h1>
+    <h3>אבקות חלבון, חטיפי אנרגיה, מוצרי פאמפ ומגנזיום מהמותגים המובילים בעולם – M&amp;M, סניקרס, Warrior, מרס ועוד. איכות בינלאומית, משלוח מהיר מישראל, בלי פשרות, ובמחיר המשתלם ביותר.</h3>
+    <div class="hero-cta-row">
+      <a href="/contact" class="hero-btn hero-btn-primary btn btn-primary" data-element-type="button" data-element-id="btn-1782130504274-olulpko34" data-native-element="true" style="outline: none; color: rgb(255, 255, 255) !important; border-color: rgb(43, 115, 13) !important; background-color: rgb(43, 115, 13) !important; background-image: none !important;">צור קשר</a>
+      <a href="/products" class="hero-btn hero-btn-secondary btn btn-primary" data-element-type="button" data-element-id="btn-1782130504274-3tv8r8y6d" data-native-element="true" style="color: rgb(255, 255, 255) !important; outline: none; border-color: transparent !important; background-color: transparent !important; background-image: linear-gradient(135deg, rgb(59, 130, 246), rgb(139, 92, 246)) !important;">לכל המותגים</a>
+    </div>
+  </div>
+
+  <!-- Bottom divider: soft diagonal gradient fade with clipped graphite edge -->
+  <div class="hero-divider-wrapper" data-no-icon-edit="true" aria-hidden="true">
+    <svg viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="heroDividerGrad-copy-1782800239139-gdcrk" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="var(--bg-dark)" stop-opacity="0.12"/>
+          <stop offset="50%" stop-color="var(--bg-dark)" stop-opacity="0.04"/>
+          <stop offset="100%" stop-color="var(--bg-dark)" stop-opacity="0"/>
+        </linearGradient>
+      </defs>
+      <!-- Diagonal clipped edge filling the bottom -->
+      <path d="M0,80 L0,55 L1200,20 L1200,80 Z" fill="var(--bg-light)"/>
+      <path d="M0,80 L0,58 L1200,23 L1200,80 Z" fill="var(--bg-light)"/>
+    </svg>
+  </div>
+</section>
+<section data-band-index="1" class="index-categories-section" data-layout-spec="דף הבית-categories" id="index-categories-section">
+  <div class="index-categories-section__container">
+    <!-- Intro Block -->
+    <header class="index-categories-section__intro">
+      <h2 class="index-categories-section__title">הקטגוריות המובילות שלנו</h2>
+      <p class="index-categories-section__subtitle">בין אם אתם בונים מסת שריר, מחפשים חטיף חלבון איכותי ומהיר, או זקוקים לתוספי מגנזיום ופאמפ לתמיכה באימון – אצלנו תמצאו את כל מה שאתם צריכים. כל מוצר נבחר בקפידה ממיטב המותגים הבינלאומיים כמו MNM, Warrior, Snickers ומרס, ומיובא ישירות לישראל כדי להבטיח איכות ללא פשרות.</p>
+    </header>
+
+    <nav class="zappy-catalog-menu rtl" id="zappy-catalog-menu" dir="rtl" style="display:none">
+      <div class="catalog-menu-container">
+        <p><a href="/products" class="catalog-menu-item catalog-menu-all">מוצרים</a>
+        </p><div class="catalog-menu-categories" id="zappy-category-links" dir="rtl" style="direction: rtl !important;" data-zappy-catalog-baked="1"></div>
+      </div>
+    </nav>
+  
+
+    <!-- Category Grid -->
+    <div class="index-categories-section__grid zappy-preserve-css-grid" id="zappy-auto-grid-1782631566152-4o0vkf" data-zappy-auto-grid="true" data-original-item-width="276" data-original-gap="32px" style="display: grid; --zappy-grid-cols: repeat(auto-fit, minmax(min(100%, 276px), 1fr)); grid-template-columns: repeat(auto-fit, minmax(min(100%, 276px), 1fr)); align-items: stretch !important;" data-zappy-explicit-columns="true">
+      <!-- Card 1: Protein Powders -->
+      <article class="index-categories-section__card" data-grid-item-index="0">
+        <div class="index-categories-section__card-icon-wrapper">
+          <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="92" height="92" viewBox="0 0 512 512" data-icon="game-icons:powder" data-iconify="game-icons:powder" data-element-type="icon" data-element-id="zappy-temp-icon-1782632657040-8p0ua4f1n" data-icon-type="iconify" data-size-adjusted="true" style="width: 92px; height: 92px; display: inline-block; vertical-align: -0.125em; color: rgb(176, 166, 166); pointer-events: auto; cursor: pointer;" class="iconify iconify--game-icons"><path fill="currentColor" d="M260.28 71.406c-12.493.18-23.276 7.03-35.31 16.313C160.78 137.22 81.93 205.86 59.874 254c-8.294-11.01-37.188-8.578-37.188 6.656c0 13.07 20.105 16.687 31.594 11.094c-.615 4.334-.52 8.38.345 12.125c-6.367 1.883-11.28 5.995-11.28 12.28c0 13.762 22.29 17.075 33.343 10.158a203 203 0 0 0 15.812 7.812c-.82 1.512-1.25 3.237-1.25 5.156c0 11.616 15.868 15.766 27.47 12.626c-.146.71-.22 1.472-.22 2.25c0 18.294 39.406 18.13 39.406 0c0-.147-.026-.293-.03-.437c14.275 2.734 29.115 4.778 44.28 6.155c3.003 14.32 32.657 14.91 38.25 2.063c15.032.29 30.163 0 45.156-.875c-.136.693-.25 1.43-.25 2.187c0 14.17 23.653 17.252 34.313 9.5c11.71 17.38 56 14.1 56-9.375c0-2.304-.407-4.408-1.188-6.313c9.565 4.504 22.57 5.225 33.25 2.157c2.438 16.508 39.282 15.748 39.282-1.783c0-9.43-10.643-13.827-20.876-13.406c.577-1.795.906-3.732.906-5.81c0-1.85-.26-3.57-.72-5.19c5.083-1.994 9.978-4.1 14.658-6.28c12.24-5.705 17.59-14.928 17.687-26.563c11.533 5.37 31.313 1.566 31.313-11.28c0-14.457-25.064-17.168-35.22-8.657c-18.55-51.64-99.242-128.954-160.78-175.188c-13.177-9.9-23.94-13.796-33.657-13.656M479.314 302.5c-9.854.043-19.72 4.577-19.72 13.47c0 18.293 39.407 18.13 39.407 0c0-9.066-9.834-13.513-19.688-13.47zM34.97 314.063c-9.854.043-19.72 4.576-19.72 13.468c0 18.296 39.406 18.13 39.406 0c0-9.064-9.834-13.51-19.687-13.467zM80.374 342.5c-10.71.047-21.43 4.817-22.156 14.156c-10.41-.53-21.5 3.978-21.5 13.406c0 17.342 35.404 18.098 39.093 2.688c12.385 1.59 26.75-3.445 26.75-15.063c0-10.204-11.096-15.236-22.188-15.187zm89.22 10.406c-6.657.03-13.32 2.1-16.94 6.188c-13.492-2.84-30.874 2.275-30.874 15.094c0 19.417 37.687 21.175 45.157 5.718c10.654.872 22.344-3.65 22.344-13.53c0-9.066-9.833-13.513-19.686-13.47zm89.186 1.625c-9.852.044-19.717 4.578-19.717 13.47c0 18.294 39.437 18.13 39.437 0c0-9.065-9.866-13.512-19.72-13.47m210.626 6.064c-12.95.056-25.906 6.03-25.906 17.72c0 24.043 51.78 23.826 51.78-.002c0-11.913-12.923-17.775-25.874-17.718m-75.187 7.125c-9.854.042-19.72 4.575-19.72 13.467c0 18.295 39.438 18.13 39.438 0c0-9.064-9.866-13.51-19.72-13.468zm-181.283 13.75c-11.298.048-22.593 5.24-22.593 15.436c0 12.487 16.006 17.455 28.97 15.063c6.844 18.704 50.905 16.82 50.905-5.158c0-15.218-21.107-20.517-36.376-16.28c-3.558-6.105-12.228-9.1-20.906-9.063zm121.844 6.936c-6.21.027-12.443 1.842-16.186 5.406c-11.597-4.94-30.78-1.042-30.78 11.375c-.002 14.898 26.137 17.537 35.842 8.22c11.597 5.024 30.813 1.126 30.813-11.532c0-9.065-9.836-13.512-19.69-13.47zM94.44 390.97c-11.3.048-22.626 5.24-22.626 15.436c0 20.978 45.22 20.79 45.22 0c0-10.394-11.296-15.487-22.594-15.437zm335.06 13.84c-11.092.05-22.188 5.146-22.188 15.157c0 20.594 44.375 20.41 44.375 0c0-10.206-11.095-15.206-22.187-15.158zm-270.656 1.844c-11.3.05-22.594 5.24-22.594 15.438c0 20.978 45.188 20.79 45.188 0c0-10.395-11.296-15.487-22.594-15.438"/></svg>
+        </div>
+        <h3 class="index-categories-section__card-title">אבקות חלבון</h3>
+        <p class="index-categories-section__card-text">אבקות חלבון איכותיות לבניית שריר והתאוששות מהירה. ממגוון טעמים ומקורות חלבון מובילים.</p>
+        <p><a href="/category/protein-powders" class="index-categories-section__card-link" style="color: rgb(74, 74, 74) !important;">לכל אבקות החלבון <span aria-hidden="true">←</span></a>
+      </p></article>
+
+      <!-- Card 2: Protein Bars -->
+      <article class="index-categories-section__card" data-grid-item-index="1">
+        <div class="index-categories-section__card-icon-wrapper">
+          <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 128 128" data-icon="noto:chocolate-bar" data-iconify="noto:chocolate-bar" data-element-type="icon" data-element-id="zappy-temp-icon-1782632874765-2kt85gf8y" data-icon-type="iconify" data-size-adjusted="true" style="width: 34px; height: 34px; display: inline-block; vertical-align: -0.125em; color: rgb(126, 157, 126); pointer-events: auto; cursor: pointer;" class="iconify iconify--noto"><path fill="#50352F" d="M9.15 43.27S6.54 44.7 5.5 45.88c-1.04 1.17-1.77 2.21-1.56 3.65c.39 2.74 9.9 10.03 16.42 16.55c5.54 5.54 17.33 15.77 17.33 15.77l5.6-5.73l-9.64-12.38z"/><path fill="#865C50" d="M79.9 37.54S69.86 27.07 63.6 20.59C58.98 15.81 49.78 5.47 48.81 4.82s-3.56-1.19-5.07.32C42.22 6.66 32.29 17.46 28.4 21.56S5.54 45.86 5.54 45.86s2.02-1.2 3.97.74c1.35 1.35 31.31 30.66 31.31 30.66l27.42-10.8z"/><path fill="#50352F" d="M46.65 73.75L17.71 46c-.5-.48-.51-1.27-.04-1.76l28.4-29.8c.23-.25.56-.38.89-.39c.36.01.66.13.9.37L75.5 42.49l-1.78 1.75l-26.73-27.15l-26.65 27.97l28.04 26.88z"/><path fill="#50352F" d="m33.03 31.104l1.764-1.771l25.655 25.553l-1.764 1.772z"/><path fill="#50352F" d="m28.245 54.301l27.926-29.595l1.818 1.716l-27.925 29.595zm10.642 10.243l26.799-29.06l1.838 1.695l-26.799 29.06z"/><path fill="#DC0D28" d="m48.44 80.65l-.71 7.01S58.1 98.33 62.06 102.4s17.79 16.27 17.79 16.27s6.81-3.15 7.01-3.86s34.87-37.41 34.87-37.41s-12.71-12.81-17.28-17.38s-14.54-15.96-14.54-15.96z"/><path fill="#B0091B" d="M90.22 52.59s2.95 5.29 3.46 6.4c.51 1.12 1.29 3 .01 3.52c-1.73.71-15.66 3.74-15.66 3.74s-.3 14.19-1.78 15.66c-1.63 1.63-24.34 3.7-25.07 3.81c-1.42.2-.2 1.42.61 2.34c.81.91 29.68 28.57 29.68 28.57l-1.42 5.79l-2.95-2.44s-8.7-8.45-17.95-17.5s-17.32-17.26-17.32-17.26l43-36.09z"/><path fill="#B0B3AF" d="m83.89 115.96l-2.85.3l-3.94 3.73s2.97 3.79 4.61 3.97s19.27-19.18 24.64-24.46c5.36-5.27 18.32-18.6 18.32-19.09c0-1.09-2.93-3.02-2.93-3.02z"/><path fill="#E4E0E8" d="M83.58 118.72c.27-.64 39.83-40.04 39.83-40.04l-2.46-2.1l-39.91 39.68z"/><path fill="#E0E0E0" d="m66 45.99l8.38-3.58s4.3-5.59 4.81-6.1s6.63-.94 6.63-.94l5.14 4.24s1.21 4.76 1.42 5.79c.2 1.02 2.21 8.52 1.41 10.71c-.73 2-16.05 5.48-17.62 5.92c-.91.26-.69.96-.87 2.46c-.11.92-.46 11.75-1.38 12.87s-9.95 2.65-13.12 3.27c-1.78.35-13.36 2.3-13.36 2.3l-2.99 4.34s.31 1.63-.72 2.15c-1.02.51-3.8-.82-4.31-1.43s-4.14-7.06-3.73-7.98s4.33-6.45 5.04-6.86c.72-.41 6.17-1.71 6.17-1.71s5.19-13.74 6.35-14.82c.69-.64 10.1-4.69 10.1-4.69z"/><path fill="#FFF" d="M68.25 48.8c-.7.04-2.09 7.76-1.89 8.26c.21.49 14.29.25 14.42-.9c.12-1.16-10.37-7.49-12.53-7.36m20.43-6.01c.33.9-3.04 3.98-3.29 4.03s-7.38-1.87-7.6-3.41c-.21-1.44 4.05-1.23 5.86-1.23c1.82-.01 4.83.06 5.03.61M55 60.58c-1.45-.69-4.65 8.24-5.09 9.37c-.53 1.36 2.48 1.89 4.23 2.04c2.56.21 11.24.64 11.43-.08c.32-1.28-8.6-10.39-10.57-11.33M41.81 75.9c-1.31.58 2.27 11.37 2.6 11.37s3.03-4.39 3.03-4.39s-4.26-7.58-5.63-6.98"/></svg>
+        </div>
+        <h3 class="index-categories-section__card-title">חטיפי חלבון</h3>
+        <p class="index-categories-section__card-text">חטיפי חלבון מיובאים של מותגי ענק – Snickers, Mars, Warrior ועוד. מושלם לנשנוש אחרי אימון או לכל רגע ביום.</p>
+        <p><a href="/category/protein-bars" class="index-categories-section__card-link" style="color: rgb(74, 74, 74) !important;">לכל חטיפי החלבון <span aria-hidden="true">←</span></a>
+      </p></article>
+
+      <!-- Card 3: Pump & Pre-Workout -->
+      <article class="index-categories-section__card" data-grid-item-index="2">
+        <div class="index-categories-section__card-icon-wrapper">
+          <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 512 512" data-icon="game-icons:weight-lifting-up" data-iconify="game-icons:weight-lifting-up" data-element-type="icon" data-element-id="zappy-temp-icon-1782632787792-zs57i3zqe" data-icon-type="iconify" data-size-adjusted="true" style="width: 34px; height: 34px; display: inline-block; vertical-align: -0.125em; color: rgb(126, 157, 126); pointer-events: auto; cursor: pointer;" class="iconify iconify--game-icons"><path fill="currentColor" d="m77.492 18.457l-17.726 3.127L69.09 74.47a1631 1631 0 0 0-15.8 2.54l-6.503-36.89l-17.726 3.124l6.49 36.795a1878 1878 0 0 0-17.196 3.112l3.292 17.696c5.728-1.066 11.397-2.09 17.028-3.084l7.056 40.02l17.727-3.124l-7.04-39.93q7.956-1.319 15.798-2.54l9.777 55.45l17.727-3.126l-9.697-54.99a1416 1416 0 0 1 25.18-3.38c15.54 46.39 34.697 99.995 66.936 134.448C190.86 250.992 192 268 214.56 310C192 348 176 412 167.21 471l-48 6v15H192c16-48 64-144 64-144s48 96 64 144h72.79v-15l-48-6C336 412 320 348 294 310c26-42 24.175-59.585 35.83-89.377c32.25-34.452 51.42-88.075 66.967-134.478c8.314 1.04 16.697 2.16 25.18 3.38l-9.696 54.99l17.728 3.124l9.777-55.45q7.843 1.221 15.8 2.54l-7.042 39.93l17.727 3.125l7.056-40.02c5.63.993 11.3 2.017 17.028 3.083l3.292-17.696c-5.78-1.075-11.507-2.11-17.195-3.113l6.49-36.796l-17.727-3.125l-6.504 36.89a1565 1565 0 0 0-15.8-2.54l9.324-52.886l-17.726-3.127l-9.406 53.35C365.982 63.31 310.982 59.04 256 59.04c-54.98 0-109.983 4.27-169.102 12.767zM256 76.98c35.53 0 71.07 1.83 107.822 5.463c-14.082 34.858-38.454 73.504-63.203 101.967C290.293 199.27 274.35 209 256 209s-34.294-9.73-44.62-24.59c-24.748-28.463-49.12-67.11-63.202-101.967c36.75-3.633 72.29-5.463 107.822-5.463M256 97c-20.835 0-39 20.24-39 47s18.165 47 39 47s39-20.24 39-47s-18.165-47-39-47"/></svg>
+        </div>
+        <h3 class="index-categories-section__card-title">מוצרי פאמפ וקדם-אימון</h3>
+        <p class="index-categories-section__card-text">תוספי פאמפ וקדם-אימון שידחפו אתכם קדימה בכל חזרה. אנרגיה, מיקוד וזרימת דם משופרת.</p>
+        <p><a href="/category/pump-pre-workout" class="index-categories-section__card-link" style="color: rgb(74, 74, 74) !important;">לכל מוצרי הפאמפ <span aria-hidden="true">←</span></a>
+      </p></article>
+
+      <!-- Card 4: Recovery & Magnesium -->
+      <article class="index-categories-section__card" data-grid-item-index="3">
+        <div class="index-categories-section__card-icon-wrapper">
+          <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="34" height="34" viewBox="0 0 24 24" data-icon="boxicons:magnet" data-iconify="boxicons:magnet" data-element-type="icon" data-element-id="zappy-temp-icon-1782633122806-lxvny5ye3" data-icon-type="iconify" data-size-adjusted="true" style="display: inline-block; vertical-align: -0.125em; color: rgb(194, 106, 75); width: 34px !important; height: 34px !important; pointer-events: auto; cursor: pointer;" class="iconify iconify--boxicons"><path fill="currentColor" d="M12 22c4.96 0 9-4.04 9-9V3c0-.55-.45-1-1-1h-5c-.55 0-1 .45-1 1v10c0 1.1-.9 2-2 2c-1.25 0-2-1.12-2-3V3c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 4.96 4.04 9 9 9m4-18h3v3h-3zM5 4h3v3H5zm0 5h3v3c0 3.45 2.01 5 4 5c2.21 0 4-1.79 4-4V9h3v4c0 3.86-3.14 7-7 7s-7-3.14-7-7z"/></svg>
+        </div>
+        <h3 class="index-categories-section__card-title">מגנזיום והתאוששות</h3>
+        <p class="index-categories-section__card-text">תוספי מגנזיום, ויטמינים ומינרלים לתמיכה יומית, שינה טובה יותר והתאוששות שרירים מיטבית.</p>
+        <p><a href="/category/recovery-magnesium" class="index-categories-section__card-link" style="color: rgb(74, 74, 74) !important;">לכל תוספי ההתאוששות <span aria-hidden="true">←</span></a>
+      </p></article>
+    </div>
+  </div>
+
+  <!-- Bottom Divider: Stepped Paper-Layer Edge -->
+  <div class="index-categories-section__divider-wrapper" data-no-icon-edit="true" aria-hidden="true">
+    <svg viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,80 L0,65 Q150,58 300,65 T600,58 Q750,65 900,58 T1200,65 L1200,80 Z" fill="var(--bg-light)"/>
+      <path d="M0,80 L0,72 Q150,65 300,72 T600,65 Q750,72 900,65 T1200,72 L1200,80 Z" fill="var(--bg-light)" opacity="0.3"/>
+    </svg>
+  </div>
+</section>
+<section data-band-index="2" class="index-brands-section" data-layout-spec="דף הבית-brands" id="index-brands-section">
+  <div class="brands-container">
+    <!-- Intro Block (Right side in RTL) -->
+    <header class="brands-intro">
+      <h2>המותגים הבינלאומיים שאתם מכירים ואוהבים</h2>
+      <p>אנחנו מייבאים עבורכם את השמות הגדולים בעולם תזונת הספורט — חטיפי חלבון, אבקות איכותיות ומוצרי פאמפ ממיטב היצרנים הגלובליים. כל מוצר מגיע עם תו תקן בינלאומי, טריות מובטחת והתרגשות אמיתית של טעמים מוכרים מעולם הכושר והחטיפים.</p>
+    </header>
+
+    <!-- Brand Tiles Grid (Left side in RTL) -->
+    <div class="brands-grid zappy-preserve-css-grid" id="zappy-auto-grid-1782631566160-4ybu40" data-zappy-auto-grid="true" data-original-item-width="174" data-original-gap="24px" style="--zappy-grid-cols: repeat(auto-fit, minmax(min(100%, 174px), 1fr)); grid-template-columns: repeat(auto-fit, minmax(min(100%, 174px), 1fr)); align-items: stretch !important; display: grid;" data-zappy-explicit-columns="true">
+      <!-- Brand 1: MnM -->
+      <figure class="brand-tile" data-grid-item-index="0" style="overflow: hidden !important;">
+        <div class="brand-tile-visual" style="--brand-hint: #FFD700; margin-left: -20px !important; margin-right: -20px !important; margin-top: -20px !important; width: calc(100% + 40px) !important; max-width: calc(100% + 40px) !important;" data-zappy-mobile-bleed="1">
+          <a data-zappy-click-action="link" href="/category/protein-snacks" style="text-decoration: none; color: inherit; display: contents;"><div data-zappy-zoom-wrapper="true" data-element-id="img-1782631566116-md9nsbkov" data-element-type="image" data-zappy-zoom-wrapper-width="172px" data-zappy-zoom-wrapper-height="120px" data-zappy-zoom-wrapper-width-mode="card-slot" data-zappy-zoom-wrapper-align="center" style="cursor: pointer; position: relative !important; overflow: hidden !important; width: 100% !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 120px !important; display: block !important; min-height: 0px !important; max-height: none !important; padding-bottom: 0px !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-card-slot-fill="1" data-zappy-click-action="link"><img decoding="async" data-placeholder="index-brands-image-1" data-context="MnM protein bar packaging with bold yellow branding, sports nutrition style, clean studio lighting on white background" width="300" height="200" src="/assets/protein-stock-sports-nutrition-e-commerce-service-upload-1782719712763-yszvhf.webp" alt="לוגו מותג MnM חטיפי חלבון" style="display: block !important; object-position: 79% 100% !important; object-fit: cover !important; width: 100% !important; height: 100% !important; max-width: none !important; margin: 0px !important; left: 0% !important; top: 0% !important; max-height: none !important; position: absolute !important;" data-element-type="image" data-element-id="img-1782631566116-md9nsbkov" data-zappy-original-width="172.40000915527344" data-zappy-original-height="120" data-zappy-object-position="79% 100%" data-zappy-zoom="1" data-zappy-mobile-object-position="79% 100%" data-zappy-mobile-zoom="1" data-zappy-click-action="link" loading="lazy" fetchpriority="low" /></div></a>
+        </div>
+        <figcaption class="brand-tile-caption"><span style="color: #4a4a4a !important"><span style="color: #1a1a1a !important"><span style="color: #000000 !important"><span style="color: #000000 !important"><span style="color: #b336b3 !important">M&amp;Ms</span></span></span></span></span></figcaption>
+      </figure>
+
+      <!-- Brand 2: Snickers -->
+      <figure class="brand-tile" data-grid-item-index="1">
+        <div class="brand-tile-visual" style="--brand-hint: #8B4513; margin-left: -20px !important; margin-right: -20px !important; margin-top: -20px !important; width: calc(100% + 40px) !important; max-width: calc(100% + 40px) !important;" data-zappy-mobile-bleed="1">
+          <a data-zappy-click-action="link" href="/category/protein-snacks" style="text-decoration: none; color: inherit; display: contents;"><div data-zappy-zoom-wrapper="true" data-element-id="img-1782631566116-2zaw2l2h9" data-element-type="image" data-zappy-zoom-wrapper-width="172px" data-zappy-zoom-wrapper-height="271px" data-zappy-zoom-wrapper-width-mode="card-slot" data-zappy-zoom-wrapper-align="center" style="cursor: pointer; position: relative !important; overflow: hidden !important; width: 100% !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 271px !important; display: block !important; min-height: 0px !important; max-height: none !important; padding-bottom: 0px !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-click-action="link" data-zappy-card-slot-fill="1"><img decoding="async" data-placeholder="index-brands-image-2" data-context="Snickers Hi-Protein bar packaging, recognizable brown and red design, sports nutrition product photography" width="300" height="200" src="/assets/site-index-brands-image-2-1782640328909-elp27c.webp?v=1782640331316" alt="לוגו מותג סניקרס חלבון" style="cursor: pointer; display: block !important; object-position: 50% 50% !important; object-fit: cover !important; margin: 0px !important; left: 0% !important; top: 0% !important; width: 100% !important; height: 100% !important; max-width: none !important; max-height: none !important; position: absolute !important;" data-element-type="image" data-element-id="img-1782631566116-2zaw2l2h9" data-zappy-object-position="50% 50%" data-zappy-original-width="172.40000915527344" data-zappy-original-height="271" data-zappy-click-action="link" data-zappy-mobile-object-position="50% 50%" data-zappy-mobile-zoom="1" data-zappy-zoom="1" data-zappy-mobile-src="/assets/image-1782640038255-u34ylm.webp?v=1782640040474" loading="lazy" fetchpriority="low" /></div></a>
+        </div>
+        <figcaption class="brand-tile-caption">Snickers</figcaption>
+      </figure>
+
+      <!-- Brand 3: Warrior -->
+      <figure class="brand-tile" data-grid-item-index="2" style="overflow: hidden !important;">
+        <div class="brand-tile-visual" style="--brand-hint: #C8102E; margin-left: -20px !important; margin-right: -20px !important; margin-top: -20px !important; width: calc(100% + 40px) !important; max-width: calc(100% + 40px) !important;" data-zappy-mobile-bleed="1">
+          <div data-zappy-zoom-wrapper="true" data-element-id="img-1782631566116-qpee8z954" data-element-type="image" data-zappy-zoom-wrapper-width="172px" data-zappy-zoom-wrapper-height="120px" data-zappy-zoom-wrapper-width-mode="card-slot" data-zappy-zoom-wrapper-align="center" style="position: relative !important; overflow: hidden !important; width: 100% !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 120px !important; display: block !important; min-height: 0px !important; max-height: none !important; padding-bottom: 0px !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-card-slot-fill="1"><img decoding="async" data-placeholder="index-brands-image-3" data-context="Warrior Raw protein bar packaging with aggressive red and black design, fitness supplement branding" width="300" height="200" src="/assets/site-index-brands-image-3-1782802014098-eq0gz2.webp?v=1782802016255" alt="לוגו מותג Warrior תוספי ספורט" style="object-fit: cover !important; object-position: 55% 47% !important; width: 100% !important; height: 100% !important; max-width: none !important; display: block !important; margin: 0px !important; left: 0% !important; top: 0% !important; max-height: none !important; position: absolute !important;" data-element-type="image" data-element-id="img-1782631566116-qpee8z954" data-zappy-original-width="172.40000915527344" data-zappy-original-height="120" data-zappy-object-position="55% 47%" data-zappy-zoom="1" data-zappy-mobile-object-position="36% 78%" data-zappy-mobile-zoom="1" data-zappy-mobile-src="/assets/site-index-brands-image-3-1782724937505-oj37to.webp?v=1782724940301" loading="lazy" fetchpriority="low" /></div>
+        </div>
+        <figcaption class="brand-tile-caption">מבחר מוצרי Warrior</figcaption>
+      </figure>
+
+      <!-- Brand 4: Mars -->
+      <figure class="brand-tile" data-grid-item-index="3" style="overflow: hidden !important;">
+        <div class="brand-tile-visual" style="--brand-hint: #C26A4B; margin-left: -20px !important; margin-right: -20px !important; margin-top: -20px !important; width: calc(100% + 40px) !important; max-width: calc(100% + 40px) !important;" data-zappy-mobile-bleed="1">
+          <a data-zappy-click-action="link" href="/category/protein-snacks" style="text-decoration: none; color: inherit; display: contents;"><div data-zappy-zoom-wrapper="true" data-element-id="img-1782631566116-bwltu9126" data-element-type="image" data-zappy-zoom-wrapper-width="172px" data-zappy-zoom-wrapper-height="120px" data-zappy-zoom-wrapper-width-mode="card-slot" data-zappy-zoom-wrapper-align="center" style="cursor: pointer; position: relative !important; overflow: hidden !important; width: 100% !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 120px !important; display: block !important; min-height: 0px !important; max-height: none !important; padding-bottom: 0px !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-card-slot-fill="1" data-zappy-click-action="link"><img decoding="async" data-placeholder="index-brands-image-4" data-context="Mars Hi-Protein bar packaging, iconic blue and gold design, imported sports nutrition product" width="300" height="200" src="/assets/protein-stock-sports-nutrition-e-commerce-gallery-upload-1782636824494-8hvtl1.webp" alt="לוגו מותג מרס חלבון מיובא" style="object-fit: cover !important; object-position: 50% 50% !important; width: 100% !important; height: 100% !important; max-width: none !important; display: block !important; margin: 0px !important; left: 0% !important; top: 0% !important; max-height: none !important; position: absolute !important;" data-element-type="image" data-element-id="img-1782631566116-bwltu9126" data-zappy-original-width="172.40000915527344" data-zappy-original-height="120" data-zappy-object-position="50% 50%" data-zappy-zoom="1" data-zappy-mobile-object-position="50% 50%" data-zappy-mobile-zoom="1" data-zappy-click-action="link" loading="lazy" fetchpriority="low" /></div></a>
+        </div>
+        <figcaption class="brand-tile-caption">Mars</figcaption>
+      </figure>
+
+      <!-- Brand 5: Barebells -->
+      <figure class="brand-tile" data-grid-item-index="4" style="overflow: hidden !important;">
+        <div class="brand-tile-visual" style="--brand-hint: #F5A623; margin-left: -20px !important; margin-right: -20px !important; margin-top: -20px !important; width: calc(100% + 40px) !important; max-width: calc(100% + 40px) !important;" data-zappy-mobile-bleed="1">
+          <div data-zappy-zoom-wrapper="true" data-element-id="img-1782631566116-t8ea1ozj6" data-element-type="image" data-zappy-zoom-wrapper-width="172px" data-zappy-zoom-wrapper-height="120px" data-zappy-zoom-wrapper-width-mode="card-slot" data-zappy-zoom-wrapper-align="center" style="position: relative !important; overflow: hidden !important; width: 100% !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 120px !important; display: block !important; min-height: 0px !important; max-height: none !important; padding-bottom: 0px !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-card-slot-fill="1"><img decoding="async" data-placeholder="index-brands-image-5" data-context="Barebells protein bar packaging, sleek Scandinavian design with bold typography, white background" width="300" height="200" src="/assets/site-index-brands-image-5-1782727703652-tkadde.webp?v=1782727706539" alt="לוגו מותג ברבלס חטיפי חלבון" style="object-position: 50% 50% !important; object-fit: cover !important; width: 100% !important; height: 100% !important; max-width: none !important; display: block !important; margin: 0px !important; left: 0% !important; top: 0% !important; max-height: none !important; position: absolute !important;" data-element-type="image" data-element-id="img-1782631566116-t8ea1ozj6" data-zappy-original-width="172.40000915527344" data-zappy-original-height="120" data-zappy-object-position="50% 50%" data-zappy-zoom="1" data-zappy-mobile-object-position="50% 50%" data-zappy-mobile-zoom="1" loading="lazy" fetchpriority="low" /></div>
+        </div>
+        <figcaption class="brand-tile-caption">מוצרי קריאטין</figcaption>
+      </figure>
+
+      <!-- Brand 6: Grenade -->
+      <figure class="brand-tile" data-grid-item-index="5" style="overflow: hidden !important;">
+        <div class="brand-tile-visual" style="--brand-hint: #000000; margin-left: -20px !important; margin-right: -20px !important; margin-top: -20px !important; width: calc(100% + 40px) !important; max-width: calc(100% + 40px) !important;" data-zappy-mobile-bleed="1">
+          <a data-zappy-click-action="link" href="/category/protein-powders" style="text-decoration: none; color: inherit; display: contents;"><div data-zappy-zoom-wrapper="true" data-element-id="img-1782631566116-coonasfce" data-element-type="image" data-zappy-zoom-wrapper-width="172px" data-zappy-zoom-wrapper-height="120px" data-zappy-zoom-wrapper-width-mode="card-slot" data-zappy-zoom-wrapper-align="center" style="cursor: pointer; position: relative !important; overflow: hidden !important; width: 100% !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 120px !important; display: block !important; min-height: 0px !important; max-height: none !important; padding-bottom: 0px !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-card-slot-fill="1" data-zappy-click-action="link"><img decoding="async" data-placeholder="index-brands-image-6" data-context="Grenade Carb Killa protein bar packaging, military-inspired black and camouflage design, fitness nutrition" width="300" height="200" src="/assets/site-index-brands-image-6-1782635679808-r4bcrd.webp?v=1782635682765" alt="לוגו מותג גרייד חטיפי חלבון" style="object-fit: cover !important; object-position: 43% 100% !important; width: 100% !important; height: 100% !important; max-width: none !important; display: block !important; margin: 0px !important; left: 0% !important; top: 0% !important; max-height: none !important; position: absolute !important;" data-element-type="image" data-element-id="img-1782631566116-coonasfce" data-zappy-original-width="172.40000915527344" data-zappy-original-height="120" data-zappy-object-position="43% 100%" data-zappy-zoom="1" data-zappy-mobile-object-position="43% 100%" data-zappy-mobile-zoom="1" data-zappy-click-action="link" loading="lazy" fetchpriority="low" /></div></a>
+        </div>
+        <figcaption class="brand-tile-caption"><span style="color: #4a4a4a !important"><span style="color: #cc5ccc !important"><span style="color: #b336b3 !important">Hubba Bubba</span></span></span></figcaption>
+      </figure>
+    </div>
+
+    <!-- Trust Badges Strip -->
+    <div class="trust-badges">
+      <div class="trust-badge">
+        <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+        <span>מבחר מיובא עולמי</span>
+      </div>
+      <div class="trust-badge">
+        <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        <span>תו תקן בינלאומי מוכר</span>
+      </div>
+      <div class="trust-badge">
+        <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        <span>קטגוריות ביצועים נבחרות</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Divider: Bold curved blue band -->
+  <div class="brands-divider-wrapper">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,80 L0,45 Q100,25 200,38 T400,32 Q500,22 600,35 T800,25 Q900,38 1000,30 T1200,40 L1200,80 Z" fill="var(--bg-dark)"/>
+    </svg>
+  </div>
+</section>
+<section data-band-index="3" class="index-trust-section" data-layout-spec="דף הבית-trust" id="index-trust-section">
+    <!-- Decorative glowing lines in background -->
+    <div class="index-trust-section__bg-lines" aria-hidden="true">
+        <svg viewBox="0 0 1440 600" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M-100,200 Q400,100 800,300 T1600,200" fill="none" stroke="var(--primary)" stroke-width="1.5" opacity="0.15"/>
+            <path d="M-100,350 Q500,250 900,450 T1600,350" fill="none" stroke="var(--accent)" stroke-width="1" opacity="0.1"/>
+            <path d="M-100,500 Q600,400 1000,600 T1600,500" fill="none" stroke="var(--secondary)" stroke-width="1" opacity="0.08"/>
+        </svg>
+    </div>
+
+    <div class="index-trust-section__container">
+        <h2 class="index-trust-section__title">למה לבחור בפרוטאין סטוק?</h2>
+        <p class="index-trust-section__subtitle" style="color: rgb(252, 252, 249) !important;">אנחנו מבינים שתזונת ספורט איכותית היא המפתח להשגת התוצאות שלכם. לכן אנחנו מתחייבים לשלושה עקרונות מרכזיים שהופכים את חוויית הקנייה אונליין של אבקות חלבון ומוצרי פאמפ לקלה, בטוחה ומשתלמת.</p>
+        
+        <div class="index-trust-section__grid zappy-preserve-css-grid" id="zappy-auto-grid-1782639565888-a8gcdw" data-zappy-auto-grid="true" data-original-item-width="379" data-original-gap="32px" style="align-items: stretch !important; display: grid; --zappy-grid-cols: repeat(3, minmax(0, 1fr)); grid-template-columns: repeat(3, minmax(0, 1fr));" data-zappy-explicit-columns="true">
+            <!-- Benefit 1 -->
+            <article class="index-trust-section__card" data-grid-item-index="0">
+                <div class="index-trust-section__icon-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="iconamoon:delivery-bold" data-iconify="iconamoon:delivery-bold" data-element-type="icon" data-element-id="zappy-temp-icon-1782640493313-vbwc8myr5" data-icon-type="iconify" data-size-adjusted="true" style="width: 25px; height: 25px; display: inline-block; vertical-align: -0.125em; color: rgb(194, 106, 75); pointer-events: auto; cursor: pointer;" class="iconify iconify--iconamoon"><path fill="currentColor" d="M2 3V1.75C1.31 1.75.75 2.31.75 3zm11 0h1.25c0-.69-.56-1.25-1.25-1.25zm0 6V7.75A1.25 1.25 0 0 0 11.75 9zM2 4.25h11v-2.5H2zM11.75 3v16h2.5V3zm-8.5 14V3H.75v14zM13 10.25h5v-2.5h-5zM20.75 13v4h2.5v-4zm-6.5 6V9h-2.5v10zm4.28.53a.75.75 0 0 1-1.06 0l-1.768 1.768a3.25 3.25 0 0 0 4.596 0zm-1.06-1.06a.75.75 0 0 1 1.06 0l1.768-1.768a3.25 3.25 0 0 0-4.596 0zM6.53 19.53a.75.75 0 0 1-1.06 0l-1.768 1.768a3.25 3.25 0 0 0 4.596 0zm-1.06-1.06a.75.75 0 0 1 1.06 0l1.768-1.768a3.25 3.25 0 0 0-4.596 0zm13.06 0a.74.74 0 0 1 .22.53h2.5a3.24 3.24 0 0 0-.952-2.298zm.22.53a.74.74 0 0 1-.22.53l1.768 1.768A3.24 3.24 0 0 0 21.25 19zM16 17.75h-3v2.5h3zm1.47 1.78a.74.74 0 0 1-.22-.53h-2.5c0 .83.318 1.664.952 2.298zm-.22-.53a.74.74 0 0 1 .22-.53l-1.768-1.768A3.24 3.24 0 0 0 14.75 19zm-11.78.53a.74.74 0 0 1-.22-.53h-2.5c0 .83.318 1.664.952 2.298zM5.25 19a.74.74 0 0 1 .22-.53l-1.768-1.768A3.24 3.24 0 0 0 2.75 19zM13 17.75H8v2.5h5zm-6.47.72a.74.74 0 0 1 .22.53h2.5c0-.83-.318-1.664-.952-2.298zm.22.53a.74.74 0 0 1-.22.53l1.768 1.768A3.24 3.24 0 0 0 9.25 19zm14-2a.75.75 0 0 1-.75.75v2.5A3.25 3.25 0 0 0 23.25 17zM18 10.25A2.75 2.75 0 0 1 20.75 13h2.5c0-2.9-2.35-5.25-5.25-5.25zM.75 17A3.25 3.25 0 0 0 4 20.25v-2.5a.75.75 0 0 1-.75-.75z"/></svg>
+                </div>
+                <h3 class="index-trust-section__card-title" style="text-align: center;">שרות משלוחים מהיר</h3>
+                <p class="index-trust-section__card-text" style="color: rgb(252, 252, 249) !important;">אנחנו מייבאים רק את המותגים המובילים בעולם כמו MNM, סניקרס, WARRIOR ומרס. כל מוצר עובר בדיקות איכות קפדניות כדי להבטיח שאתם מקבלים חטיפי חלבון מיובאים ישראל ותוספי תזונה אמיתיים, בטוחים ויעילים.</p>
+            </article>
+
+            <!-- Benefit 2 -->
+            
+
+            <!-- Benefit 3 -->
+            <article class="index-trust-section__card" data-grid-item-index="1">
+                <div class="index-trust-section__icon-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="25" height="25" viewBox="0 0 24 24" data-icon="mdi:run-fast" data-iconify="mdi:run-fast" data-element-type="icon" data-element-id="zappy-temp-icon-1782640678164-3vavzfpf8" data-icon-type="iconify" data-size-adjusted="true" style="width: 25px; height: 25px; display: inline-block; vertical-align: -0.125em; color: rgb(194, 106, 75); pointer-events: auto; cursor: pointer;" class="iconify iconify--mdi"><path fill="currentColor" d="M16.5 5.5a2 2 0 0 0 2-2a2 2 0 0 0-2-2a2 2 0 0 0-2 2a2 2 0 0 0 2 2m-3.6 13.9l1-4.4l2.1 2v6h2v-7.5l-2.1-2l.6-3A7.3 7.3 0 0 0 22 13v-2c-1.76.03-3.4-.89-4.3-2.4l-1-1.6c-.36-.6-1-1-1.7-1c-.3 0-.5.1-.8.1L9 8.3V13h2V9.6l1.8-.7l-1.6 8.1l-4.9-1l-.4 2zM4 9a1 1 0 0 1-1-1a1 1 0 0 1 1-1h3v2zm1-4a1 1 0 0 1-1-1a1 1 0 0 1 1-1h5v2zm-2 8a1 1 0 0 1-1-1a1 1 0 0 1 1-1h4v2z"/></svg>
+                </div>
+                <h3 class="index-trust-section__card-title">חוויית קנייה מהירה ואמינה</h3>
+                <p class="index-trust-section__card-text" style="color: rgb(252, 252, 249) !important;">
+
+האתר שלנו נבנה כדי שתוכלו למצוא את מה שאתם צריכים בשניות. ממשק נקי, תשלום מאובטח, משלוחים מהירים עד הבית ושירות לקוחות שזמין לכל שאלה. כך נראית קנייה אונליין של אבקות חלבון ותוספי תזונה - פשוטה, נוחה ובטוחה.
+
+</p>
+            </article><article class="index-trust-section__card" style="background-color: rgba(255, 255, 255, 0.05) !important; padding: 32px !important; box-sizing: border-box; grid-area: auto !important;" data-grid-item-index="2">
+                <div class="index-trust-section__icon-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="25" height="25" viewBox="0 0 24 24" data-icon="mdi:food-kosher" data-iconify="mdi:food-kosher" data-element-type="icon" data-element-id="zappy-temp-icon-1782640678164-3vavzfpf8-add-1782640704091-06ds0h" data-icon-type="iconify" data-size-adjusted="true" style="width: 25px; height: 25px; display: inline-block; vertical-align: -0.125em; color: rgb(194, 106, 75); pointer-events: auto; cursor: pointer;" class="iconify iconify--mdi"><path fill="currentColor" d="M1 7v2h2c.57 0 1 .43 1 1v7h2v-7c0-1.64-1.36-3-3-3zm6 0v7c0 1.65 1.36 3 3 3h4c1.65 0 3-1.35 3-3V7h-2v7c0 .57-.43 1-1 1h-4c-.57 0-1-.43-1-1v-1h1c1.65 0 3-1.35 3-3V7h-2v3c0 .57-.43 1-1 1H9V7zm11 0v2h2c.57 0 1 .43 1 1v4c0 .57-.43 1-1 1h-2v2h2c1.65 0 3-1.35 3-3v-4c0-1.64-1.35-3-3-3z"/></svg>
+                </div>
+                
+                <p class="index-trust-section__card-text" style="color: rgb(252, 252, 249) !important; "><br />
+רוב המוצרים באתר מגיעים עם כשרות ומיוצרים על ידי מותגים מובילים מהעולם. מידע על הכשרות מופיע בעמוד המוצר. אם יש לכם שאלות לגבי כשרות של מוצר מסוים, נשמח לסייע.&nbsp;</p>
+            </article><article class="index-trust-section__card" style="box-sizing: border-box; background-color: rgba(255, 255, 255, 0.05) !important; padding: 32px !important; grid-area: auto !important;" data-grid-item-index="3">
+                <div class="index-trust-section__icon-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="25" height="25" viewBox="0 0 16 16" data-icon="qlementine-icons:money-16" data-iconify="qlementine-icons:money-16" data-element-type="icon" data-element-id="zappy-temp-icon-1782640678164-3vavzfpf8-add-1782640704091-06ds0h-add-1782640924379-vl7h3a" data-icon-type="iconify" data-size-adjusted="true" style="display: inline-block; vertical-align: -0.125em; color: rgb(194, 106, 75); width: 25px !important; height: 25px !important; pointer-events: auto; cursor: pointer;" class="iconify iconify--qlementine-icons"><path fill="currentColor" fill-rule="evenodd" d="M11.5 14c2.49 0 4.5-1 4.5-2.5V2c0-1-2-2-4.5-2S7 1 7 2v3.5c1.17.49 2.17 1.31 2.88 2.35c.49.096 1.03.149 1.62.149c1.31 0 2.4-.261 3.18-.686a4 4 0 0 0 .323-.198v1.38c0 .235-.187.6-.802.936c-.596.325-1.51.564-2.7.564q-.357 0-.68-.027q.12.493.16 1.01q.253.014.52.014c1.31 0 2.4-.261 3.18-.686a4 4 0 0 0 .323-.198v1.38c0 .236-.149.586-.791.932c-.632.34-1.58.568-2.71.568q-.345 0-.668-.028a6.4 6.4 0 0 1-.309.974q.472.053.976.053zm2.7-7.56c.615-.336.802-.701.802-.936v-1.38q-.155.106-.323.198c-.778.425-1.87.686-3.18.686s-2.4-.261-3.18-.686a4 4 0 0 1-.323-.198v1.38c0 .235.187.6.802.935c.596.325 1.51.564 2.7.564s2.1-.239 2.7-.564zM8 2.5c0-.288.125-.565.358-.734c.127-.092.265-.184.374-.234c.273-.126 1.64-.533 2.77-.533s2.11.227 2.77.533c.124.057.261.146.382.234c.231.167.35.442.35.727v.006c0 .235-.187.6-.802.936c-.596.325-1.51.564-2.7.564s-2.1-.24-2.7-.564C8.187 3.1 8 2.734 8 2.5" clip-rule="evenodd"/><path fill="currentColor" fill-rule="evenodd" d="M9 11.5C9 13.99 6.99 16 4.5 16S0 13.99 0 11.5S2.01 7 4.5 7S9 9.01 9 11.5m-1 0C8 13.43 6.43 15 4.5 15S1 13.43 1 11.5S2.57 8 4.5 8S8 9.57 8 11.5" clip-rule="evenodd"/></svg>
+                </div>
+                
+                <p class="index-trust-section__card-text" style="color: rgb(252, 252, 249) !important;"><b>&nbsp; אין צורך לקנות בכמות כדי ליהנות ממחיר משתלם </b>- מחירים תחרותיים על מותגים מובילים כבר מהמוצר הראשון.<br />
+אנו מציעים מגוון רחב של תוספי תזונה ומוצרי ספורט איכותיים במחירים הוגנים, כך שתוכלו ליהנות ממוצרים מובילים במחיר משתלם גם ברכישת מוצר בודד.&nbsp;&nbsp;</p>
+            </article>
+        </div>
+    </div>
+
+    <!-- Bottom Divider: Clean upward orange arc -->
+    <div class="index-trust-section__divider-wrapper">
+        <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0,80 L0,40 Q360,0 720,40 T1440,40 L1440,80 Z" fill="var(--bg-light)"/>
+        </svg>
+    </div>
+</section>
+<section data-band-index="4" class="index-cta-section" data-layout-spec="דף הבית-cta" dir="rtl" id="index-cta-section">
+  <div class="index-cta-section__container">
+    <!-- Decorative accent blob from promo-banner-accent-blob motif -->
+    <div class="index-cta-section__accent-blob" aria-hidden="true"></div>
+    
+    <div class="index-cta-section__panel">
+      <h2 class="index-cta-section__heading">מוכנים להרגיש את ההבדל?</h2>
+      <p class="index-cta-section__text">
+        יש לך שאלה לגבי אבקות חלבון, מגנזיום או חטיפי חלבון מיובאים? אנחנו כאן כדי לעזור לך לבנות את תוכנית התזונה המנצחת שלך. צרו קשר עוד היום ונחזור אליכם עם הכוונה מקצועית.
+      </p>
+      <p style="text-align: center !important; display: flex !important; justify-content: center !important; align-items: flex-start !important; width: 100% !important;"><a href="/contact" class="index-cta-section__btn btn-primary" style="outline: none; color: rgb(255, 255, 255) !important; border-color: rgb(8, 110, 20) !important; background-color: rgb(8, 110, 20) !important; background-image: none !important;" data-element-type="button" data-element-id="btn-1782639565839-t6hlkll0e" data-native-element="true">דברו איתנו</a>
+      </p><p class="index-cta-section__subtext">
+        מותגים מובילים כמו M&amp;Ms, סניקרס, WARRIOR ומרס — תמיכה אמיתית לאימונים שלך.
+      </p>
+    </div>
+  </div>
+</section></main>
+  
+  <footer class="site-footer" dir="rtl">
+  <div class="footer-container">
+    <div class="footer-grid">
+      <!-- Company Info -->
+      <div class="footer-col footer-company-col">
+        <img src="/assets/protein-stock-sports-nutrition-e-commerce-logo.webp" alt="פרוטאין סטוק - PROTEIN STOCK" class="logo" decoding="async" width="35" height="35" />
+        <p class="footer-tagline">יעד הפרימיום שלך לתוספי תזונה איכותיים, מותגים מיובאים ושירות מקצועי. אצלנו תמצאו את כל מה שאתם צריכים כדי להגיע לשיא הביצועים.</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-col footer-links-col">
+        <h4>ניווט מהיר</h4>
+        <ul class="footer-links">
+          <li><a href="/">דף הבית</a></li>
+          <li><a href="/why-protein-stock">למה פרוטין סטוק</a></li>
+          <li><a href="/global-brands">מותגים מכל העולם</a></li>
+          <li><a href="/contact">צור קשר</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="footer-col footer-contact-col">
+        <h4>צרו קשר</h4>
+        <ul class="footer-contact">
+          <li>
+            <span class="contact-icon"><i class="fas fa-envelope"></i></span>
+            <span class="contact-text"><a href="mailto:info@proteinstock.co.il">info@proteinstock.co.il</a></span>
+          </li>
+          <li>
+            <span class="contact-icon"><i class="fas fa-phone"></i></span>
+            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+          </li>
+          <li><a href="/" style="display:flex;align-items:flex-start;gap:inherit"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+            <span class="contact-text">שדרות הראשונים 20, ראשון לציון, ישראל</span></a></li>
+        </ul>
+      </div>
+
+      <!-- Business Hours -->
+      <div class="footer-col footer-hours-col zappy-hours-hidden" style="display: none">
+        <h4>שעות פעילות</h4>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+<li><a href="/"><span class="hours-day">ימים ב’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
+      </div>
+
+      <!-- Social Media -->
+      <div class="footer-col footer-social-col">
+        <h4>עקבו אחרינו</h4>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook" data-zappy-social-placeholder="true"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="footer-bottom">
+      <div class="footer-copyright">
+        <span>© 2026 פרוטאין סטוק - PROTEIN STOCK. כל הזכויות שמורות.</span>
+      </div>
+      <div class="footer-legal">
+        <a href="/privacy">מדיניות פרטיות</a>
+        <span class="legal-divider">|</span>
+        <a href="/terms">תנאי שימוש</a><span class="separator">|</span>
+            <a href="/return-policy" aria-label="מדיניות החזרות">
+              מדיניות החזרות
+            </a>
+        <span class="legal-divider">|</span>
+        <a href="/accessibility">נגישות</a>
+        <span class="legal-divider">|</span>
+        <a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+  
+  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  
+  <div class="zappy-qv-overlay" id="zappy-qv-overlay" hidden></div>
+<div class="zappy-qv-modal" id="zappy-qv-modal" role="dialog" aria-modal="true" aria-label="תצוגה מהירה" hidden>
+  <button type="button" class="zappy-qv-close" id="zappy-qv-close" aria-label="סגור">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+  </button>
+  <div class="zappy-qv-content" id="zappy-qv-content"></div>
+</div>
+    <div data-integration="accessibility:toolbar"></div>
+
+    <script src="/script.js"></script>
+
+    <script id="zappy-font-awesome-loader">
+(function(){if(window.__zappyFontAwesomeLoader)return;window.__zappyFontAwesomeLoader=true;var href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css';function load(){if(document.querySelector('link[href*="font-awesome"][href*="all.min.css"]'))return;var l=document.createElement('link');l.rel='stylesheet';l.href=href;l.crossOrigin='anonymous';l.referrerPolicy='no-referrer';document.head.appendChild(l);}function schedule(){if('requestIdleCallback'in window){requestIdleCallback(load,{timeout:5000});}else{setTimeout(load,3500);}}['pointerdown','keydown','touchstart','mouseover'].forEach(function(evt){window.addEventListener(evt,load,{once:true,passive:true});});schedule();})();
+</script>
+
+    <script id="zappy-mobile-submenu-script">
+    (function() {
+      function initMobileSubmenuToggles() {
+        if (window.innerWidth > 768) {
+          document.querySelectorAll('.mobile-submenu-toggle').forEach(function(btn) { btn.remove(); });
+          document.querySelectorAll('.sub-menu.mobile-expanded').forEach(function(menu) { menu.classList.remove('mobile-expanded'); });
+          return;
+        }
+        var items = document.querySelectorAll('.nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu)');
+        items.forEach(function(li) {
+          if (li.querySelector('.mobile-submenu-toggle')) return;
+          var submenu = li.querySelector('.sub-menu');
+          var parentLink = li.querySelector(':scope > a');
+          if (!submenu || !parentLink) return;
+          var toggleBtn = document.createElement('button');
+          toggleBtn.className = 'mobile-submenu-toggle';
+          toggleBtn.setAttribute('aria-label', 'Toggle submenu');
+          toggleBtn.setAttribute('type', 'button');
+          parentLink.insertAdjacentElement('afterend', toggleBtn);
+          toggleBtn.addEventListener('click', function(e) {
+            e.preventDefault(); e.stopPropagation();
+            document.querySelectorAll('.sub-menu.mobile-expanded').forEach(function(menu) {
+              if (menu !== submenu) { menu.classList.remove('mobile-expanded'); var t = menu.parentElement.querySelector('.mobile-submenu-toggle'); if(t) t.classList.remove('expanded'); }
+            });
+            submenu.classList.toggle('mobile-expanded');
+            toggleBtn.classList.toggle('expanded');
+          });
+        });
+      }
+      if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initMobileSubmenuToggles); }
+      else { initMobileSubmenuToggles(); }
+      var resizeTimer; window.addEventListener('resize', function() { clearTimeout(resizeTimer); resizeTimer = setTimeout(initMobileSubmenuToggles, 250); });
+      // Re-initialize when mobile menu becomes visible (MutationObserver)
+      var observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+          if (mutation.type === 'attributes') {
+            var target = mutation.target;
+            if (target.classList && (target.classList.contains('active') || target.classList.contains('open'))) {
+              setTimeout(initMobileSubmenuToggles, 100);
+            }
+          }
+        });
+      });
+      setTimeout(function() {
+        document.querySelectorAll('.mobile-menu, .nav-menu, #navMenu, nav').forEach(function(menu) {
+          observer.observe(menu, { attributes: true, attributeFilter: ['class', 'style'] });
+        });
+      }, 500);
+    })();
+    </script>
+
+    <script>
+    (function(){
+      var _applied=false;
+      function _isHeroBg(w){var img=w.querySelector('img');if(img&&(img.getAttribute('data-hero-bg')==='true'||img.getAttribute('data-hero-background')==='true'))return true;var p=(w.style.position||'').replace(/\s*!important\s*/g,'').trim();var ww=(w.style.width||'').replace(/\s*!important\s*/g,'').trim();var hh=(w.style.height||'').replace(/\s*!important\s*/g,'').trim();return p==='absolute'&&ww==='100%'&&hh==='100%';}
+      function fixDesktopWrappers(){
+        // No-op: desktop wrapper restoration is handled by ZAPPY_PUBLISHED_ZOOM_WRAPPER_RUNTIME
+        // in script.js (restoreWrapperDimensions). The old inflation logic here was expanding
+        // small wrappers (e.g. 139px logo wrappers) to their parent width, conflicting with
+        // the correct stored dimensions.
+      }
+      function _parsePos(s){var x=50,y=50;try{var m=(s||'').match(/(-?d+(?:.d+)?)%s+(-?d+(?:.d+)?)%/);if(m){x=parseFloat(m[1]);y=parseFloat(m[2]);}}catch(e){}if(!isFinite(x))x=50;if(!isFinite(y))y=50;return{x:Math.max(0,Math.min(100,x)),y:Math.max(0,Math.min(100,y))};}
+      function _coverPct(iA,cA){if(!isFinite(iA)||iA<=0||!isFinite(cA)||cA<=0)return{w:100,h:100};if(iA>=cA)return{w:(iA/cA)*100,h:100};return{w:100,h:(cA/iA)*100};}
+      function applyMobile(){
+        if(_applied)return;_applied=true;
+        document.querySelectorAll('[data-zappy-zoom-wrapper="true"]').forEach(function(w){
+          if(_isHeroBg(w))return;
+          var cw=w.style.getPropertyValue('width');
+          var _sW=parseFloat(w.getAttribute('data-zappy-zoom-wrapper-width'))||0;
+          var _sH=parseFloat(w.getAttribute('data-zappy-zoom-wrapper-height'))||0;
+          if(!cw&&!(_sW>0&&_sH>0))return;
+          if(!w._zappyDesktop)w._zappyDesktop={wStyle:w.getAttribute('style')};
+          var img=w.querySelector('img');
+          if(!img)return;
+          if(!img._zappyDesktop)img._zappyDesktop={src:img.getAttribute('src'),style:img.getAttribute('style')};
+          var mobileZoomStr=img.getAttribute('data-zappy-mobile-zoom');
+          var mobileZoom=parseFloat(mobileZoomStr);
+          var mobileSrc=img.getAttribute('data-zappy-mobile-src');
+          var mobilePos=img.getAttribute('data-zappy-mobile-object-position');
+          var parentOvf=w.parentElement?((w.parentElement.style.overflow||'')+(window.getComputedStyle(w.parentElement).overflow||'')).trim():'';
+          var inConstrainedParent=parentOvf.indexOf('hidden')!==-1||parentOvf.indexOf('clip')!==-1;
+          if(inConstrainedParent){
+            w.style.setProperty('max-width','100%','important');
+          }else{
+            w.style.setProperty('width','100%','important');
+            w.style.setProperty('max-width','100%','important');
+          }
+          if(mobileSrc)img.src=mobileSrc;
+          function _applyZoomCrop(_img,_w,_ePos,_eZoom){
+            var rect=_w.getBoundingClientRect();
+            if(!rect||!rect.width||!rect.height)return;
+            var nW=_img.naturalWidth||0,nH=_img.naturalHeight||0;
+            if(!(nW>0&&nH>0))return;
+            var iA=nW/nH,cA=rect.width/rect.height;
+            var cv=_coverPct(iA,cA);
+            var wP=100,hP=100;
+            if(_eZoom>=1){wP=cv.w*_eZoom;hP=cv.h*_eZoom;}
+            else{var t2=(_eZoom-0.5)/0.5;if(!isFinite(t2))t2=0;t2=Math.max(0,Math.min(1,t2));wP=100+t2*(cv.w-100);hP=100+t2*(cv.h-100);}
+            var p2=_parsePos(_ePos);
+            var lP=(100-wP)*(p2.x/100);
+            var tP=(100-hP)*(p2.y/100);
+            _img.style.setProperty('position','absolute','important');
+            _img.style.setProperty('left',lP+'%','important');
+            _img.style.setProperty('top',tP+'%','important');
+            _img.style.setProperty('width',wP+'%','important');
+            _img.style.setProperty('height',hP+'%','important');
+            _img.style.setProperty('max-width','none','important');
+            _img.style.setProperty('max-height','none','important');
+            _img.style.setProperty('display','block','important');
+            _img.style.setProperty('object-fit',_eZoom<1?'fill':'cover','important');
+            _img.style.setProperty('transform','none','important');
+            _img.style.setProperty('margin','0','important');
+          }
+          if(_sW>0&&_sH>0){
+            var effZoom=(isFinite(mobileZoom)&&mobileZoom>0)?mobileZoom:(parseFloat(img.getAttribute('data-zappy-zoom'))||1);
+            var effPos=mobilePos||img.getAttribute('data-zappy-object-position')||img.style.objectPosition||'50% 50%';
+            w.style.setProperty('overflow','hidden','important');
+            w.style.setProperty('position','relative','important');
+            w.style.setProperty('width','100%','important');
+            w.style.setProperty('max-width','100%','important');
+            if(_sW>0&&_sH>0){w.style.setProperty('padding-bottom','0','important');w.style.setProperty('aspect-ratio',_sW+'/'+_sH,'important');w.style.setProperty('height','auto','important');}
+            _applyZoomCrop(img,w,effPos,effZoom);
+            if(!(img.complete&&img.naturalWidth>0)){
+              (function(_i,_w2,_p,_z){_i.addEventListener('load',function _ol(){_i.removeEventListener('load',_ol);try{_applyZoomCrop(_i,_w2,_p,_z);}catch(e){}});
+              })(img,w,effPos,effZoom);
+            }
+          }else{
+            if(!inConstrainedParent)w.style.setProperty('height','auto','important');
+            img.style.setProperty('position','relative','important');
+            img.style.setProperty('width','100%','important');
+            img.style.setProperty('height','auto','important');
+            img.style.setProperty('max-width','100%','important');
+            img.style.setProperty('max-height',inConstrainedParent?'none':'400px','important');
+            img.style.setProperty('object-fit','cover','important');
+            img.style.setProperty('left','0','important');
+            img.style.setProperty('top','0','important');
+            img.style.setProperty('transform','none','important');
+          }
+        });
+        document.querySelectorAll('img[data-zappy-mobile-src],img[data-zappy-mobile-object-position],img[data-zappy-mobile-zoom]').forEach(function(img){
+          var zw=img.closest('[data-zappy-zoom-wrapper="true"]');
+          if(zw&&!_isHeroBg(zw))return;
+          if(!img._zappyDesktop)img._zappyDesktop={src:img.getAttribute('src'),style:img.getAttribute('style')};
+          var mobileSrc=img.getAttribute('data-zappy-mobile-src');
+          var mobilePos=img.getAttribute('data-zappy-mobile-object-position');
+          var mobileZoom=parseFloat(img.getAttribute('data-zappy-mobile-zoom'));
+          if(mobileSrc)img.src=mobileSrc;
+          if(mobilePos)img.style.setProperty('object-position',mobilePos,'important');
+          if(mobileZoom>1){
+            img.style.setProperty('transform','scale('+mobileZoom+')','important');
+            img.style.setProperty('transform-origin',mobilePos||'50% 50%','important');
+            var p=img.parentElement;
+            if(p)p.style.setProperty('overflow','hidden','important');
+          }
+        });
+      }
+      function revertDesktop(){
+        if(!_applied)return;_applied=false;
+        document.querySelectorAll('[data-zappy-zoom-wrapper="true"]').forEach(function(w){
+          if(w._zappyDesktop&&w._zappyDesktop.wStyle!=null){w.setAttribute('style',w._zappyDesktop.wStyle);}
+          var img=w.querySelector('img');
+          if(img&&img._zappyDesktop){
+            if(img._zappyDesktop.src!=null)img.setAttribute('src',img._zappyDesktop.src);
+            if(img._zappyDesktop.style!=null)img.setAttribute('style',img._zappyDesktop.style);
+            else img.removeAttribute('style');
+          }
+        });
+        document.querySelectorAll('img[data-zappy-mobile-src],img[data-zappy-mobile-object-position],img[data-zappy-mobile-zoom]').forEach(function(img){
+          var zw=img.closest('[data-zappy-zoom-wrapper="true"]');
+          if(zw&&!_isHeroBg(zw))return;
+          if(img._zappyDesktop){
+            if(img._zappyDesktop.src!=null)img.setAttribute('src',img._zappyDesktop.src);
+            if(img._zappyDesktop.style!=null)img.setAttribute('style',img._zappyDesktop.style);
+            else img.removeAttribute('style');
+          }
+        });
+        _fixHeroBgWrappers();
+        fixDesktopWrappers();
+      }
+      function _fixHeroBgWrappers(){var isMob=window.innerWidth<=768;document.querySelectorAll('[data-zappy-zoom-wrapper="true"]').forEach(function(w){if(!_isHeroBg(w))return;w.style.setProperty('position','absolute','important');w.style.setProperty('top','0','important');w.style.setProperty('left','0','important');w.style.setProperty('width','100%','important');w.style.setProperty('height','100%','important');w.style.setProperty('max-width','none','important');w.style.setProperty('overflow','hidden','important');w.setAttribute('data-zappy-zoom-wrapper-width-mode','full');var img=w.querySelector('img');if(img){img.style.setProperty('width','100%','important');img.style.setProperty('height','100%','important');img.style.setProperty('object-fit','cover','important');img.style.setProperty('position','relative','important');img.style.setProperty('top','0','important');img.style.setProperty('left','0','important');img.style.setProperty('max-width','none','important');img.style.setProperty('max-height','none','important');img.style.setProperty('display','block','important');if(isMob){var mSrc=img.getAttribute('data-zappy-mobile-src');var mPos=img.getAttribute('data-zappy-mobile-object-position');var mZoom=parseFloat(img.getAttribute('data-zappy-mobile-zoom'));if(mSrc){if(!img._zappyDesktop)img._zappyDesktop={src:img.getAttribute('src'),style:img.getAttribute('style')};img.src=mSrc;}if(mPos)img.style.setProperty('object-position',mPos,'important');if(mZoom>1){img.style.setProperty('transform','scale('+mZoom+')','important');img.style.setProperty('transform-origin',mPos||'50% 50%','important');}}}});}
+      function init(){
+        _fixHeroBgWrappers();
+        var mq=window.matchMedia('(max-width:768px)');
+        function onChange(e){if(e.matches)applyMobile();else revertDesktop();}
+        if(mq.matches)applyMobile();
+        else fixDesktopWrappers();
+        try{mq.addEventListener('change',onChange);}catch(e){mq.addListener(onChange);}
+      }
+      if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);
+      else setTimeout(init,50);
+    })();
+    </script>
+</body></html>
