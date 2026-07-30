@@ -1,7 +1,7 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-30T12:15:46.219Z",
-  "base_url": "https://example.com",
+  "generated_at": "2026-07-30T12:16:39.951Z",
+  "base_url": "https://protein-stock.zappy5.app",
   "currency": "ILS",
   "count": 37,
   "products": [
@@ -19,12 +19,12 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1785157721734-zltfbg.webp",
-        "https://example.com/assets/product-1785157737053-q2grfu.webp"
+        "https://protein-stock.zappy5.app/assets/product-1785157721734-zltfbg.webp",
+        "https://protein-stock.zappy5.app/assets/product-1785157737053-q2grfu.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/krkrym-avrgnyym-ashyrym-bchlbvn-profusion-cracker-bites-btam-adshym-advmvt-organic-red-lentil-150-grm-23-grm-chlbvn-lkl-100-grm-tbavny-vavrgny-profusion-7cw55m",
+      "url": "https://protein-stock.zappy5.app/product/krkrym-avrgnyym-ashyrym-bchlbvn-profusion-cracker-bites-btam-adshym-advmvt-organic-red-lentil-150-grm-23-grm-chlbvn-lkl-100-grm-tbavny-vavrgny-profusion-7cw55m",
       "categories": [
         "חטיפי חלבון מלוחים"
       ],
@@ -44,12 +44,12 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-enhanced-1785150430458-p3yj1o.webp",
-        "https://example.com/assets/product-1785152357156-lv30q.webp"
+        "https://protein-stock.zappy5.app/assets/product-enhanced-1785150430458-p3yj1o.webp",
+        "https://protein-stock.zappy5.app/assets/product-1785152357156-lv30q.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/krkrym-avrgnyym-ashyrym-bchlbvn-profusion-cracker-bites-btam-grgyry-chvmvs-organic-chickpea-150-grm-22-grm-chlbvn-lkl-100-grm-tbavny-vavrgny-profusion-9ndpng",
+      "url": "https://protein-stock.zappy5.app/product/krkrym-avrgnyym-ashyrym-bchlbvn-profusion-cracker-bites-btam-grgyry-chvmvs-organic-chickpea-150-grm-22-grm-chlbvn-lkl-100-grm-tbavny-vavrgny-profusion-9ndpng",
       "categories": [
         "חטיפי חלבון מלוחים"
       ],
@@ -69,13 +69,13 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1785148790296-t3zv69.webp",
-        "https://example.com/assets/product-1785148733382-ob7p35.webp",
-        "https://example.com/assets/product-1785149634720-422f8h.webp"
+        "https://protein-stock.zappy5.app/assets/product-1785148790296-t3zv69.webp",
+        "https://protein-stock.zappy5.app/assets/product-1785148733382-ob7p35.webp",
+        "https://protein-stock.zappy5.app/assets/product-1785149634720-422f8h.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/chtyp-chlbvn-myny-muscle-moose-the-dinky-btam-avgyvt-shvkvld-lbn-white-chocolate-cookie-35-grm-11-grm-chlbvn-12-ychydvt-bmarz-muscle-moose-mx0rwz",
+      "url": "https://protein-stock.zappy5.app/product/chtyp-chlbvn-myny-muscle-moose-the-dinky-btam-avgyvt-shvkvld-lbn-white-chocolate-cookie-35-grm-11-grm-chlbvn-12-ychydvt-bmarz-muscle-moose-mx0rwz",
       "categories": [
         "חטיפי חלבון"
       ],
@@ -95,13 +95,13 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1785052631738-aiauvh.webp",
-        "https://example.com/assets/product-1785052665410-lcl2na.webp",
-        "https://example.com/assets/product-1785052820785-ikskro.webp"
+        "https://protein-stock.zappy5.app/assets/product-1785052631738-aiauvh.webp",
+        "https://protein-stock.zappy5.app/assets/product-1785052665410-lcl2na.webp",
+        "https://protein-stock.zappy5.app/assets/product-1785052820785-ikskro.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/chtyp-chlbvn-dl-svkr-the-dinky-protein-bar-btam-bvtnym-vshvkvld-peanut-chocolate-35-grm-11-grm-chlbvn-12-ychydvt-bmarz-muscle-moose-w87y2k",
+      "url": "https://protein-stock.zappy5.app/product/chtyp-chlbvn-dl-svkr-the-dinky-protein-bar-btam-bvtnym-vshvkvld-peanut-chocolate-35-grm-11-grm-chlbvn-12-ychydvt-bmarz-muscle-moose-w87y2k",
       "categories": [
         "חטיפי חלבון"
       ],
@@ -121,13 +121,13 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-enhanced-1785051921622-9oe4l.webp",
-        "https://example.com/assets/product-1785051945175-kxw4r.webp",
-        "https://example.com/assets/product-1785052083305-lebei.webp"
+        "https://protein-stock.zappy5.app/assets/product-enhanced-1785051921622-9oe4l.webp",
+        "https://protein-stock.zappy5.app/assets/product-1785051945175-kxw4r.webp",
+        "https://protein-stock.zappy5.app/assets/product-1785052083305-lebei.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/chtyp-chlbvn-dl-svkr-the-dinky-protein-bar-btam-dvnat-shvkvld-chocolate-donut-35-grm-11-grm-chlbvn-12-ychydvt-bmarz-muscle-moose-bl9ub9",
+      "url": "https://protein-stock.zappy5.app/product/chtyp-chlbvn-dl-svkr-the-dinky-protein-bar-btam-dvnat-shvkvld-chocolate-donut-35-grm-11-grm-chlbvn-12-ychydvt-bmarz-muscle-moose-bl9ub9",
       "categories": [
         "חטיפי חלבון"
       ],
@@ -147,12 +147,12 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1785050550003-6k0ghm.webp",
-        "https://example.com/assets/product-1785050560705-8xbd4m.webp"
+        "https://protein-stock.zappy5.app/assets/product-1785050550003-6k0ghm.webp",
+        "https://protein-stock.zappy5.app/assets/product-1785050560705-8xbd4m.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/chtyp-chlbvn-dl-svkr-the-dinky-protein-bar-btam-shvkvld-choccy-heaven-35-grm-11-grm-chlbvn-12-ychydvt-bmarz-muscle-moose-0d3urp",
+      "url": "https://protein-stock.zappy5.app/product/chtyp-chlbvn-dl-svkr-the-dinky-protein-bar-btam-shvkvld-choccy-heaven-35-grm-11-grm-chlbvn-12-ychydvt-bmarz-muscle-moose-0d3urp",
       "categories": [
         "חטיפי חלבון"
       ],
@@ -172,12 +172,12 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1785050221473-o3ovxc.webp",
-        "https://example.com/assets/product-1785050376548-lmmrl9.webp"
+        "https://protein-stock.zappy5.app/assets/product-1785050221473-o3ovxc.webp",
+        "https://protein-stock.zappy5.app/assets/product-1785050376548-lmmrl9.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/abkt-chlbvn-tslvl-hubba-bubba-clear-whey-protein-btam-kvlh-cola-405-grm-20-grm-chlbvn-lmnh-15-mnvt-hubba-bubba-3a33yh",
+      "url": "https://protein-stock.zappy5.app/product/abkt-chlbvn-tslvl-hubba-bubba-clear-whey-protein-btam-kvlh-cola-405-grm-20-grm-chlbvn-lmnh-15-mnvt-hubba-bubba-3a33yh",
       "categories": [
         "אבקות חלבון"
       ],
@@ -197,12 +197,12 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1785049702206-u9rvf.webp",
-        "https://example.com/assets/product-1785049952538-te70a9.webp"
+        "https://protein-stock.zappy5.app/assets/product-1785049702206-u9rvf.webp",
+        "https://protein-stock.zappy5.app/assets/product-1785049952538-te70a9.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/abkt-chlbvn-tslvl-hubba-bubba-clear-whey-protein-btam-ptl-kchvl-blue-raspberry-405-grm-20-grm-chlbvn-lmnh-15-mnvt-hubba-bubba-ilbfeb",
+      "url": "https://protein-stock.zappy5.app/product/abkt-chlbvn-tslvl-hubba-bubba-clear-whey-protein-btam-ptl-kchvl-blue-raspberry-405-grm-20-grm-chlbvn-lmnh-15-mnvt-hubba-bubba-ilbfeb",
       "categories": [
         "אבקות חלבון"
       ],
@@ -222,13 +222,13 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1785048908976-ivz87.webp",
-        "https://example.com/assets/product-1785048927141-8mpi2c.webp",
-        "https://example.com/assets/product-1785049220730-5ik9nb.webp"
+        "https://protein-stock.zappy5.app/assets/product-1785048908976-ivz87.webp",
+        "https://protein-stock.zappy5.app/assets/product-1785048927141-8mpi2c.webp",
+        "https://protein-stock.zappy5.app/assets/product-1785049220730-5ik9nb.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/avgyyt-chlbvn-snykrs-snickers-hi-protein-cookie-btam-shvkvld-lbn-vbvtnym-white-choc-peanut-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-snickers-ko8tfh",
+      "url": "https://protein-stock.zappy5.app/product/avgyyt-chlbvn-snykrs-snickers-hi-protein-cookie-btam-shvkvld-lbn-vbvtnym-white-choc-peanut-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-snickers-ko8tfh",
       "categories": [
         "עוגיות חלבון"
       ],
@@ -248,13 +248,13 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-enhanced-1785048512621-ddqnt.webp",
-        "https://example.com/assets/product-1785048163400-svnyq.webp",
-        "https://example.com/assets/product-1785048470467-fz4rit.webp"
+        "https://protein-stock.zappy5.app/assets/product-enhanced-1785048512621-ddqnt.webp",
+        "https://protein-stock.zappy5.app/assets/product-1785048163400-svnyq.webp",
+        "https://protein-stock.zappy5.app/assets/product-1785048470467-fz4rit.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/avgyyt-chlbvn-snykrs-snickers-hi-protein-cookie-btam-shvkvld-vbvtnym-chocolate-peanut-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-snickers-te7cii",
+      "url": "https://protein-stock.zappy5.app/product/avgyyt-chlbvn-snykrs-snickers-hi-protein-cookie-btam-shvkvld-vbvtnym-chocolate-peanut-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-snickers-te7cii",
       "categories": [
         "עוגיות חלבון"
       ],
@@ -274,13 +274,13 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1785047346291-rtpmp.webp",
-        "https://example.com/assets/product-1785047386457-4cc9i6.webp",
-        "https://example.com/assets/product-1785047644448-ognmoc.webp"
+        "https://protein-stock.zappy5.app/assets/product-1785047346291-rtpmp.webp",
+        "https://protein-stock.zappy5.app/assets/product-1785047386457-4cc9i6.webp",
+        "https://protein-stock.zappy5.app/assets/product-1785047644448-ognmoc.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/avgyyt-chlbvn-mrs-mars-hi-protein-cookie-btam-krml-mlvch-salted-caramel-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-mars-8d1tha",
+      "url": "https://protein-stock.zappy5.app/product/avgyyt-chlbvn-mrs-mars-hi-protein-cookie-btam-krml-mlvch-salted-caramel-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-mars-8d1tha",
       "categories": [
         "עוגיות חלבון"
       ],
@@ -300,13 +300,13 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1785046516674-rmr4jo.webp",
-        "https://example.com/assets/product-1785046662836-0g16fe.webp",
-        "https://example.com/assets/product-1785046762606-xlauni.webp"
+        "https://protein-stock.zappy5.app/assets/product-1785046516674-rmr4jo.webp",
+        "https://protein-stock.zappy5.app/assets/product-1785046662836-0g16fe.webp",
+        "https://protein-stock.zappy5.app/assets/product-1785046762606-xlauni.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/avgyyt-chlbvn-mrs-mars-hi-protein-cookie-btam-shvkvld-vkrml-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-mars-zgxhdu",
+      "url": "https://protein-stock.zappy5.app/product/avgyyt-chlbvn-mrs-mars-hi-protein-cookie-btam-shvkvld-vkrml-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-mars-zgxhdu",
       "categories": [
         "עוגיות חלבון"
       ],
@@ -326,12 +326,12 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1785045748222-i3cvcf.webp",
-        "https://example.com/assets/product-1785045825132-d8xhfd.webp"
+        "https://protein-stock.zappy5.app/assets/product-1785045748222-i3cvcf.webp",
+        "https://protein-stock.zappy5.app/assets/product-1785045825132-d8xhfd.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/mshkh-chlbvn-mrs-mars-hi-protein-milk-drink-btam-shvkvld-vkrml-250-ml-20-grm-chlbvn-6-ychydvt-bmarz-mars-r9ppuy",
+      "url": "https://protein-stock.zappy5.app/product/mshkh-chlbvn-mrs-mars-hi-protein-milk-drink-btam-shvkvld-vkrml-250-ml-20-grm-chlbvn-6-ychydvt-bmarz-mars-r9ppuy",
       "categories": [
         "משקאות חלבון"
       ],
@@ -351,12 +351,12 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1785044417126-d5y7jc.webp",
-        "https://example.com/assets/product-1785044469506-rrs09.webp"
+        "https://protein-stock.zappy5.app/assets/product-1785044417126-d5y7jc.webp",
+        "https://protein-stock.zappy5.app/assets/product-1785044469506-rrs09.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/mshkh-chlbvn-snykrs-snickers-hi-protein-milk-drink-btam-shvkvld-krml-vbvtnym-250-ml-20-grm-chlbvn-6-ychydvt-bmarz-snickers-puet6y",
+      "url": "https://protein-stock.zappy5.app/product/mshkh-chlbvn-snykrs-snickers-hi-protein-milk-drink-btam-shvkvld-krml-vbvtnym-250-ml-20-grm-chlbvn-6-ychydvt-bmarz-snickers-puet6y",
       "categories": [
         "משקאות חלבון"
       ],
@@ -376,13 +376,13 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1784899164337-dgj30f.webp",
-        "https://example.com/assets/product-1784899365709-wuqb5.webp",
-        "https://example.com/assets/product-1784899379154-k2qd38.webp"
+        "https://protein-stock.zappy5.app/assets/product-1784899164337-dgj30f.webp",
+        "https://protein-stock.zappy5.app/assets/product-1784899365709-wuqb5.webp",
+        "https://protein-stock.zappy5.app/assets/product-1784899379154-k2qd38.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/mshkh-chlbvn-mvkn-lshtyyh-applied-nutrition-high-protein-shake-btam-glydt-vnyl-vanilla-ice-cream-500-ml-42-grm-chlbvn-8-ychydvt-bmarz-applied-nutrition-76odvx",
+      "url": "https://protein-stock.zappy5.app/product/mshkh-chlbvn-mvkn-lshtyyh-applied-nutrition-high-protein-shake-btam-glydt-vnyl-vanilla-ice-cream-500-ml-42-grm-chlbvn-8-ychydvt-bmarz-applied-nutrition-76odvx",
       "categories": [
         "משקאות חלבון"
       ],
@@ -402,13 +402,13 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1784898332455-uv4lb.webp",
-        "https://example.com/assets/product-1784898501152-qcnix.webp",
-        "https://example.com/assets/product-1784898624551-2yhz7j.webp"
+        "https://protein-stock.zappy5.app/assets/product-1784898332455-uv4lb.webp",
+        "https://protein-stock.zappy5.app/assets/product-1784898501152-qcnix.webp",
+        "https://protein-stock.zappy5.app/assets/product-1784898624551-2yhz7j.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/mshkh-chlbvn-mvkn-lshtyyh-applied-nutrition-high-protein-shake-btam-tvtym-vshmnt-strawberries-cream-500-ml-42-grm-chlbvn-8-ychydvt-bmarz-applied-nutrition-2qfyt8",
+      "url": "https://protein-stock.zappy5.app/product/mshkh-chlbvn-mvkn-lshtyyh-applied-nutrition-high-protein-shake-btam-tvtym-vshmnt-strawberries-cream-500-ml-42-grm-chlbvn-8-ychydvt-bmarz-applied-nutrition-2qfyt8",
       "categories": [
         "משקאות חלבון"
       ],
@@ -428,13 +428,13 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1784897620057-rj1e37.webp",
-        "https://example.com/assets/product-1784897793892-jq3qle.webp",
-        "https://example.com/assets/product-1784898015774-0zm31.webp"
+        "https://protein-stock.zappy5.app/assets/product-1784897620057-rj1e37.webp",
+        "https://protein-stock.zappy5.app/assets/product-1784897793892-jq3qle.webp",
+        "https://protein-stock.zappy5.app/assets/product-1784898015774-0zm31.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/mshkh-chlbvn-mvkn-lshtyyh-applied-nutrition-high-protein-shake-btam-dabl-shvkvld-double-chocolate-500-ml-42-grm-chlbvn-8-ychydvt-bmarz-applied-nutrition-qbh1dz",
+      "url": "https://protein-stock.zappy5.app/product/mshkh-chlbvn-mvkn-lshtyyh-applied-nutrition-high-protein-shake-btam-dabl-shvkvld-double-chocolate-500-ml-42-grm-chlbvn-8-ychydvt-bmarz-applied-nutrition-qbh1dz",
       "categories": [
         "משקאות חלבון"
       ],
@@ -454,13 +454,13 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1784896823450-nmvj0v.webp",
-        "https://example.com/assets/product-1784896844290-39h5t.webp",
-        "https://example.com/assets/product-1784897272805-guinz.webp"
+        "https://protein-stock.zappy5.app/assets/product-1784896823450-nmvj0v.webp",
+        "https://protein-stock.zappy5.app/assets/product-1784896844290-39h5t.webp",
+        "https://protein-stock.zappy5.app/assets/product-1784897272805-guinz.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/mshkh-chlbvn-mvkn-lshtyyh-applied-nutrition-high-protein-shake-btam-bnnh-banana-delight-500-ml-42-grm-chlbvn-8-ychydvt-bmarz-applied-nutrition-v8xovo",
+      "url": "https://protein-stock.zappy5.app/product/mshkh-chlbvn-mvkn-lshtyyh-applied-nutrition-high-protein-shake-btam-bnnh-banana-delight-500-ml-42-grm-chlbvn-8-ychydvt-bmarz-applied-nutrition-v8xovo",
       "categories": [
         "משקאות חלבון"
       ],
@@ -480,12 +480,12 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1784893803990-2qbpiq.webp",
-        "https://example.com/assets/product-1784894306068-caj7se.webp"
+        "https://protein-stock.zappy5.app/assets/product-1784893803990-2qbpiq.webp",
+        "https://protein-stock.zappy5.app/assets/product-1784894306068-caj7se.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/gvmy-kryatyn-applied-nutrition-creatine-gummies-btam-ptl-kchvl-blue-raspberry-400-grm-3-grm-kryatyn-mvnvhydrat-lmnh-80-ychydvt-20-mnvt-applied-nutrition-j7b88s",
+      "url": "https://protein-stock.zappy5.app/product/gvmy-kryatyn-applied-nutrition-creatine-gummies-btam-ptl-kchvl-blue-raspberry-400-grm-3-grm-kryatyn-mvnvhydrat-lmnh-80-ychydvt-20-mnvt-applied-nutrition-j7b88s",
       "categories": [
         "קריאטין ותוספי תזונה"
       ],
@@ -505,12 +505,12 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1784726643030-xdf3fe.webp",
-        "https://example.com/assets/product-1784727793188-6x4tv8.webp"
+        "https://protein-stock.zappy5.app/assets/product-1784726643030-xdf3fe.webp",
+        "https://protein-stock.zappy5.app/assets/product-1784727793188-6x4tv8.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/gvmy-kryatyn-applied-nutrition-creatine-gummies-btam-avkmnyvt-shchvrvt-millions-blackcurrant-400-grm-3-grm-kryatyn-mvnvhydrat-lmnh-80-ychydvt-20-mnvt-applied-nutrition-9oq27t",
+      "url": "https://protein-stock.zappy5.app/product/gvmy-kryatyn-applied-nutrition-creatine-gummies-btam-avkmnyvt-shchvrvt-millions-blackcurrant-400-grm-3-grm-kryatyn-mvnvhydrat-lmnh-80-ychydvt-20-mnvt-applied-nutrition-9oq27t",
       "categories": [
         "קריאטין ותוספי תזונה"
       ],
@@ -530,13 +530,13 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1784575987391-0wggrb.webp",
-        "https://example.com/assets/product-enhanced-1784576416562-tf0be4.webp",
-        "https://example.com/assets/product-1784576635910-u7k8fk.webp"
+        "https://protein-stock.zappy5.app/assets/product-1784575987391-0wggrb.webp",
+        "https://protein-stock.zappy5.app/assets/product-enhanced-1784576416562-tf0be4.webp",
+        "https://protein-stock.zappy5.app/assets/product-1784576635910-u7k8fk.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/chtyp-chlbvn-snykrs-snickers-hi-protein-peanut-butter-btam-chmat-bvtnym-peanut-butter-57-grm-20-grm-chlbvn-12-ychydvt-bmarz-snickers-jghbid",
+      "url": "https://protein-stock.zappy5.app/product/chtyp-chlbvn-snykrs-snickers-hi-protein-peanut-butter-btam-chmat-bvtnym-peanut-butter-57-grm-20-grm-chlbvn-12-ychydvt-bmarz-snickers-jghbid",
       "categories": [
         "חטיפי חלבון"
       ],
@@ -556,13 +556,13 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1784574112607-m7zkh7.webp",
-        "https://example.com/assets/product-enhanced-1784574288113-mj7f4i.webp",
-        "https://example.com/assets/product-1784575403908-zno5su.webp"
+        "https://protein-stock.zappy5.app/assets/product-1784574112607-m7zkh7.webp",
+        "https://protein-stock.zappy5.app/assets/product-enhanced-1784574288113-mj7f4i.webp",
+        "https://protein-stock.zappy5.app/assets/product-1784575403908-zno5su.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/chtyp-chlbvn-snykrs-pryk-snickers-hi-protein-crisp-btam-shvkvld-krml-vbvtnym-crisp-55-grm-20-grm-chlbvn-12-ychydvt-bmarz-snickers-xkz9m7",
+      "url": "https://protein-stock.zappy5.app/product/chtyp-chlbvn-snykrs-pryk-snickers-hi-protein-crisp-btam-shvkvld-krml-vbvtnym-crisp-55-grm-20-grm-chlbvn-12-ychydvt-bmarz-snickers-xkz9m7",
       "categories": [
         "חטיפי חלבון"
       ],
@@ -582,13 +582,13 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-enhanced-1784573472770-tg8ia.webp",
-        "https://example.com/assets/product-enhanced-1784573359491-tm9brt.webp",
-        "https://example.com/assets/product-1784573462460-sl2guo.webp"
+        "https://protein-stock.zappy5.app/assets/product-enhanced-1784573472770-tg8ia.webp",
+        "https://protein-stock.zappy5.app/assets/product-enhanced-1784573359491-tm9brt.webp",
+        "https://protein-stock.zappy5.app/assets/product-1784573462460-sl2guo.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/chtyp-chlbvn-snykrs-dl-svkr-snickers-hi-protein-low-sugar-btam-agvzy-lvz-hazelnut-57-grm-20-grm-chlbvn-12-ychydvt-bmarz-snickers-fuhhdq",
+      "url": "https://protein-stock.zappy5.app/product/chtyp-chlbvn-snykrs-dl-svkr-snickers-hi-protein-low-sugar-btam-agvzy-lvz-hazelnut-57-grm-20-grm-chlbvn-12-ychydvt-bmarz-snickers-fuhhdq",
       "categories": [
         "חטיפי חלבון"
       ],
@@ -608,13 +608,13 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-enhanced-1784543071844-l7x1n.webp",
-        "https://example.com/assets/product-enhanced-1784543107189-b3cj2t.webp",
-        "https://example.com/assets/product-1784543242436-7qxyvb.webp"
+        "https://protein-stock.zappy5.app/assets/product-enhanced-1784543071844-l7x1n.webp",
+        "https://protein-stock.zappy5.app/assets/product-enhanced-1784543107189-b3cj2t.webp",
+        "https://protein-stock.zappy5.app/assets/product-1784543242436-7qxyvb.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/chtyp-chlbvn-snykrs-dl-svkr-snickers-hi-protein-low-sugar-btam-shvkvld-mryr-dark-chocolate-57-grm-20-grm-chlbvn-12-ychydvt-bmarzsnickers-m7q1an",
+      "url": "https://protein-stock.zappy5.app/product/chtyp-chlbvn-snykrs-dl-svkr-snickers-hi-protein-low-sugar-btam-shvkvld-mryr-dark-chocolate-57-grm-20-grm-chlbvn-12-ychydvt-bmarzsnickers-m7q1an",
       "categories": [
         "חטיפי חלבון"
       ],
@@ -634,14 +634,14 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1784222535534-3vb86.webp",
-        "https://example.com/assets/product-1784222611946-764u3q.webp",
-        "https://example.com/assets/product-1784222804476-rbe2b5.webp",
-        "https://example.com/assets/product-1784222818109-bf7scue.webp"
+        "https://protein-stock.zappy5.app/assets/product-1784222535534-3vb86.webp",
+        "https://protein-stock.zappy5.app/assets/product-1784222611946-764u3q.webp",
+        "https://protein-stock.zappy5.app/assets/product-1784222804476-rbe2b5.webp",
+        "https://protein-stock.zappy5.app/assets/product-1784222818109-bf7scue.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/chtyp-chlbvn-mrs-dl-svkr-mars-hiprotein-low-sugar-shvkvld-lbn-krmy-18-grm-chlbvn-12-ychydvt-bmarz-z6egxm",
+      "url": "https://protein-stock.zappy5.app/product/chtyp-chlbvn-mrs-dl-svkr-mars-hiprotein-low-sugar-shvkvld-lbn-krmy-18-grm-chlbvn-12-ychydvt-bmarz-z6egxm",
       "categories": [
         "חטיפי חלבון"
       ],
@@ -661,12 +661,12 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-enhanced-1784112306387-b2vb4.webp",
-        "https://example.com/assets/product-1784112440590-chv3ib.webp"
+        "https://protein-stock.zappy5.app/assets/product-enhanced-1784112306387-b2vb4.webp",
+        "https://protein-stock.zappy5.app/assets/product-1784112440590-chv3ib.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/chtyp-chlbvn-snykrs-dl-svkr-btam-shvkvld-krml-vbvtnym-krmy-am-bvtnym-krantsyym-57-grm-marz-12-ychydvt-mars-hi-protein-low-sugar-snickers-tspldz",
+      "url": "https://protein-stock.zappy5.app/product/chtyp-chlbvn-snykrs-dl-svkr-btam-shvkvld-krml-vbvtnym-krmy-am-bvtnym-krantsyym-57-grm-marz-12-ychydvt-mars-hi-protein-low-sugar-snickers-tspldz",
       "categories": [
         "חטיפי חלבון"
       ],
@@ -686,13 +686,13 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1784105969845-mgtpgh.webp",
-        "https://example.com/assets/product-1784104225870-g8xrmt.webp",
-        "https://example.com/assets/product-1784105222726-7tp3o.webp"
+        "https://protein-stock.zappy5.app/assets/product-1784105969845-mgtpgh.webp",
+        "https://protein-stock.zappy5.app/assets/product-1784104225870-g8xrmt.webp",
+        "https://protein-stock.zappy5.app/assets/product-1784105222726-7tp3o.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/chtyp-chlbvn-dl-svkr-shl-hmvtg-bmvkr-snykrs-snickers-hi-protein-low-sugar-btam-shvkvld-lbn-bvtnym-vkrml-marz-12-ychydvt-shl-57-grm-20-grm-chlbvn-mars-mnlm89",
+      "url": "https://protein-stock.zappy5.app/product/chtyp-chlbvn-dl-svkr-shl-hmvtg-bmvkr-snykrs-snickers-hi-protein-low-sugar-btam-shvkvld-lbn-bvtnym-vkrml-marz-12-ychydvt-shl-57-grm-20-grm-chlbvn-mars-mnlm89",
       "categories": [
         "חטיפי חלבון"
       ],
@@ -712,13 +712,13 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1784109641900-62cgr8.webp",
-        "https://example.com/assets/product-enhanced-1784223821255-6am467.webp",
-        "https://example.com/assets/product-1784224959157-i33nqb.webp"
+        "https://protein-stock.zappy5.app/assets/product-1784109641900-62cgr8.webp",
+        "https://protein-stock.zappy5.app/assets/product-enhanced-1784223821255-6am467.webp",
+        "https://protein-stock.zappy5.app/assets/product-1784224959157-i33nqb.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/chtyp-chlbvn-dl-svkr-shl-hmvtg-mrs-btam-krml-mlvch-shylvb-mtvk-mlvch-am-tsypvy-shvkvld-chlb-marz-12-ychydvt-shl-57-grm-18-grm-chlbvn-bchtyp-mars-hi-protein-low-sugar-bhl9n1",
+      "url": "https://protein-stock.zappy5.app/product/chtyp-chlbvn-dl-svkr-shl-hmvtg-mrs-btam-krml-mlvch-shylvb-mtvk-mlvch-am-tsypvy-shvkvld-chlb-marz-12-ychydvt-shl-57-grm-18-grm-chlbvn-bchtyp-mars-hi-protein-low-sugar-bhl9n1",
       "categories": [
         "חטיפי חלבון"
       ],
@@ -738,13 +738,13 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1783944493519-vycgfi.webp",
-        "https://example.com/assets/product-1783944506857-she2a.webp",
-        "https://example.com/assets/product-1783944524086-cprsnx.webp"
+        "https://protein-stock.zappy5.app/assets/product-1783944493519-vycgfi.webp",
+        "https://protein-stock.zappy5.app/assets/product-1783944506857-she2a.webp",
+        "https://protein-stock.zappy5.app/assets/product-1783944524086-cprsnx.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/chtyp-chlbvn-dl-svkr-shl-hmvtg-mrs-btam-shvkvld-chlb-krml-vnvgt-marz-12-ychydvt-shl-57-grm-18-grm-chlbvn-bchtyp-mars-hi-protein-low-sugar-wh5hka",
+      "url": "https://protein-stock.zappy5.app/product/chtyp-chlbvn-dl-svkr-shl-hmvtg-mrs-btam-shvkvld-chlb-krml-vnvgt-marz-12-ychydvt-shl-57-grm-18-grm-chlbvn-bchtyp-mars-hi-protein-low-sugar-wh5hka",
       "categories": [
         "חטיפי חלבון"
       ],
@@ -764,14 +764,14 @@
       "sale_price": 160,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1783852197536-i74q2r.webp",
-        "https://example.com/assets/product-1783852221912-x81are.webp",
-        "https://example.com/assets/product-1783852287536-vk6n7m.webp",
-        "https://example.com/assets/product-1783852303537-bf6e.webp"
+        "https://protein-stock.zappy5.app/assets/product-1783852197536-i74q2r.webp",
+        "https://protein-stock.zappy5.app/assets/product-1783852221912-x81are.webp",
+        "https://protein-stock.zappy5.app/assets/product-1783852287536-vk6n7m.webp",
+        "https://protein-stock.zappy5.app/assets/product-1783852303537-bf6e.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/chtyp-chlbvn-krants-protein-crunch-btam-shvkvld-chlb-vkrml-marz-12-chtypym-shkbt-krml-rkh-bsys-pryk-vtsypvy-shvkvld-blgy-62-grm-21-grm-chlbvn-applied-nutrition-xfu37j",
+      "url": "https://protein-stock.zappy5.app/product/chtyp-chlbvn-krants-protein-crunch-btam-shvkvld-chlb-vkrml-marz-12-chtypym-shkbt-krml-rkh-bsys-pryk-vtsypvy-shvkvld-blgy-62-grm-21-grm-chlbvn-applied-nutrition-xfu37j",
       "categories": [
         "חטיפי חלבון"
       ],
@@ -791,14 +791,14 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1783850443125-bu6kf.webp",
-        "https://example.com/assets/product-enhanced-1783850967934-orjj0a.webp",
-        "https://example.com/assets/product-1783850967615-o1sdxj.webp",
-        "https://example.com/assets/product-1783851021444-ulqwxr.webp"
+        "https://protein-stock.zappy5.app/assets/product-1783850443125-bu6kf.webp",
+        "https://protein-stock.zappy5.app/assets/product-enhanced-1783850967934-orjj0a.webp",
+        "https://protein-stock.zappy5.app/assets/product-1783850967615-o1sdxj.webp",
+        "https://protein-stock.zappy5.app/assets/product-1783851021444-ulqwxr.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/chtyp-chlbvn-krants-protein-crunch-btam-shvkvld-chlb-vbvtnym-marz-12-chtypym-shkbt-krml-rkh-bsys-pryk-vtsypvy-shvkvld-blgy-65-grm-21-grm-chlbvn-applied-nutrition-ufamrr",
+      "url": "https://protein-stock.zappy5.app/product/chtyp-chlbvn-krants-protein-crunch-btam-shvkvld-chlb-vbvtnym-marz-12-chtypym-shkbt-krml-rkh-bsys-pryk-vtsypvy-shvkvld-blgy-65-grm-21-grm-chlbvn-applied-nutrition-ufamrr",
       "categories": [
         "חטיפי חלבון"
       ],
@@ -818,13 +818,13 @@
       "sale_price": 160,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1783599062996-fxnvg.webp",
-        "https://example.com/assets/product-1783599073996-12tvhk.webp",
-        "https://example.com/assets/product-1783600136138-1gew7e.webp"
+        "https://protein-stock.zappy5.app/assets/product-1783599062996-fxnvg.webp",
+        "https://protein-stock.zappy5.app/assets/product-1783599073996-12tvhk.webp",
+        "https://protein-stock.zappy5.app/assets/product-1783600136138-1gew7e.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/chtyp-chlbvn-krants-protein-crunch-btam-shvkvld-lbn-vkrml-marz-shl-12-chtypym-62-grm-am-21-grm-chlbvn-applied-nutrition-rm2ykz",
+      "url": "https://protein-stock.zappy5.app/product/chtyp-chlbvn-krants-protein-crunch-btam-shvkvld-lbn-vkrml-marz-shl-12-chtypym-62-grm-am-21-grm-chlbvn-applied-nutrition-rm2ykz",
       "categories": [
         "חטיפי חלבון"
       ],
@@ -844,13 +844,13 @@
       "sale_price": 120,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1783508163535-xo2djl.webp",
-        "https://example.com/assets/product-1783508513649-47atwk.webp",
-        "https://example.com/assets/product-1783508644027-63hmh.webp"
+        "https://protein-stock.zappy5.app/assets/product-1783508163535-xo2djl.webp",
+        "https://protein-stock.zappy5.app/assets/product-1783508513649-47atwk.webp",
+        "https://protein-stock.zappy5.app/assets/product-1783508644027-63hmh.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/chtyp-chlbvn-dl-svkr-btam-shvkvld-krml-mlvch-marz-12-ychydvt-chtyp-shl-45-grm-am-12-grm-chlbvn-vgrm-svkr-blbd-diet-protein-bar-applied-nutrition-wf6n8j",
+      "url": "https://protein-stock.zappy5.app/product/chtyp-chlbvn-dl-svkr-btam-shvkvld-krml-mlvch-marz-12-ychydvt-chtyp-shl-45-grm-am-12-grm-chlbvn-vgrm-svkr-blbd-diet-protein-bar-applied-nutrition-wf6n8j",
       "categories": [
         "חטיפי חלבון"
       ],
@@ -870,12 +870,12 @@
       "sale_price": 95.4,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1783504941265-jxyasq.webp",
-        "https://example.com/assets/product-1783505755206-tnd4ta.webp"
+        "https://protein-stock.zappy5.app/assets/product-1783504941265-jxyasq.webp",
+        "https://protein-stock.zappy5.app/assets/product-1783505755206-tnd4ta.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/dyyst-shybvlt-shval-ashyrh-bchlbvn-btam-avgyvt-vshmnt-am-chtykvt-avgyvt-amytyvt-marz-6-ychydvt-shl-60-grm-am-23-grm-chlbvn-critical-oats-applied-nutrition-z7fsaw",
+      "url": "https://protein-stock.zappy5.app/product/dyyst-shybvlt-shval-ashyrh-bchlbvn-btam-avgyvt-vshmnt-am-chtykvt-avgyvt-amytyvt-marz-6-ychydvt-shl-60-grm-am-23-grm-chlbvn-critical-oats-applied-nutrition-z7fsaw",
       "categories": [
         "שיבולת שועל בתוספת חלבון"
       ],
@@ -895,12 +895,12 @@
       "sale_price": 95.4,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1783327682720-wcsmj9.webp",
-        "https://example.com/assets/product-1783504829239-ys55.webp"
+        "https://protein-stock.zappy5.app/assets/product-1783327682720-wcsmj9.webp",
+        "https://protein-stock.zappy5.app/assets/product-1783504829239-ys55.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/dyyst-shybvlt-shval-ashyrh-bchlbvn-btam-gvldn-syrvp-syrvp-zhvb-mtvk-btam-dbsh-krml-marz-6-ychydvt-shl-60-grm-23-grm-chlbvn-bkvs-applied-nutrition-critical-oats-hvibdw",
+      "url": "https://protein-stock.zappy5.app/product/dyyst-shybvlt-shval-ashyrh-bchlbvn-btam-gvldn-syrvp-syrvp-zhvb-mtvk-btam-dbsh-krml-marz-6-ychydvt-shl-60-grm-23-grm-chlbvn-bkvs-applied-nutrition-critical-oats-hvibdw",
       "categories": [
         "שיבולת שועל בתוספת חלבון"
       ],
@@ -920,12 +920,12 @@
       "sale_price": 95.4,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1783242637530-tqaol8.webp",
-        "https://example.com/assets/product-1783503225500-iix3mi.webp"
+        "https://protein-stock.zappy5.app/assets/product-1783242637530-tqaol8.webp",
+        "https://protein-stock.zappy5.app/assets/product-1783503225500-iix3mi.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/dyyst-shybvlt-shval-ashyrh-bchlbvn-btam-shvkvld-shvkvld-ashyr-vkrmy-marz-6-ychydvt-shl-60-grm-23-grm-chlbvn-bkvs-applied-nutrition-critical-oats-ckweao",
+      "url": "https://protein-stock.zappy5.app/product/dyyst-shybvlt-shval-ashyrh-bchlbvn-btam-shvkvld-shvkvld-ashyr-vkrmy-marz-6-ychydvt-shl-60-grm-23-grm-chlbvn-bkvs-applied-nutrition-critical-oats-ckweao",
       "categories": [
         "שיבולת שועל בתוספת חלבון"
       ],
@@ -945,13 +945,13 @@
       "sale_price": 168,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1784224239026-tmm7c.webp",
-        "https://example.com/assets/product-enhanced-1782991136253-jm9qwp.webp",
-        "https://example.com/assets/product-1782990987762-9wcqhc.webp"
+        "https://protein-stock.zappy5.app/assets/product-1784224239026-tmm7c.webp",
+        "https://protein-stock.zappy5.app/assets/product-enhanced-1782991136253-jm9qwp.webp",
+        "https://protein-stock.zappy5.app/assets/product-1782990987762-9wcqhc.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/marz-chtypy-chlbvn-btam-shvkvld-mms-grm-51-bchtyp-12-ychydvt-8vwjv8",
+      "url": "https://protein-stock.zappy5.app/product/marz-chtypy-chlbvn-btam-shvkvld-mms-grm-51-bchtyp-12-ychydvt-8vwjv8",
       "categories": [
         "חטיפי חלבון"
       ],

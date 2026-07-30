@@ -7,65 +7,65 @@
 ## Pages
 
 ### דף הבית
-https://example.com
+https://protein-stock.zappy5.app
 גלה את המבחר הענק של אבקות חלבון, חטיפי חלבון מיובאים ומוצרי פאמפ ממיטב המותגים בעולם. כנס עכשיו לפרוטאין סטוק ותתחיל לבנות את הגוף שתמיד רצית!
 
 ### למה פרוטין סטוק
-https://example.com/why-protein-stock
+https://protein-stock.zappy5.app/why-protein-stock
 רוצה להבין למה מתאמנים בוחרים בנו? אצלנו תמצא אבקות חלבון איכותיות, מגנזיום חיוני ושירות אישי שידחוף אותך קדימה. הצטרף למהפכת הכושר עכשיו!
 
 ### מותגים מכל העולם
-https://example.com/global-brands
+https://protein-stock.zappy5.app/global-brands
 סניקרס, מארס, Warrior, M&M'S - חטיפי ואבקות חלבון, משקאות, קראטין ומגנזיום לספורטאים ושומרי משקל. המותגים המובילים בעולם במחירים זולים! הזמינו עכשיו
 
 ### צור קשר
-https://example.com/contact
+https://protein-stock.zappy5.app/contact
 יש שאלה על מגנזיום, מוצרי פאמפ או חטיפי חלבון מיובאים? צוות המומחים שלנו זמין לתת לך מענה מדויק. מלא פרטים ונדאג לך לכל מה שצריך בדרך למטרה!
 
 ### Products
-https://example.com/products
+https://protein-stock.zappy5.app/products
 המוצרים שלנו - פרוטאין סטוק - PROTEIN STOCK
 
 ### Cart
-https://example.com/cart
+https://protein-stock.zappy5.app/cart
 עגלת הקניות שלך
 
 ### Checkout
-https://example.com/checkout
+https://protein-stock.zappy5.app/checkout
 תשלום
 
 ### Login
-https://example.com/login
+https://protein-stock.zappy5.app/login
 התחברות לקוחות
 
 ### Account
-https://example.com/account
+https://protein-stock.zappy5.app/account
 החשבון שלי
 
 ### Order Success
-https://example.com/order-success
+https://protein-stock.zappy5.app/order-success
 תודה על ההזמנה
 
 ### Product Detail
-https://example.com/product/:slug
+https://protein-stock.zappy5.app/product/:slug
 פרטי המוצר - פרוטאין סטוק - PROTEIN STOCK
 
 ### Category
-https://example.com/category/:slug
+https://protein-stock.zappy5.app/category/:slug
 מוצרים - פרוטאין סטוק - PROTEIN STOCK
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://protein-stock.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://protein-stock.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://protein-stock.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -75,374 +75,374 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 37**
 
 ### קרקרים אורגניים עשירים בחלבון Profusion Cracker Bites בטעם עדשים אדומות (Organic Red Lentil) | 150 גרם | 23 גרם חלבון לכל 100 גרם | טבעוני ואורגני | Profusion
-https://example.com/product/krkrym-avrgnyym-ashyrym-bchlbvn-profusion-cracker-bites-btam-adshym-advmvt-organic-red-lentil-150-grm-23-grm-chlbvn-lkl-100-grm-tbavny-vavrgny-profusion-7cw55m
+https://protein-stock.zappy5.app/product/krkrym-avrgnyym-ashyrym-bchlbvn-profusion-cracker-bites-btam-adshym-advmvt-organic-red-lentil-150-grm-23-grm-chlbvn-lkl-100-grm-tbavny-vavrgny-profusion-7cw55m
 - Price: 39.00 ILS
 - Availability: In stock
 - Category: חטיפי חלבון מלוחים
 - SKU: 5032722319790
 - Brand: Profusion
 - Description: קרקרים אפויים, קריספיים וטבעוניים של Profusion על בסיס קמח עדשים אדומות אורגני (72%), עם חלבון אפונה וזרעי שומשום. 23 גרם חלבון ו‑7.5 גרם סיבים לכל 100 גרם, ורק 1.8 גרם סוכר — נשנוש מלוח שמשלב טעם וערך תזונתי. מושלם לטבילה בחומוס או גוואקמולה.
-- Image: https://example.com/assets/product-1785157721734-zltfbg.webp
+- Image: https://protein-stock.zappy5.app/assets/product-1785157721734-zltfbg.webp
 
 ### קרקרים אורגניים עשירים בחלבון Profusion Cracker Bites בטעם גרגירי חומוס (Organic Chickpea) | 150 גרם | 22 גרם חלבון לכל 100 גרם | טבעוני ואורגני | Profusion
-https://example.com/product/krkrym-avrgnyym-ashyrym-bchlbvn-profusion-cracker-bites-btam-grgyry-chvmvs-organic-chickpea-150-grm-22-grm-chlbvn-lkl-100-grm-tbavny-vavrgny-profusion-9ndpng
+https://protein-stock.zappy5.app/product/krkrym-avrgnyym-ashyrym-bchlbvn-profusion-cracker-bites-btam-grgyry-chvmvs-organic-chickpea-150-grm-22-grm-chlbvn-lkl-100-grm-tbavny-vavrgny-profusion-9ndpng
 - Price: 39.00 ILS
 - Availability: In stock
 - Category: חטיפי חלבון מלוחים
 - SKU: 5032722319783
 - Brand: Profusion
 - Description: קרקרים אפויים, קריספיים וטבעוניים של Profusion על בסיס קמח גרגירי חומוס אורגני (64%), עם חלבון אפונה וזרעי צ'יה. 22 גרם חלבון ו‑9 גרם סיבים לכל 100 גרם, ורק 2.6 גרם סוכר — נשנוש מלוח שמשלב טעם וערך תזונתי. מושלם לטבילה בחומוס או גוואקמולה.
-- Image: https://example.com/assets/product-enhanced-1785150430458-p3yj1o.webp
+- Image: https://protein-stock.zappy5.app/assets/product-enhanced-1785150430458-p3yj1o.webp
 
 ### חטיף חלבון מיני Muscle Moose The Dinky בטעם עוגיות שוקולד לבן (White Chocolate Cookie) | 35 גרם | 11 גרם חלבון | 12 יחידות במארז | Muscle Moose
-https://example.com/product/chtyp-chlbvn-myny-muscle-moose-the-dinky-btam-avgyvt-shvkvld-lbn-white-chocolate-cookie-35-grm-11-grm-chlbvn-12-ychydvt-bmarz-muscle-moose-mx0rwz
+https://protein-stock.zappy5.app/product/chtyp-chlbvn-myny-muscle-moose-the-dinky-btam-avgyvt-shvkvld-lbn-white-chocolate-cookie-35-grm-11-grm-chlbvn-12-ychydvt-bmarz-muscle-moose-mx0rwz
 - Price: 129.00 ILS
 - Availability: In stock
 - Category: חטיפי חלבון
 - SKU: 5060642590241
 - Brand: Muscle Moose
 - Description: חטיף חלבון קטן וממכר של Muscle Moose — שכבות קרם שוקולד לבן, פיסות עוגיות אמיתיות וקריספי שוקולד חלב מלמעלה. רק 125 קלוריות ו‑11 גרם חלבון ליחידה, עם 1.5 גרם סוכר בלבד. פינוק שמרגיש כמו קינוח ועובד בשבילך.
-- Image: https://example.com/assets/product-1785148790296-t3zv69.webp
+- Image: https://protein-stock.zappy5.app/assets/product-1785148790296-t3zv69.webp
 
 ### חטיף חלבון דל סוכר THE DINKY PROTEIN BAR בטעם בוטנים ושוקולד (Peanut Chocolate) | 35 גרם | 11 גרם חלבון | 12 יחידות במארז | Muscle Moose
-https://example.com/product/chtyp-chlbvn-dl-svkr-the-dinky-protein-bar-btam-bvtnym-vshvkvld-peanut-chocolate-35-grm-11-grm-chlbvn-12-ychydvt-bmarz-muscle-moose-w87y2k
+https://protein-stock.zappy5.app/product/chtyp-chlbvn-dl-svkr-the-dinky-protein-bar-btam-bvtnym-vshvkvld-peanut-chocolate-35-grm-11-grm-chlbvn-12-ychydvt-bmarz-muscle-moose-w87y2k
 - Price: 129.00 ILS
 - Availability: In stock
 - Category: חטיפי חלבון
 - SKU: 5060642590258
 - Brand: Muscle Moose
 - Description: חטיף חלבון קטן ומפנק בטעם בוטנים ושוקולד מבית Muscle Moose — שילוב עשיר של נוגט, קרמל, בוטנים וציפוי שוקולד חלב. כל חטיף במשקל 35 גרם מספק 11 גרם חלבון, מכיל רק 1.3 גרם סוכר ועשיר בסיבים תזונתיים. פתרון מושלם לנשנוש חלבון טעים בכל שעה של היום.
-- Image: https://example.com/assets/product-1785052631738-aiauvh.webp
+- Image: https://protein-stock.zappy5.app/assets/product-1785052631738-aiauvh.webp
 
 ### חטיף חלבון דל סוכר THE DINKY PROTEIN BAR בטעם דונאט שוקולד (Chocolate Donut) | 35 גרם | 11 גרם חלבון | 12 יחידות במארז | Muscle Moose
-https://example.com/product/chtyp-chlbvn-dl-svkr-the-dinky-protein-bar-btam-dvnat-shvkvld-chocolate-donut-35-grm-11-grm-chlbvn-12-ychydvt-bmarz-muscle-moose-bl9ub9
+https://protein-stock.zappy5.app/product/chtyp-chlbvn-dl-svkr-the-dinky-protein-bar-btam-dvnat-shvkvld-chocolate-donut-35-grm-11-grm-chlbvn-12-ychydvt-bmarz-muscle-moose-bl9ub9
 - Price: 129.00 ILS
 - Availability: In stock
 - Category: חטיפי חלבון
 - SKU: 5060642590289
 - Brand: Muscle Moose 
 - Description: חטיף חלבון קטן ומפנק בטעם דונאט שוקולד מבית Muscle Moose — "דינקי" בגודלו אבל עם ליבת נוגט בטעם דונאט, שכבת קרמל, קריספיס וציפוי שוקולד חלב עם סוכריות צבעוניות. כל חטיף במשקל 35 גרם מספק 11 גרם חלבון, דל בסוכר (1.7 גרם בלבד) ועשיר בסיבים תזונתיים. נשנוש קומפקטי לכל מקום.
-- Image: https://example.com/assets/product-enhanced-1785051921622-9oe4l.webp
+- Image: https://protein-stock.zappy5.app/assets/product-enhanced-1785051921622-9oe4l.webp
 
 ### חטיף חלבון דל סוכר THE DINKY PROTEIN BAR בטעם שוקולד (Choccy Heaven) | 35 גרם | 11 גרם חלבון | 12 יחידות במארז | Muscle Moose
-https://example.com/product/chtyp-chlbvn-dl-svkr-the-dinky-protein-bar-btam-shvkvld-choccy-heaven-35-grm-11-grm-chlbvn-12-ychydvt-bmarz-muscle-moose-0d3urp
+https://protein-stock.zappy5.app/product/chtyp-chlbvn-dl-svkr-the-dinky-protein-bar-btam-shvkvld-choccy-heaven-35-grm-11-grm-chlbvn-12-ychydvt-bmarz-muscle-moose-0d3urp
 - Price: 129.00 ILS
 - Availability: In stock
 - Category: חטיפי חלבון
 - SKU: 5060642590180
 - Brand: Muscle Moose
 - Description: חטיף חלבון קטן ומפנק בטעם שוקולד מבית Muscle Moose — "דינקי" בגודלו אבל עם 6 שכבות של פונדנט, טופי, קרמל, קריספיס וציפוי שוקולד חלב. כל חטיף במשקל 35 גרם מספק 11 גרם חלבון, דל בסוכר (1.4 גרם בלבד) ועשיר בסיבים תזונתיים. נשנוש קומפקטי לכל מקום.
-- Image: https://example.com/assets/product-1785050550003-6k0ghm.webp
+- Image: https://protein-stock.zappy5.app/assets/product-1785050550003-6k0ghm.webp
 
 ### אבקת חלבון צלול HUBBA BUBBA CLEAR WHEY PROTEIN בטעם קולה (Cola) | 405 גרם | 20 גרם חלבון למנה | 15 מנות | Hubba Bubba
-https://example.com/product/abkt-chlbvn-tslvl-hubba-bubba-clear-whey-protein-btam-kvlh-cola-405-grm-20-grm-chlbvn-lmnh-15-mnvt-hubba-bubba-3a33yh
+https://protein-stock.zappy5.app/product/abkt-chlbvn-tslvl-hubba-bubba-clear-whey-protein-btam-kvlh-cola-405-grm-20-grm-chlbvn-lmnh-15-mnvt-hubba-bubba-3a33yh
 - Price: 160.00 ILS
 - Availability: In stock
 - Category: אבקות חלבון
 - SKU: 5056357999851
 - Brand:  HUBBA BUBBA
 - Description: אבקת חלבון מי גבינה מסוג צלול (Clear Whey) בטעם קולה מבית Hubba Bubba — לא שייק חלבי סמיך, אלא משקה חלבון מרענן ושקוף בסגנון משקה קר ומבעבע. כל מנה מספקת 20 גרם חלבון איזולט ורק 87 קלוריות, ללא שומן וכמעט ללא פחמימות. פשוט לערבב עם מים, לנער ולשתות.
-- Image: https://example.com/assets/product-1785050221473-o3ovxc.webp
+- Image: https://protein-stock.zappy5.app/assets/product-1785050221473-o3ovxc.webp
 
 ### אבקת חלבון צלול HUBBA BUBBA CLEAR WHEY PROTEIN בטעם פטל כחול (Blue Raspberry) | 405 גרם | 20 גרם חלבון למנה | 15 מנות | Hubba Bubba
-https://example.com/product/abkt-chlbvn-tslvl-hubba-bubba-clear-whey-protein-btam-ptl-kchvl-blue-raspberry-405-grm-20-grm-chlbvn-lmnh-15-mnvt-hubba-bubba-ilbfeb
+https://protein-stock.zappy5.app/product/abkt-chlbvn-tslvl-hubba-bubba-clear-whey-protein-btam-ptl-kchvl-blue-raspberry-405-grm-20-grm-chlbvn-lmnh-15-mnvt-hubba-bubba-ilbfeb
 - Price: 160.00 ILS
 - Availability: In stock
 - Category: אבקות חלבון
 - SKU: 5056357999820
 - Brand: HUBBA BUBBA
 - Description: אבקת חלבון מי גבינה מסוג צלול (Clear Whey) בטעם פטל כחול מבית Hubba Bubba — לא שייק חלבי סמיך, אלא משקה חלבון מרענן ושקוף בסגנון מיץ קר. כל מנה מספקת 20 גרם חלבון איזולט ורק 83 קלוריות, ללא שומן וכמעט ללא פחמימות. פשוט לערבב עם מים, לנער ולשתות.
-- Image: https://example.com/assets/product-1785049702206-u9rvf.webp
+- Image: https://protein-stock.zappy5.app/assets/product-1785049702206-u9rvf.webp
 
 ### עוגיית חלבון סניקרס SNICKERS HI PROTEIN COOKIE בטעם שוקולד לבן ובוטנים (White Choc & Peanut) | 60 גרם | 15 גרם חלבון | 12 יחידות במארז | Snickers
-https://example.com/product/avgyyt-chlbvn-snykrs-snickers-hi-protein-cookie-btam-shvkvld-lbn-vbvtnym-white-choc-peanut-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-snickers-ko8tfh
+https://protein-stock.zappy5.app/product/avgyyt-chlbvn-snykrs-snickers-hi-protein-cookie-btam-shvkvld-lbn-vbvtnym-white-choc-peanut-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-snickers-ko8tfh
 - Price: 160.00 ILS
 - Availability: In stock
 - Category: עוגיות חלבון
 - SKU: 5056357999608
 - Brand: SNICKERS
 - Description: עוגיית חלבון רכה ואפויה בטעם שוקולד לבן ובוטנים — עם חתיכות שוקולד לבן קרמי, בוטנים קלויים, חמאת בוטנים וחתיכות קרמל פאדג'. כל עוגייה במשקל 60 גרם מספקת 15 גרם חלבון ורק 245 קלוריות — נשנוש מפנק בלי הכנה, לתיק האימון, לעבודה או לדרך
-- Image: https://example.com/assets/product-1785048908976-ivz87.webp
+- Image: https://protein-stock.zappy5.app/assets/product-1785048908976-ivz87.webp
 
 ### עוגיית חלבון סניקרס SNICKERS HI PROTEIN COOKIE בטעם שוקולד ובוטנים (Chocolate & Peanut) | 60 גרם | 15 גרם חלבון | 12 יחידות במארז | Snickers
-https://example.com/product/avgyyt-chlbvn-snykrs-snickers-hi-protein-cookie-btam-shvkvld-vbvtnym-chocolate-peanut-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-snickers-te7cii
+https://protein-stock.zappy5.app/product/avgyyt-chlbvn-snykrs-snickers-hi-protein-cookie-btam-shvkvld-vbvtnym-chocolate-peanut-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-snickers-te7cii
 - Price: 160.00 ILS
 - Availability: In stock
 - Category: עוגיות חלבון
 - SKU: 5056357912706
 - Brand: Snickers
 - Description: עוגיית חלבון רכה ואפויה בהשראת חטיף הסניקרס — עם שבבי שוקולד חלב, בוטנים קלויים, חמאת בוטנים וחתיכות קרמל פאדג'. כל עוגייה במשקל 60 גרם מספקת 15 גרם חלבון ומהווה נשנוש מפנק בלי הכנה — לתיק האימון, לעבודה או לדרך.
-- Image: https://example.com/assets/product-enhanced-1785048512621-ddqnt.webp
+- Image: https://protein-stock.zappy5.app/assets/product-enhanced-1785048512621-ddqnt.webp
 
 ### עוגיית חלבון מרס MARS HI PROTEIN COOKIE בטעם קרמל מלוח (Salted Caramel) | 60 גרם | 15 גרם חלבון | 12 יחידות במארז | Mars
-https://example.com/product/avgyyt-chlbvn-mrs-mars-hi-protein-cookie-btam-krml-mlvch-salted-caramel-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-mars-8d1tha
+https://protein-stock.zappy5.app/product/avgyyt-chlbvn-mrs-mars-hi-protein-cookie-btam-krml-mlvch-salted-caramel-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-mars-8d1tha
 - Price: 160.00 ILS
 - Availability: In stock
 - Category: עוגיות חלבון
 - SKU: 5056357999639
 - Brand: MARS
 - Description: עוגיית חלבון רכה ואפויה בטעם קרמל מלוח — עם שבבי שוקולד חלב וחתיכות קרמל פאדג', ונגיעת מלח שמאזנת את המתיקות. כל עוגייה במשקל 60 גרם מספקת 15 גרם חלבון ורק 232 קלוריות — נשנוש מפנק בלי הכנה, לתיק האימון, לעבודה או לדרך.
-- Image: https://example.com/assets/product-1785047346291-rtpmp.webp
+- Image: https://protein-stock.zappy5.app/assets/product-1785047346291-rtpmp.webp
 
 ### עוגיית חלבון מרס MARS HI PROTEIN COOKIE בטעם שוקולד וקרמל | 60 גרם | 15 גרם חלבון | 12 יחידות במארז | Mars
-https://example.com/product/avgyyt-chlbvn-mrs-mars-hi-protein-cookie-btam-shvkvld-vkrml-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-mars-zgxhdu
+https://protein-stock.zappy5.app/product/avgyyt-chlbvn-mrs-mars-hi-protein-cookie-btam-shvkvld-vkrml-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-mars-zgxhdu
 - Price: 160.00 ILS
 - Availability: In stock
 - Category: עוגיות חלבון
 - SKU: 5056357912683
 - Brand: MARS
 - Description: עוגיית חלבון רכה ואפויה בהשראת חטיף המרס הקלאסי — עם שבבי שוקולד חלב וחתיכות קרמל פאדג'. כל עוגייה במשקל 60 גרם מספקת 15 גרם חלבון ומהווה נשנוש מפנק בלי הכנה — מושלם לתיק האימון, לעבודה או למגירת השולחן.
-- Image: https://example.com/assets/product-1785046516674-rmr4jo.webp
+- Image: https://protein-stock.zappy5.app/assets/product-1785046516674-rmr4jo.webp
 
 ### משקה חלבון מרס MARS HI PROTEIN MILK DRINK בטעם שוקולד וקרמל | 250 מ"ל | 20 גרם חלבון | 6 יחידות במארז | Mars
-https://example.com/product/mshkh-chlbvn-mrs-mars-hi-protein-milk-drink-btam-shvkvld-vkrml-250-ml-20-grm-chlbvn-6-ychydvt-bmarz-mars-r9ppuy
+https://protein-stock.zappy5.app/product/mshkh-chlbvn-mrs-mars-hi-protein-milk-drink-btam-shvkvld-vkrml-250-ml-20-grm-chlbvn-6-ychydvt-bmarz-mars-r9ppuy
 - Price: 110.00 ILS
 - Availability: In stock
 - Category: משקאות חלבון
 - SKU: 5053357916735
 - Brand: MARS
 - Description: הטעם הקלאסי של מרס — שוקולד, לתת וקרמל — בבקבוק חלק ומוכן לשתייה. כל בקבוק בנפח 250 מ"ל מכיל 20 גרם חלבון על בסיס חלב ורק 158 קלוריות. פינוק מושלם אחרי אימון או חטיף חלבוני נוח לדרך, בלי ערבוב ובלי שייקר.
-- Image: https://example.com/assets/product-1785045748222-i3cvcf.webp
+- Image: https://protein-stock.zappy5.app/assets/product-1785045748222-i3cvcf.webp
 
 ### משקה חלבון סניקרס SNICKERS HI PROTEIN MILK DRINK בטעם שוקולד, קרמל ובוטנים | 250 מ"ל | 20 גרם חלבון | 6 יחידות במארז | Snickers
-https://example.com/product/mshkh-chlbvn-snykrs-snickers-hi-protein-milk-drink-btam-shvkvld-krml-vbvtnym-250-ml-20-grm-chlbvn-6-ychydvt-bmarz-snickers-puet6y
+https://protein-stock.zappy5.app/product/mshkh-chlbvn-snykrs-snickers-hi-protein-milk-drink-btam-shvkvld-krml-vbvtnym-250-ml-20-grm-chlbvn-6-ychydvt-bmarz-snickers-puet6y
 - Price: 110.00 ILS
 - Availability: In stock
 - Category: משקאות חלבון
 - SKU: 5053357916711
 - Brand: SNICKERS
 - Description: הטעם האייקוני של סניקרס — שוקולד, קרמל ובוטנים — בבקבוק חלק ומוכן לשתייה. כל בקבוק בנפח 250 מ"ל מכיל 20 גרם חלבון על בסיס חלב ורק 158 קלוריות. פינוק מושלם אחרי אימון או חטיף חלבוני נוח לדרך, בלי ערבוב ובלי שייקר.
-- Image: https://example.com/assets/product-1785044417126-d5y7jc.webp
+- Image: https://protein-stock.zappy5.app/assets/product-1785044417126-d5y7jc.webp
 
 ### משקה חלבון מוכן לשתייה APPLIED NUTRITION HIGH PROTEIN SHAKE בטעם גלידת וניל (Vanilla Ice Cream) | 500 מ"ל | 42 גרם חלבון | 8 יחידות במארז | Applied Nutrition
-https://example.com/product/mshkh-chlbvn-mvkn-lshtyyh-applied-nutrition-high-protein-shake-btam-glydt-vnyl-vanilla-ice-cream-500-ml-42-grm-chlbvn-8-ychydvt-bmarz-applied-nutrition-76odvx
+https://protein-stock.zappy5.app/product/mshkh-chlbvn-mvkn-lshtyyh-applied-nutrition-high-protein-shake-btam-glydt-vnyl-vanilla-ice-cream-500-ml-42-grm-chlbvn-8-ychydvt-bmarz-applied-nutrition-76odvx
 - Price: 160.00 ILS
 - Availability: In stock
 - Category: משקאות חלבון
 - SKU: 5056555200384
 - Brand: APPLIED NUTRITION
 - Description: משקה חלבון מוכן לשתייה מבית Applied Nutrition בטעם גלידת וניל. בקבוק אחד מספק 42 גרם חלבון חלב איכותי בסך הכל 240 קלוריות, דל שומן וללא תוספת סוכר, עם רשימת רכיבים קצרה במיוחד. בלי שייקר, בלי אבקה ובלי הכנה — פותחים ושותים.
-- Image: https://example.com/assets/product-1784899164337-dgj30f.webp
+- Image: https://protein-stock.zappy5.app/assets/product-1784899164337-dgj30f.webp
 
 ### משקה חלבון מוכן לשתייה APPLIED NUTRITION HIGH PROTEIN SHAKE בטעם תותים ושמנת (Strawberries & Cream) | 500 מ"ל | 42 גרם חלבון | 8 יחידות במארז | Applied Nutrition
-https://example.com/product/mshkh-chlbvn-mvkn-lshtyyh-applied-nutrition-high-protein-shake-btam-tvtym-vshmnt-strawberries-cream-500-ml-42-grm-chlbvn-8-ychydvt-bmarz-applied-nutrition-2qfyt8
+https://protein-stock.zappy5.app/product/mshkh-chlbvn-mvkn-lshtyyh-applied-nutrition-high-protein-shake-btam-tvtym-vshmnt-strawberries-cream-500-ml-42-grm-chlbvn-8-ychydvt-bmarz-applied-nutrition-2qfyt8
 - Price: 160.00 ILS
 - Availability: In stock
 - Category: משקאות חלבון
 - SKU: 5056555200377
 - Brand: APPLIED NUTRITION
 - Description: משקה חלבון מוכן לשתייה מבית Applied Nutrition בטעם תותים ושמנת קרמי. בקבוק אחד מספק 42 גרם חלבון חלב איכותי בסך הכל 240 קלוריות, דל שומן וללא תוספת סוכר. בלי שייקר, בלי אבקה ובלי הכנה — פותחים ושותים.
-- Image: https://example.com/assets/product-1784898332455-uv4lb.webp
+- Image: https://protein-stock.zappy5.app/assets/product-1784898332455-uv4lb.webp
 
 ### משקה חלבון מוכן לשתייה APPLIED NUTRITION HIGH PROTEIN SHAKE בטעם דאבל שוקולד  (Double Chocolate) | 500 מ"ל | 42 גרם חלבון | 8 יחידות במארז | Applied Nutrition
-https://example.com/product/mshkh-chlbvn-mvkn-lshtyyh-applied-nutrition-high-protein-shake-btam-dabl-shvkvld-double-chocolate-500-ml-42-grm-chlbvn-8-ychydvt-bmarz-applied-nutrition-qbh1dz
+https://protein-stock.zappy5.app/product/mshkh-chlbvn-mvkn-lshtyyh-applied-nutrition-high-protein-shake-btam-dabl-shvkvld-double-chocolate-500-ml-42-grm-chlbvn-8-ychydvt-bmarz-applied-nutrition-qbh1dz
 - Price: 160.00 ILS
 - Availability: In stock
 - Category: משקאות חלבון
 - SKU: 5056555200360
 - Brand: APPLIED NUTRITION
 - Description: משקה חלבון מוכן לשתייה מבית Applied Nutrition בטעם דאבל שוקולד עשיר, עם אבקת קקאו אמיתית. בקבוק אחד מספק 42 גרם חלבון חלב איכותי בסך הכל 245 קלוריות, דל שומן וללא תוספת סוכר. בלי שייקר, בלי אבקה ובלי הכנה — פותחים ושותים.
-- Image: https://example.com/assets/product-1784897620057-rj1e37.webp
+- Image: https://protein-stock.zappy5.app/assets/product-1784897620057-rj1e37.webp
 
 ### משקה חלבון מוכן לשתייה APPLIED NUTRITION HIGH PROTEIN SHAKE בטעם בננה (Banana Delight) | 500 מ"ל | 42 גרם חלבון | 8 יחידות במארז | Applied Nutrition
-https://example.com/product/mshkh-chlbvn-mvkn-lshtyyh-applied-nutrition-high-protein-shake-btam-bnnh-banana-delight-500-ml-42-grm-chlbvn-8-ychydvt-bmarz-applied-nutrition-v8xovo
+https://protein-stock.zappy5.app/product/mshkh-chlbvn-mvkn-lshtyyh-applied-nutrition-high-protein-shake-btam-bnnh-banana-delight-500-ml-42-grm-chlbvn-8-ychydvt-bmarz-applied-nutrition-v8xovo
 - Price: 160.00 ILS
 - Availability: In stock
 - Category: משקאות חלבון
 - SKU: 5056555200346
 - Brand: Applied Nutrition
 - Description: משקה חלבון מוכן לשתייה מבית Applied Nutrition בטעם בננה קרמי. בקבוק אחד מספק 42 גרם חלבון חלב איכותי בסך הכל 240 קלוריות, עם 0.5 גרם שומן בלבד וללא תוספת סוכר. בלי שייקר, בלי אבקה ובלי הכנה — פותחים ושותים.
-- Image: https://example.com/assets/product-1784896823450-nmvj0v.webp
+- Image: https://protein-stock.zappy5.app/assets/product-1784896823450-nmvj0v.webp
 
 ### גומי קריאטין APPLIED NUTRITION CREATINE GUMMIES בטעם פטל כחול (Blue Raspberry) | 400 גרם | 3 גרם קריאטין מונוהידראט למנה | 80 יחידות / 20 מנות | Applied Nutrition
-https://example.com/product/gvmy-kryatyn-applied-nutrition-creatine-gummies-btam-ptl-kchvl-blue-raspberry-400-grm-3-grm-kryatyn-mvnvhydrat-lmnh-80-ychydvt-20-mnvt-applied-nutrition-j7b88s
+https://protein-stock.zappy5.app/product/gvmy-kryatyn-applied-nutrition-creatine-gummies-btam-ptl-kchvl-blue-raspberry-400-grm-3-grm-kryatyn-mvnvhydrat-lmnh-80-ychydvt-20-mnvt-applied-nutrition-j7b88s
 - Price: 130.00 ILS
 - Availability: In stock
 - Category: קריאטין ותוספי תזונה
 - SKU: תמצא לי את המוצר עם הברקוד הזה 5056555207369
 - Brand: APPLIED NUTRITION
 - Description: גומי קריאטין מבית Applied Nutrition בטעם פטל כחול Millions. כל מנה של 4 יחידות מספקת 3 גרם קריאטין מונוהידראט, בלי אבקות, בלי שייקר ובלי מרקם גרגירי. המארז מכיל 80 יחידות שהן 20 מנות, מבוסס פקטין ולא ג'לטין, ללא גלוטן ומאושר Halal.
-- Image: https://example.com/assets/product-1784893803990-2qbpiq.webp
+- Image: https://protein-stock.zappy5.app/assets/product-1784893803990-2qbpiq.webp
 
 ### גומי קריאטין APPLIED NUTRITION CREATINE GUMMIES בטעם  אוכמניות שחורות (Millions Blackcurrant) | 400 גרם | 3 גרם קריאטין מונוהידראט למנה | 80 יחידות / 20 מנות | Applied Nutrition
-https://example.com/product/gvmy-kryatyn-applied-nutrition-creatine-gummies-btam-avkmnyvt-shchvrvt-millions-blackcurrant-400-grm-3-grm-kryatyn-mvnvhydrat-lmnh-80-ychydvt-20-mnvt-applied-nutrition-9oq27t
+https://protein-stock.zappy5.app/product/gvmy-kryatyn-applied-nutrition-creatine-gummies-btam-avkmnyvt-shchvrvt-millions-blackcurrant-400-grm-3-grm-kryatyn-mvnvhydrat-lmnh-80-ychydvt-20-mnvt-applied-nutrition-9oq27t
 - Price: 130.00 ILS
 - Availability: In stock
 - Category: קריאטין ותוספי תזונה
 - SKU: 5056555207376
 - Brand: Applied Nutrition
 - Description: גומי קריאטין מבית Applied Nutrition בטעם אוכמניות שחורות Millions. כל מנה של 4 יחידות מספקת 3 גרם קריאטין מונוהידראט, בלי אבקות, בלי שייקר ובלי מרקם גרגירי. המארז מכיל 80 יחידות שהן 20 מנות, טבעוני, ללא גלוטן ומאושר Halal.
-- Image: https://example.com/assets/product-1784726643030-xdf3fe.webp
+- Image: https://protein-stock.zappy5.app/assets/product-1784726643030-xdf3fe.webp
 
 ### חטיף חלבון סניקרס SNICKERS HI PROTEIN PEANUT BUTTER בטעם חמאת בוטנים (Peanut Butter) | 57 גרם | 20 גרם חלבון | 12 יחידות במארז | Snickers
-https://example.com/product/chtyp-chlbvn-snykrs-snickers-hi-protein-peanut-butter-btam-chmat-bvtnym-peanut-butter-57-grm-20-grm-chlbvn-12-ychydvt-bmarz-snickers-jghbid
+https://protein-stock.zappy5.app/product/chtyp-chlbvn-snykrs-snickers-hi-protein-peanut-butter-btam-chmat-bvtnym-peanut-butter-57-grm-20-grm-chlbvn-12-ychydvt-bmarz-snickers-jghbid
 - Price: 170.00 ILS
 - Availability: In stock
 - Category: חטיפי חלבון
 - SKU: 5056357900925
 - Brand: SNICKERS
 - Description: חטיף החלבון SNICKERS HI PROTEIN PEANUT BUTTER מביא את השילוב המנצח של שוקולד חלב, קרמל, בוטנים קלויים ומנה נדיבה של חמאת בוטנים — עם 20 גרם חלבון ו-230 קלוריות בלבד לחטיף. פינוק עשיר וממכר, מושלם לפני או אחרי האימון.
-- Image: https://example.com/assets/product-1784575987391-0wggrb.webp
+- Image: https://protein-stock.zappy5.app/assets/product-1784575987391-0wggrb.webp
 
 ### חטיף חלבון סניקרס פריך SNICKERS HI PROTEIN CRISP בטעם שוקולד, קרמל ובוטנים (Crisp) | 55 גרם | 20 גרם חלבון | 12 יחידות במארז | Snickers
-https://example.com/product/chtyp-chlbvn-snykrs-pryk-snickers-hi-protein-crisp-btam-shvkvld-krml-vbvtnym-crisp-55-grm-20-grm-chlbvn-12-ychydvt-bmarz-snickers-xkz9m7
+https://protein-stock.zappy5.app/product/chtyp-chlbvn-snykrs-pryk-snickers-hi-protein-crisp-btam-shvkvld-krml-vbvtnym-crisp-55-grm-20-grm-chlbvn-12-ychydvt-bmarz-snickers-xkz9m7
 - Price: 170.00 ILS
 - Availability: In stock
 - Category: חטיפי חלבון
 - SKU: 5056357904428
 - Brand: SNICKERS
 - Description: חטיף החלבון SNICKERS HI PROTEIN CRISP מביא את הטעם הקלאסי של סניקרס — שוקולד חלב, קרמל ובוטנים — בתוספת פצפוצים פריכים ו-20 גרם חלבון, עם 217 קלוריות בלבד ורמת סוכר נמוכה. הפינוק המושלם לפני או אחרי האימון, בלי להתפשר על הטעם.
-- Image: https://example.com/assets/product-1784574112607-m7zkh7.webp
+- Image: https://protein-stock.zappy5.app/assets/product-1784574112607-m7zkh7.webp
 
 ### חטיף חלבון סניקרס דל סוכר SNICKERS HI PROTEIN LOW SUGAR בטעם אגוזי לוז (Hazelnut) | 57 גרם | 20 גרם חלבון | 12 יחידות במארז | Snickers
-https://example.com/product/chtyp-chlbvn-snykrs-dl-svkr-snickers-hi-protein-low-sugar-btam-agvzy-lvz-hazelnut-57-grm-20-grm-chlbvn-12-ychydvt-bmarz-snickers-fuhhdq
+https://protein-stock.zappy5.app/product/chtyp-chlbvn-snykrs-dl-svkr-snickers-hi-protein-low-sugar-btam-agvzy-lvz-hazelnut-57-grm-20-grm-chlbvn-12-ychydvt-bmarz-snickers-fuhhdq
 - Price: 170.00 ILS
 - Availability: In stock
 - Category: חטיפי חלבון
 - SKU: 5056357999523
 - Brand: Snickers
 - Description: הסניקרס האהוב בגרסה עתירת חלבון ודלת סוכר — 20 גרם חלבון ורק 2 גרם סוכר בחטיף אחד! שילוב מפנק של בוטנים קלויים, ממרח אגוזי לוז, שכבת קרמל רכה וציפוי שוקולד חלב. מארז חסכוני של 12 יחידות (57 גרם כל אחת) — מושלם לאחרי אימון או כנשנוש מתוק בין הארוחות.
-- Image: https://example.com/assets/product-enhanced-1784573472770-tg8ia.webp
+- Image: https://protein-stock.zappy5.app/assets/product-enhanced-1784573472770-tg8ia.webp
 
 ### חטיף חלבון סניקרס דל סוכר SNICKERS HI PROTEIN LOW SUGAR בטעם שוקולד מריר (Dark Chocolate) | 57 גרם | 20 גרם חלבון | 12 יחידות במארז|Snickers
-https://example.com/product/chtyp-chlbvn-snykrs-dl-svkr-snickers-hi-protein-low-sugar-btam-shvkvld-mryr-dark-chocolate-57-grm-20-grm-chlbvn-12-ychydvt-bmarzsnickers-m7q1an
+https://protein-stock.zappy5.app/product/chtyp-chlbvn-snykrs-dl-svkr-snickers-hi-protein-low-sugar-btam-shvkvld-mryr-dark-chocolate-57-grm-20-grm-chlbvn-12-ychydvt-bmarzsnickers-m7q1an
 - Price: 170.00 ILS
 - Availability: In stock
 - Category: חטיפי חלבון
 - SKU: 5056357999554
 - Brand: SNICKERS
 - Description: הטעם האהוב של Snickers בגרסה חלבונית עם ציפוי שוקולד מריר עשיר — 20 גרם חלבון, רק 1 גרם סוכר ו-215 קלוריות בחטיף. בוטנים קלויים, שכבת קרמל נימוחה ושוקולד מריר, מיוצר על ידי Mars בבריטניה. מושלם לאחרי אימון או כפינוק חכם בין ארוחות.
-- Image: https://example.com/assets/product-enhanced-1784543071844-l7x1n.webp
+- Image: https://protein-stock.zappy5.app/assets/product-enhanced-1784543071844-l7x1n.webp
 
 ### חטיף חלבון מרס דל סוכר Mars HiProtein Low Sugar שוקולד לבן קרמי – 18 גרם חלבון | 12 יחידות במארז
-https://example.com/product/chtyp-chlbvn-mrs-dl-svkr-mars-hiprotein-low-sugar-shvkvld-lbn-krmy-18-grm-chlbvn-12-ychydvt-bmarz-z6egxm
+https://protein-stock.zappy5.app/product/chtyp-chlbvn-mrs-dl-svkr-mars-hiprotein-low-sugar-shvkvld-lbn-krmy-18-grm-chlbvn-12-ychydvt-bmarz-z6egxm
 - Price: 170.00 ILS
 - Availability: In stock
 - Category: חטיפי חלבון
 - SKU: 5056357916438
 - Brand: MARS
 - Description: חטיף החלבון Mars HiProtein Low Sugar בטעם שוקולד לבן משלב את הטעם המוכר של Mars עם 18 גרם חלבון, כמות סוכר נמוכה ומרקם קרמי עשיר. פתרון מצוין לפני או אחרי אימון או כנשנוש עתיר חלבון במהלך היום.
-- Image: https://example.com/assets/product-1784222535534-3vb86.webp
+- Image: https://protein-stock.zappy5.app/assets/product-1784222535534-3vb86.webp
 
 ### חטיף חלבון סניקרס דל סוכר בטעם שוקולד, קרמל ובוטנים – קרמי עם בוטנים קראנצ'יים | 57 גרם | מארז 12 יחידות | Mars Hi Protein Low Sugar Snickers
-https://example.com/product/chtyp-chlbvn-snykrs-dl-svkr-btam-shvkvld-krml-vbvtnym-krmy-am-bvtnym-krantsyym-57-grm-marz-12-ychydvt-mars-hi-protein-low-sugar-snickers-tspldz
+https://protein-stock.zappy5.app/product/chtyp-chlbvn-snykrs-dl-svkr-btam-shvkvld-krml-vbvtnym-krmy-am-bvtnym-krantsyym-57-grm-marz-12-ychydvt-mars-hi-protein-low-sugar-snickers-tspldz
 - Price: 170.00 ILS
 - Availability: In stock
 - Category: חטיפי חלבון
 - SKU: 5056357909515
 - Brand: Mars
 - Description: חטיף החלבון Mars Hi Protein Low Sugar Snickers משלב שכבת קרמל רכה, בוטנים קראנצ'יים וציפוי שוקולד עשיר עם 20 גרם חלבון וכמות סוכר מופחתת. פתרון מושלם למתאמנים שאוהבים את הטעם האייקוני של Snickers ורוצים ליהנות מנשנוש קרמי ומשביע.
-- Image: https://example.com/assets/product-enhanced-1784112306387-b2vb4.webp
+- Image: https://protein-stock.zappy5.app/assets/product-enhanced-1784112306387-b2vb4.webp
 
 ### חטיף חלבון דל סוכר של המותג במוכר סניקרס SNICKERS Hi Protein Low Sugar בטעם שוקולד לבן, בוטנים וקרמל | מארז 12 יחידות של 57 גרם | 20 גרם חלבון | Mars
-https://example.com/product/chtyp-chlbvn-dl-svkr-shl-hmvtg-bmvkr-snykrs-snickers-hi-protein-low-sugar-btam-shvkvld-lbn-bvtnym-vkrml-marz-12-ychydvt-shl-57-grm-20-grm-chlbvn-mars-mnlm89
+https://protein-stock.zappy5.app/product/chtyp-chlbvn-dl-svkr-shl-hmvtg-bmvkr-snykrs-snickers-hi-protein-low-sugar-btam-shvkvld-lbn-bvtnym-vkrml-marz-12-ychydvt-shl-57-grm-20-grm-chlbvn-mars-mnlm89
 - Price: 170.00 ILS
 - Availability: In stock
 - Category: חטיפי חלבון
 - SKU: 5056357909546
 - Brand: SNICKERS
 - Description: הטעם האגדי של SNICKERS בגרסה חלבונית עם ציפוי שוקולד לבן מפנק — בוטנים קלויים, שכבת קרמל רכה ו-20 גרם חלבון בכל חטיף, עם 2 גרם סוכר בלבד וכ-218 קלוריות. מארז 12 יחידות של 57 גרם — החטיף המושלם אחרי אימון או בין הארוחות.
-- Image: https://example.com/assets/product-1784105969845-mgtpgh.webp
+- Image: https://protein-stock.zappy5.app/assets/product-1784105969845-mgtpgh.webp
 
 ### חטיף חלבון דל סוכר של המותג מרס בטעם קרמל מלוח - שילוב מתוק-מלוח עם ציפוי שוקולד חלב, מארז 12 יחידות של 57 גרם, 18 גרם חלבון בחטיף | Mars Hi Protein Low Sugar
-https://example.com/product/chtyp-chlbvn-dl-svkr-shl-hmvtg-mrs-btam-krml-mlvch-shylvb-mtvk-mlvch-am-tsypvy-shvkvld-chlb-marz-12-ychydvt-shl-57-grm-18-grm-chlbvn-bchtyp-mars-hi-protein-low-sugar-bhl9n1
+https://protein-stock.zappy5.app/product/chtyp-chlbvn-dl-svkr-shl-hmvtg-mrs-btam-krml-mlvch-shylvb-mtvk-mlvch-am-tsypvy-shvkvld-chlb-marz-12-ychydvt-shl-57-grm-18-grm-chlbvn-bchtyp-mars-hi-protein-low-sugar-bhl9n1
 - Price: 170.00 ILS
 - Availability: In stock
 - Category: חטיפי חלבון
 - SKU: 5056357999707
 - Brand: Mars
 - Description: השילוב המנצח של מתוק ומלוח פוגש את הטעם האייקוני של Mars: שכבת קרמל מלוח רכה, ציפוי שוקולד חלב ומרקם נוגט נימוח - עם 18 גרם חלבון ורק כ-2 גרם סוכר בחטיף. 196 קלוריות בלבד ליחידה. מארז 12 יחידות של 57 גרם, מושלם לאחרי אימון או כפינוק יומי חכם.
-- Image: https://example.com/assets/product-1784109641900-62cgr8.webp
+- Image: https://protein-stock.zappy5.app/assets/product-1784109641900-62cgr8.webp
 
 ### חטיף חלבון דל סוכר של המותג מרס בטעם שוקולד חלב, קרמל ונוגט, מארז 12 יחידות של 57 גרם, 18 גרם חלבון בחטיף | Mars Hi Protein Low Sugar
-https://example.com/product/chtyp-chlbvn-dl-svkr-shl-hmvtg-mrs-btam-shvkvld-chlb-krml-vnvgt-marz-12-ychydvt-shl-57-grm-18-grm-chlbvn-bchtyp-mars-hi-protein-low-sugar-wh5hka
+https://protein-stock.zappy5.app/product/chtyp-chlbvn-dl-svkr-shl-hmvtg-mrs-btam-shvkvld-chlb-krml-vnvgt-marz-12-ychydvt-shl-57-grm-18-grm-chlbvn-bchtyp-mars-hi-protein-low-sugar-wh5hka
 - Price: 170.00 ILS
 - Availability: In stock
 - Category: חטיפי חלבון
 - SKU: 5056357999417
 - Brand: Mars
 - Description: כל הטעם של חטיף Mars הקלאסי, עכשיו בגרסה חכמה יותר: 18 גרם חלבון ורק כ-2 גרם סוכר בחטיף אחד. ציפוי שוקולד חלב, שכבת קרמל עשירה ומרקם נוגט רך - עם 189 קלוריות בלבד. מארז 12 יחידות של 57 גרם, מושלם לאחרי אימון או כנשנוש מתוק בלי ייסורי מצפון.
-- Image: https://example.com/assets/product-1783944493519-vycgfi.webp
+- Image: https://protein-stock.zappy5.app/assets/product-1783944493519-vycgfi.webp
 
 ### ‏חטיף חלבון קראנץ' Protein Crunch בטעם שוקולד חלב וקרמל – מארז 12 חטיפים שכבת קרמל רכה, בסיס פריך וציפוי שוקולד בלגי | 62 גרם | 21 גרם חלבון | Applied Nutrition
-https://example.com/product/chtyp-chlbvn-krants-protein-crunch-btam-shvkvld-chlb-vkrml-marz-12-chtypym-shkbt-krml-rkh-bsys-pryk-vtsypvy-shvkvld-blgy-62-grm-21-grm-chlbvn-applied-nutrition-xfu37j
+https://protein-stock.zappy5.app/product/chtyp-chlbvn-krants-protein-crunch-btam-shvkvld-chlb-vkrml-marz-12-chtypym-shkbt-krml-rkh-bsys-pryk-vtsypvy-shvkvld-blgy-62-grm-21-grm-chlbvn-applied-nutrition-xfu37j
 - Price: 160.00 ILS (sale, was 170.00 ILS)
 - Availability: In stock
 - Category: חטיפי חלבון
 - SKU: 5056555201237
 - Brand: Applied Nutrition 
 - Description: ‏חטיף חלבון משולש שכבות של Applied Nutrition בטעם שוקולד חלב וקרמל: בסיס פריך, שכבת קרמל רכה וציפוי שוקולד חלב בלגי עשיר. 21 גרם חלבון ורק 1.8 גרם סוכר בחטיף – טעם של חטיף שוקולד אמיתי בלי רגשות אשם.
-- Image: https://example.com/assets/product-1783852197536-i74q2r.webp
+- Image: https://protein-stock.zappy5.app/assets/product-1783852197536-i74q2r.webp
 
 ### ‏חטיף חלבון קראנץ' Protein Crunch בטעם שוקולד חלב ובוטנים – מארז 12 חטיפים שכבת קרמל רכה, בסיס פריך וציפוי שוקולד בלגי | 65 גרם | 21 גרם חלבון | Applied Nutrition
-https://example.com/product/chtyp-chlbvn-krants-protein-crunch-btam-shvkvld-chlb-vbvtnym-marz-12-chtypym-shkbt-krml-rkh-bsys-pryk-vtsypvy-shvkvld-blgy-65-grm-21-grm-chlbvn-applied-nutrition-ufamrr
+https://protein-stock.zappy5.app/product/chtyp-chlbvn-krants-protein-crunch-btam-shvkvld-chlb-vbvtnym-marz-12-chtypym-shkbt-krml-rkh-bsys-pryk-vtsypvy-shvkvld-blgy-65-grm-21-grm-chlbvn-applied-nutrition-ufamrr
 - Price: 170.00 ILS
 - Availability: In stock
 - Category: חטיפי חלבון
 - SKU: 5056555201244
 - Brand: Applied Nutrition
 - Description: ‏חטיף חלבון משולש שכבות של Applied Nutrition בטעם שוקולד חלב ובוטנים: בסיס פריך, שכבת קרמל רכה וציפוי שוקולד חלב בלגי עם שברי בוטנים. 21 גרם חלבון ורק 1.9 גרם סוכר בחטיף – הפינוק המושלם לדרך, לאימון או לכל שעה ביום.
-- Image: https://example.com/assets/product-1783850443125-bu6kf.webp
+- Image: https://protein-stock.zappy5.app/assets/product-1783850443125-bu6kf.webp
 
 ### ‏חטיף חלבון קראנץ' Protein Crunch בטעם שוקולד לבן וקרמל - מארז של 12 חטיפים (62 גרם) עם 21 גרם חלבון | Applied Nutrition
-https://example.com/product/chtyp-chlbvn-krants-protein-crunch-btam-shvkvld-lbn-vkrml-marz-shl-12-chtypym-62-grm-am-21-grm-chlbvn-applied-nutrition-rm2ykz
+https://protein-stock.zappy5.app/product/chtyp-chlbvn-krants-protein-crunch-btam-shvkvld-lbn-vkrml-marz-shl-12-chtypym-62-grm-am-21-grm-chlbvn-applied-nutrition-rm2ykz
 - Price: 160.00 ILS (sale, was 170.00 ILS)
 - Availability: In stock
 - Category: חטיפי חלבון
 - SKU: 5056555201220
 - Brand: Applied Nutrition 
 - Description: ‏חטיף חלבון משולש שכבות בציפוי שוקולד לבן בלגי עם ליבת קרמל רכה ובסיס פריך. כל חטיף מספק 21 גרם חלבון עם 1.8 גרם סוכר בלבד וכ-194 קלוריות - החטיף המושלם לפני או אחרי אימון, או בכל רגע ביום.
-- Image: https://example.com/assets/product-1783599062996-fxnvg.webp
+- Image: https://protein-stock.zappy5.app/assets/product-1783599062996-fxnvg.webp
 
 ### חטיף חלבון דל סוכר בטעם שוקולד קרמל מלוח - מארז 12 יחידות חטיף של 45 גרם עם 12 גרם חלבון וגרם סוכר בלבד Diet Protein Bar | Applied Nutrition
-https://example.com/product/chtyp-chlbvn-dl-svkr-btam-shvkvld-krml-mlvch-marz-12-ychydvt-chtyp-shl-45-grm-am-12-grm-chlbvn-vgrm-svkr-blbd-diet-protein-bar-applied-nutrition-wf6n8j
+https://protein-stock.zappy5.app/product/chtyp-chlbvn-dl-svkr-btam-shvkvld-krml-mlvch-marz-12-ychydvt-chtyp-shl-45-grm-am-12-grm-chlbvn-vgrm-svkr-blbd-diet-protein-bar-applied-nutrition-wf6n8j
 - Price: 120.00 ILS (sale, was 144.00 ILS)
 - Availability: In stock
 - Category: חטיפי חלבון
 - SKU: 5056555206010
 - Brand: Applied Nutrition
 - Description: חטיף חלבון דיאטתי וטעים במיוחד בטעם שוקולד חלב וקרמל מלוח, עם 12 גרם חלבון איכותי, רק גרם אחד של סוכר ו-140 קלוריות בלבד לחטיף. מועשר בקומפלקס ויטמינים, תמצית תה ירוק ו-L-קרניטין - החטיף המושלם לשמירה על תזונה מאוזנת, לפני או אחרי אימון, או כנשנוש מתוק ללא ייסורי מצפון. מתאים לצמחונים.
-- Image: https://example.com/assets/product-1783508163535-xo2djl.webp
+- Image: https://protein-stock.zappy5.app/assets/product-1783508163535-xo2djl.webp
 
 ### ‏דייסת שיבולת שועל עשירה בחלבון בטעם עוגיות ושמנת עם חתיכות עוגיות אמיתיות - מארז 6 יחידות של 60 גרם עם 23 גרם חלבון Critical Oats | Applied Nutrition
-https://example.com/product/dyyst-shybvlt-shval-ashyrh-bchlbvn-btam-avgyvt-vshmnt-am-chtykvt-avgyvt-amytyvt-marz-6-ychydvt-shl-60-grm-am-23-grm-chlbvn-critical-oats-applied-nutrition-z7fsaw
+https://protein-stock.zappy5.app/product/dyyst-shybvlt-shval-ashyrh-bchlbvn-btam-avgyvt-vshmnt-am-chtykvt-avgyvt-amytyvt-marz-6-ychydvt-shl-60-grm-am-23-grm-chlbvn-critical-oats-applied-nutrition-z7fsaw
 - Price: 95.40 ILS (sale, was 108.00 ILS)
 - Availability: In stock
 - Category: שיבולת שועל בתוספת חלבון
 - SKU: 5056555206690
 - Brand: Applied Nutrition
 - Description: ‏מארז 6 גביעים אישיים של דייסת חלבון שמוכנה תוך 2 דקות: שילוב של 100% שיבולת שועל אורגנית, 23 גרם חלבון איכותי וחתיכות עוגיות אמיתיות בכל גביע. ארוחת בוקר או נשנוש משביע בטעם עוגיות ושמנת מפנק - מושלם לספורטאים ולכל מי שחי בתנועה.
-- Image: https://example.com/assets/product-1783504941265-jxyasq.webp
+- Image: https://protein-stock.zappy5.app/assets/product-1783504941265-jxyasq.webp
 
 ### ‏דייסת שיבולת שועל עשירה בחלבון בטעם גולדן סירופ ‏— סירופ זהוב מתוק בטעם דבש-קרמל ‏— מארז 6 יחידות של 60 גרם ‏— 23 גרם חלבון בכוס ‏| Applied Nutrition Critical Oats‏
-https://example.com/product/dyyst-shybvlt-shval-ashyrh-bchlbvn-btam-gvldn-syrvp-syrvp-zhvb-mtvk-btam-dbsh-krml-marz-6-ychydvt-shl-60-grm-23-grm-chlbvn-bkvs-applied-nutrition-critical-oats-hvibdw
+https://protein-stock.zappy5.app/product/dyyst-shybvlt-shval-ashyrh-bchlbvn-btam-gvldn-syrvp-syrvp-zhvb-mtvk-btam-dbsh-krml-marz-6-ychydvt-shl-60-grm-23-grm-chlbvn-bkvs-applied-nutrition-critical-oats-hvibdw
 - Price: 95.40 ILS (sale, was 108.00 ILS)
 - Availability: In stock
 - Category: שיבולת שועל בתוספת חלבון
 - SKU: 634158711749
 - Brand: APPLIED NUTRITION
 - Description: ‏מארז 6 כוסות של דייסת שיבולת שועל עשירה בחלבון בטעם גולדן סירופ ‏— סירופ זהוב בריטי קלאסי בטעם מתוק ועשיר המזכיר שילוב של דבש וקרמל. כל כוס אישית במשקל 60 גרם מכילה 23 גרם חלבון איכותי מבית המותג הבריטי אפלייד נוטרישן (Applied Nutrition)‏, ומוכנה תוך 2 דקות בלבד ‏— פשוט מוסיפים מים רותחים, מערבבים ונהנים. ארוחת הבוקר המושלמת לספורטאים ולאורח חיים פעיל.‏
-- Image: https://example.com/assets/product-1783327682720-wcsmj9.webp
+- Image: https://protein-stock.zappy5.app/assets/product-1783327682720-wcsmj9.webp
 
 ### ‏דייסת שיבולת שועל עשירה בחלבון בטעם שוקולד -שוקולד עשיר וקרמי ‏מארז 6 יחידות של 60 גרם ‏— 23 גרם חלבון בכוס ‏| Applied Nutrition Critical Oats‏
-https://example.com/product/dyyst-shybvlt-shval-ashyrh-bchlbvn-btam-shvkvld-shvkvld-ashyr-vkrmy-marz-6-ychydvt-shl-60-grm-23-grm-chlbvn-bkvs-applied-nutrition-critical-oats-ckweao
+https://protein-stock.zappy5.app/product/dyyst-shybvlt-shval-ashyrh-bchlbvn-btam-shvkvld-shvkvld-ashyr-vkrmy-marz-6-ychydvt-shl-60-grm-23-grm-chlbvn-bkvs-applied-nutrition-critical-oats-ckweao
 - Price: 95.40 ILS (sale, was 108.00 ILS)
 - Availability: In stock
 - Category: שיבולת שועל בתוספת חלבון
 - SKU: 634158711732
 - Brand: Applied Nutrition 
 - Description: ‏מארז 6 כוסות של דייסת חלבון העשויה 100% שיבולת שועל אורגנית מלאה, בטעם שוקולד עשיר וקרמי עם קקאו אמיתי ‏— כמו קינוח מפנק, רק בריא. דלת סוכר באופן יוצא דופן ‏— כ-1.4 גרם סוכר בלבד למנה, ללא תוספת סוכר. כל כוס אישית במשקל 60 גרם מכילה 23 גרם חלבון איכותי מבית המותג הבריטי אפלייד נוטרישן (Applied Nutrition)‏, ומוכנה תוך 2 דקות בלבד. ארוחת הבוקר המושלמת לספורטאים ולאורח חיים פעיל.‏
-- Image: https://example.com/assets/product-1783242637530-tqaol8.webp
+- Image: https://protein-stock.zappy5.app/assets/product-1783242637530-tqaol8.webp
 
 ### מארז חטיפי חלבון בטעם שוקולד M&Ms גרם 51 בחטיף 12 יחידות 
-https://example.com/product/marz-chtypy-chlbvn-btam-shvkvld-mms-grm-51-bchtyp-12-ychydvt-8vwjv8
+https://protein-stock.zappy5.app/product/marz-chtypy-chlbvn-btam-shvkvld-mms-grm-51-bchtyp-12-ychydvt-8vwjv8
 - Price: 168.00 ILS (sale, was 179.00 ILS)
 - Availability: In stock
 - Category: חטיפי חלבון
 - SKU: 5056357999301
 - Brand: M&Ms
 - Description: מארז של 12 חטיפי חלבון M&M's בטעם שוקולד, המשלב את הטעם האייקוני של M&M's עם תוספת חלבון איכותית. כל חטיף מכיל 15 גרם חלבון, מה שהופך אותו לבחירה מצוינת לנשנוש במהלך היום, לאחר אימון או כשמתחשק משהו מתוק עם ערך תזונתי גבוה יותר. החטיפים מציעים שילוב של שוקולד עשיר, סוכריות M&M's צבעוניות ומרקם מפנק, כך שתוכלו ליהנות מהטעם המוכר והאהוב לצד תוספת חלבון. יתרונות המוצר: 🍫 מארז של 12 חטיפי חלבון. 💪 15 גרם חלבון בכל חטיף. 🌈 בטעם השוקולד האייקוני של M&M's. ⚡ מתאים לנשנוש בין הארוחות או לאחר אימון
-- Image: https://example.com/assets/product-1784224239026-tmm7c.webp
+- Image: https://protein-stock.zappy5.app/assets/product-1784224239026-tmm7c.webp
 
 ---
 
@@ -464,8 +464,8 @@ Sports Nutrition E-commerce
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://example.com/sitemap.xml
-- Robots: https://example.com/robots.txt
-- Flattened page text (for LLMs): https://example.com/llms-full.txt
-- Products (JSON): https://example.com/products.json
-- Products (Google Merchant RSS): https://example.com/product-feed.xml
+- Sitemap (XML): https://protein-stock.zappy5.app/sitemap.xml
+- Robots: https://protein-stock.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://protein-stock.zappy5.app/llms-full.txt
+- Products (JSON): https://protein-stock.zappy5.app/products.json
+- Products (Google Merchant RSS): https://protein-stock.zappy5.app/product-feed.xml

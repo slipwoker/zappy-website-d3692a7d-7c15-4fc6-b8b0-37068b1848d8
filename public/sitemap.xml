@@ -1,313 +1,313 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://example.com</loc>
+    <loc>https://protein-stock.zappy5.app</loc>
     <lastmod>2026-07-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://example.com/why-protein-stock</loc>
+    <loc>https://protein-stock.zappy5.app/why-protein-stock</loc>
     <lastmod>2026-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/global-brands</loc>
+    <loc>https://protein-stock.zappy5.app/global-brands</loc>
     <lastmod>2026-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/contact</loc>
+    <loc>https://protein-stock.zappy5.app/contact</loc>
     <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/products</loc>
+    <loc>https://protein-stock.zappy5.app/products</loc>
     <lastmod>2026-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/cart</loc>
+    <loc>https://protein-stock.zappy5.app/cart</loc>
     <lastmod>2026-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/checkout</loc>
+    <loc>https://protein-stock.zappy5.app/checkout</loc>
     <lastmod>2026-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/login</loc>
+    <loc>https://protein-stock.zappy5.app/login</loc>
     <lastmod>2026-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/account</loc>
+    <loc>https://protein-stock.zappy5.app/account</loc>
     <lastmod>2026-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/order-success</loc>
+    <loc>https://protein-stock.zappy5.app/order-success</loc>
     <lastmod>2026-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/product/:slug</loc>
+    <loc>https://protein-stock.zappy5.app/product/:slug</loc>
     <lastmod>2026-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/category/:slug</loc>
+    <loc>https://protein-stock.zappy5.app/category/:slug</loc>
     <lastmod>2026-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/privacy</loc>
-    <lastmod>2026-07-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://example.com/terms</loc>
+    <loc>https://protein-stock.zappy5.app/privacy</loc>
     <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://example.com/accessibility</loc>
+    <loc>https://protein-stock.zappy5.app/terms</loc>
     <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://example.com/product/krkrym-avrgnyym-ashyrym-bchlbvn-profusion-cracker-bites-btam-adshym-advmvt-organic-red-lentil-150-grm-23-grm-chlbvn-lkl-100-grm-tbavny-vavrgny-profusion-7cw55m</loc>
+    <loc>https://protein-stock.zappy5.app/accessibility</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://protein-stock.zappy5.app/product/krkrym-avrgnyym-ashyrym-bchlbvn-profusion-cracker-bites-btam-adshym-advmvt-organic-red-lentil-150-grm-23-grm-chlbvn-lkl-100-grm-tbavny-vavrgny-profusion-7cw55m</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/krkrym-avrgnyym-ashyrym-bchlbvn-profusion-cracker-bites-btam-grgyry-chvmvs-organic-chickpea-150-grm-22-grm-chlbvn-lkl-100-grm-tbavny-vavrgny-profusion-9ndpng</loc>
+    <loc>https://protein-stock.zappy5.app/product/krkrym-avrgnyym-ashyrym-bchlbvn-profusion-cracker-bites-btam-grgyry-chvmvs-organic-chickpea-150-grm-22-grm-chlbvn-lkl-100-grm-tbavny-vavrgny-profusion-9ndpng</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/chtyp-chlbvn-myny-muscle-moose-the-dinky-btam-avgyvt-shvkvld-lbn-white-chocolate-cookie-35-grm-11-grm-chlbvn-12-ychydvt-bmarz-muscle-moose-mx0rwz</loc>
+    <loc>https://protein-stock.zappy5.app/product/chtyp-chlbvn-myny-muscle-moose-the-dinky-btam-avgyvt-shvkvld-lbn-white-chocolate-cookie-35-grm-11-grm-chlbvn-12-ychydvt-bmarz-muscle-moose-mx0rwz</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/chtyp-chlbvn-dl-svkr-the-dinky-protein-bar-btam-bvtnym-vshvkvld-peanut-chocolate-35-grm-11-grm-chlbvn-12-ychydvt-bmarz-muscle-moose-w87y2k</loc>
+    <loc>https://protein-stock.zappy5.app/product/chtyp-chlbvn-dl-svkr-the-dinky-protein-bar-btam-bvtnym-vshvkvld-peanut-chocolate-35-grm-11-grm-chlbvn-12-ychydvt-bmarz-muscle-moose-w87y2k</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/chtyp-chlbvn-dl-svkr-the-dinky-protein-bar-btam-dvnat-shvkvld-chocolate-donut-35-grm-11-grm-chlbvn-12-ychydvt-bmarz-muscle-moose-bl9ub9</loc>
+    <loc>https://protein-stock.zappy5.app/product/chtyp-chlbvn-dl-svkr-the-dinky-protein-bar-btam-dvnat-shvkvld-chocolate-donut-35-grm-11-grm-chlbvn-12-ychydvt-bmarz-muscle-moose-bl9ub9</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/chtyp-chlbvn-dl-svkr-the-dinky-protein-bar-btam-shvkvld-choccy-heaven-35-grm-11-grm-chlbvn-12-ychydvt-bmarz-muscle-moose-0d3urp</loc>
+    <loc>https://protein-stock.zappy5.app/product/chtyp-chlbvn-dl-svkr-the-dinky-protein-bar-btam-shvkvld-choccy-heaven-35-grm-11-grm-chlbvn-12-ychydvt-bmarz-muscle-moose-0d3urp</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/abkt-chlbvn-tslvl-hubba-bubba-clear-whey-protein-btam-kvlh-cola-405-grm-20-grm-chlbvn-lmnh-15-mnvt-hubba-bubba-3a33yh</loc>
+    <loc>https://protein-stock.zappy5.app/product/abkt-chlbvn-tslvl-hubba-bubba-clear-whey-protein-btam-kvlh-cola-405-grm-20-grm-chlbvn-lmnh-15-mnvt-hubba-bubba-3a33yh</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/abkt-chlbvn-tslvl-hubba-bubba-clear-whey-protein-btam-ptl-kchvl-blue-raspberry-405-grm-20-grm-chlbvn-lmnh-15-mnvt-hubba-bubba-ilbfeb</loc>
+    <loc>https://protein-stock.zappy5.app/product/abkt-chlbvn-tslvl-hubba-bubba-clear-whey-protein-btam-ptl-kchvl-blue-raspberry-405-grm-20-grm-chlbvn-lmnh-15-mnvt-hubba-bubba-ilbfeb</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/avgyyt-chlbvn-snykrs-snickers-hi-protein-cookie-btam-shvkvld-lbn-vbvtnym-white-choc-peanut-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-snickers-ko8tfh</loc>
+    <loc>https://protein-stock.zappy5.app/product/avgyyt-chlbvn-snykrs-snickers-hi-protein-cookie-btam-shvkvld-lbn-vbvtnym-white-choc-peanut-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-snickers-ko8tfh</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/avgyyt-chlbvn-snykrs-snickers-hi-protein-cookie-btam-shvkvld-vbvtnym-chocolate-peanut-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-snickers-te7cii</loc>
+    <loc>https://protein-stock.zappy5.app/product/avgyyt-chlbvn-snykrs-snickers-hi-protein-cookie-btam-shvkvld-vbvtnym-chocolate-peanut-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-snickers-te7cii</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/avgyyt-chlbvn-mrs-mars-hi-protein-cookie-btam-krml-mlvch-salted-caramel-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-mars-8d1tha</loc>
+    <loc>https://protein-stock.zappy5.app/product/avgyyt-chlbvn-mrs-mars-hi-protein-cookie-btam-krml-mlvch-salted-caramel-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-mars-8d1tha</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/avgyyt-chlbvn-mrs-mars-hi-protein-cookie-btam-shvkvld-vkrml-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-mars-zgxhdu</loc>
+    <loc>https://protein-stock.zappy5.app/product/avgyyt-chlbvn-mrs-mars-hi-protein-cookie-btam-shvkvld-vkrml-60-grm-15-grm-chlbvn-12-ychydvt-bmarz-mars-zgxhdu</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/mshkh-chlbvn-mrs-mars-hi-protein-milk-drink-btam-shvkvld-vkrml-250-ml-20-grm-chlbvn-6-ychydvt-bmarz-mars-r9ppuy</loc>
+    <loc>https://protein-stock.zappy5.app/product/mshkh-chlbvn-mrs-mars-hi-protein-milk-drink-btam-shvkvld-vkrml-250-ml-20-grm-chlbvn-6-ychydvt-bmarz-mars-r9ppuy</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/mshkh-chlbvn-snykrs-snickers-hi-protein-milk-drink-btam-shvkvld-krml-vbvtnym-250-ml-20-grm-chlbvn-6-ychydvt-bmarz-snickers-puet6y</loc>
+    <loc>https://protein-stock.zappy5.app/product/mshkh-chlbvn-snykrs-snickers-hi-protein-milk-drink-btam-shvkvld-krml-vbvtnym-250-ml-20-grm-chlbvn-6-ychydvt-bmarz-snickers-puet6y</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/mshkh-chlbvn-mvkn-lshtyyh-applied-nutrition-high-protein-shake-btam-glydt-vnyl-vanilla-ice-cream-500-ml-42-grm-chlbvn-8-ychydvt-bmarz-applied-nutrition-76odvx</loc>
+    <loc>https://protein-stock.zappy5.app/product/mshkh-chlbvn-mvkn-lshtyyh-applied-nutrition-high-protein-shake-btam-glydt-vnyl-vanilla-ice-cream-500-ml-42-grm-chlbvn-8-ychydvt-bmarz-applied-nutrition-76odvx</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/mshkh-chlbvn-mvkn-lshtyyh-applied-nutrition-high-protein-shake-btam-tvtym-vshmnt-strawberries-cream-500-ml-42-grm-chlbvn-8-ychydvt-bmarz-applied-nutrition-2qfyt8</loc>
+    <loc>https://protein-stock.zappy5.app/product/mshkh-chlbvn-mvkn-lshtyyh-applied-nutrition-high-protein-shake-btam-tvtym-vshmnt-strawberries-cream-500-ml-42-grm-chlbvn-8-ychydvt-bmarz-applied-nutrition-2qfyt8</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/mshkh-chlbvn-mvkn-lshtyyh-applied-nutrition-high-protein-shake-btam-dabl-shvkvld-double-chocolate-500-ml-42-grm-chlbvn-8-ychydvt-bmarz-applied-nutrition-qbh1dz</loc>
+    <loc>https://protein-stock.zappy5.app/product/mshkh-chlbvn-mvkn-lshtyyh-applied-nutrition-high-protein-shake-btam-dabl-shvkvld-double-chocolate-500-ml-42-grm-chlbvn-8-ychydvt-bmarz-applied-nutrition-qbh1dz</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/mshkh-chlbvn-mvkn-lshtyyh-applied-nutrition-high-protein-shake-btam-bnnh-banana-delight-500-ml-42-grm-chlbvn-8-ychydvt-bmarz-applied-nutrition-v8xovo</loc>
+    <loc>https://protein-stock.zappy5.app/product/mshkh-chlbvn-mvkn-lshtyyh-applied-nutrition-high-protein-shake-btam-bnnh-banana-delight-500-ml-42-grm-chlbvn-8-ychydvt-bmarz-applied-nutrition-v8xovo</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/gvmy-kryatyn-applied-nutrition-creatine-gummies-btam-ptl-kchvl-blue-raspberry-400-grm-3-grm-kryatyn-mvnvhydrat-lmnh-80-ychydvt-20-mnvt-applied-nutrition-j7b88s</loc>
+    <loc>https://protein-stock.zappy5.app/product/gvmy-kryatyn-applied-nutrition-creatine-gummies-btam-ptl-kchvl-blue-raspberry-400-grm-3-grm-kryatyn-mvnvhydrat-lmnh-80-ychydvt-20-mnvt-applied-nutrition-j7b88s</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/gvmy-kryatyn-applied-nutrition-creatine-gummies-btam-avkmnyvt-shchvrvt-millions-blackcurrant-400-grm-3-grm-kryatyn-mvnvhydrat-lmnh-80-ychydvt-20-mnvt-applied-nutrition-9oq27t</loc>
+    <loc>https://protein-stock.zappy5.app/product/gvmy-kryatyn-applied-nutrition-creatine-gummies-btam-avkmnyvt-shchvrvt-millions-blackcurrant-400-grm-3-grm-kryatyn-mvnvhydrat-lmnh-80-ychydvt-20-mnvt-applied-nutrition-9oq27t</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/chtyp-chlbvn-snykrs-snickers-hi-protein-peanut-butter-btam-chmat-bvtnym-peanut-butter-57-grm-20-grm-chlbvn-12-ychydvt-bmarz-snickers-jghbid</loc>
+    <loc>https://protein-stock.zappy5.app/product/chtyp-chlbvn-snykrs-snickers-hi-protein-peanut-butter-btam-chmat-bvtnym-peanut-butter-57-grm-20-grm-chlbvn-12-ychydvt-bmarz-snickers-jghbid</loc>
     <lastmod>2026-07-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/chtyp-chlbvn-snykrs-pryk-snickers-hi-protein-crisp-btam-shvkvld-krml-vbvtnym-crisp-55-grm-20-grm-chlbvn-12-ychydvt-bmarz-snickers-xkz9m7</loc>
+    <loc>https://protein-stock.zappy5.app/product/chtyp-chlbvn-snykrs-pryk-snickers-hi-protein-crisp-btam-shvkvld-krml-vbvtnym-crisp-55-grm-20-grm-chlbvn-12-ychydvt-bmarz-snickers-xkz9m7</loc>
     <lastmod>2026-07-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/chtyp-chlbvn-snykrs-dl-svkr-snickers-hi-protein-low-sugar-btam-agvzy-lvz-hazelnut-57-grm-20-grm-chlbvn-12-ychydvt-bmarz-snickers-fuhhdq</loc>
+    <loc>https://protein-stock.zappy5.app/product/chtyp-chlbvn-snykrs-dl-svkr-snickers-hi-protein-low-sugar-btam-agvzy-lvz-hazelnut-57-grm-20-grm-chlbvn-12-ychydvt-bmarz-snickers-fuhhdq</loc>
     <lastmod>2026-07-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/chtyp-chlbvn-snykrs-dl-svkr-snickers-hi-protein-low-sugar-btam-shvkvld-mryr-dark-chocolate-57-grm-20-grm-chlbvn-12-ychydvt-bmarzsnickers-m7q1an</loc>
+    <loc>https://protein-stock.zappy5.app/product/chtyp-chlbvn-snykrs-dl-svkr-snickers-hi-protein-low-sugar-btam-shvkvld-mryr-dark-chocolate-57-grm-20-grm-chlbvn-12-ychydvt-bmarzsnickers-m7q1an</loc>
     <lastmod>2026-07-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/chtyp-chlbvn-mrs-dl-svkr-mars-hiprotein-low-sugar-shvkvld-lbn-krmy-18-grm-chlbvn-12-ychydvt-bmarz-z6egxm</loc>
+    <loc>https://protein-stock.zappy5.app/product/chtyp-chlbvn-mrs-dl-svkr-mars-hiprotein-low-sugar-shvkvld-lbn-krmy-18-grm-chlbvn-12-ychydvt-bmarz-z6egxm</loc>
     <lastmod>2026-07-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/chtyp-chlbvn-snykrs-dl-svkr-btam-shvkvld-krml-vbvtnym-krmy-am-bvtnym-krantsyym-57-grm-marz-12-ychydvt-mars-hi-protein-low-sugar-snickers-tspldz</loc>
+    <loc>https://protein-stock.zappy5.app/product/chtyp-chlbvn-snykrs-dl-svkr-btam-shvkvld-krml-vbvtnym-krmy-am-bvtnym-krantsyym-57-grm-marz-12-ychydvt-mars-hi-protein-low-sugar-snickers-tspldz</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/chtyp-chlbvn-dl-svkr-shl-hmvtg-bmvkr-snykrs-snickers-hi-protein-low-sugar-btam-shvkvld-lbn-bvtnym-vkrml-marz-12-ychydvt-shl-57-grm-20-grm-chlbvn-mars-mnlm89</loc>
+    <loc>https://protein-stock.zappy5.app/product/chtyp-chlbvn-dl-svkr-shl-hmvtg-bmvkr-snykrs-snickers-hi-protein-low-sugar-btam-shvkvld-lbn-bvtnym-vkrml-marz-12-ychydvt-shl-57-grm-20-grm-chlbvn-mars-mnlm89</loc>
     <lastmod>2026-07-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/chtyp-chlbvn-dl-svkr-shl-hmvtg-mrs-btam-krml-mlvch-shylvb-mtvk-mlvch-am-tsypvy-shvkvld-chlb-marz-12-ychydvt-shl-57-grm-18-grm-chlbvn-bchtyp-mars-hi-protein-low-sugar-bhl9n1</loc>
+    <loc>https://protein-stock.zappy5.app/product/chtyp-chlbvn-dl-svkr-shl-hmvtg-mrs-btam-krml-mlvch-shylvb-mtvk-mlvch-am-tsypvy-shvkvld-chlb-marz-12-ychydvt-shl-57-grm-18-grm-chlbvn-bchtyp-mars-hi-protein-low-sugar-bhl9n1</loc>
     <lastmod>2026-07-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/chtyp-chlbvn-dl-svkr-shl-hmvtg-mrs-btam-shvkvld-chlb-krml-vnvgt-marz-12-ychydvt-shl-57-grm-18-grm-chlbvn-bchtyp-mars-hi-protein-low-sugar-wh5hka</loc>
+    <loc>https://protein-stock.zappy5.app/product/chtyp-chlbvn-dl-svkr-shl-hmvtg-mrs-btam-shvkvld-chlb-krml-vnvgt-marz-12-ychydvt-shl-57-grm-18-grm-chlbvn-bchtyp-mars-hi-protein-low-sugar-wh5hka</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/chtyp-chlbvn-krants-protein-crunch-btam-shvkvld-chlb-vkrml-marz-12-chtypym-shkbt-krml-rkh-bsys-pryk-vtsypvy-shvkvld-blgy-62-grm-21-grm-chlbvn-applied-nutrition-xfu37j</loc>
+    <loc>https://protein-stock.zappy5.app/product/chtyp-chlbvn-krants-protein-crunch-btam-shvkvld-chlb-vkrml-marz-12-chtypym-shkbt-krml-rkh-bsys-pryk-vtsypvy-shvkvld-blgy-62-grm-21-grm-chlbvn-applied-nutrition-xfu37j</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/chtyp-chlbvn-krants-protein-crunch-btam-shvkvld-chlb-vbvtnym-marz-12-chtypym-shkbt-krml-rkh-bsys-pryk-vtsypvy-shvkvld-blgy-65-grm-21-grm-chlbvn-applied-nutrition-ufamrr</loc>
+    <loc>https://protein-stock.zappy5.app/product/chtyp-chlbvn-krants-protein-crunch-btam-shvkvld-chlb-vbvtnym-marz-12-chtypym-shkbt-krml-rkh-bsys-pryk-vtsypvy-shvkvld-blgy-65-grm-21-grm-chlbvn-applied-nutrition-ufamrr</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/chtyp-chlbvn-krants-protein-crunch-btam-shvkvld-lbn-vkrml-marz-shl-12-chtypym-62-grm-am-21-grm-chlbvn-applied-nutrition-rm2ykz</loc>
+    <loc>https://protein-stock.zappy5.app/product/chtyp-chlbvn-krants-protein-crunch-btam-shvkvld-lbn-vkrml-marz-shl-12-chtypym-62-grm-am-21-grm-chlbvn-applied-nutrition-rm2ykz</loc>
     <lastmod>2026-07-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/chtyp-chlbvn-dl-svkr-btam-shvkvld-krml-mlvch-marz-12-ychydvt-chtyp-shl-45-grm-am-12-grm-chlbvn-vgrm-svkr-blbd-diet-protein-bar-applied-nutrition-wf6n8j</loc>
+    <loc>https://protein-stock.zappy5.app/product/chtyp-chlbvn-dl-svkr-btam-shvkvld-krml-mlvch-marz-12-ychydvt-chtyp-shl-45-grm-am-12-grm-chlbvn-vgrm-svkr-blbd-diet-protein-bar-applied-nutrition-wf6n8j</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/dyyst-shybvlt-shval-ashyrh-bchlbvn-btam-avgyvt-vshmnt-am-chtykvt-avgyvt-amytyvt-marz-6-ychydvt-shl-60-grm-am-23-grm-chlbvn-critical-oats-applied-nutrition-z7fsaw</loc>
+    <loc>https://protein-stock.zappy5.app/product/dyyst-shybvlt-shval-ashyrh-bchlbvn-btam-avgyvt-vshmnt-am-chtykvt-avgyvt-amytyvt-marz-6-ychydvt-shl-60-grm-am-23-grm-chlbvn-critical-oats-applied-nutrition-z7fsaw</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/dyyst-shybvlt-shval-ashyrh-bchlbvn-btam-gvldn-syrvp-syrvp-zhvb-mtvk-btam-dbsh-krml-marz-6-ychydvt-shl-60-grm-23-grm-chlbvn-bkvs-applied-nutrition-critical-oats-hvibdw</loc>
+    <loc>https://protein-stock.zappy5.app/product/dyyst-shybvlt-shval-ashyrh-bchlbvn-btam-gvldn-syrvp-syrvp-zhvb-mtvk-btam-dbsh-krml-marz-6-ychydvt-shl-60-grm-23-grm-chlbvn-bkvs-applied-nutrition-critical-oats-hvibdw</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/dyyst-shybvlt-shval-ashyrh-bchlbvn-btam-shvkvld-shvkvld-ashyr-vkrmy-marz-6-ychydvt-shl-60-grm-23-grm-chlbvn-bkvs-applied-nutrition-critical-oats-ckweao</loc>
+    <loc>https://protein-stock.zappy5.app/product/dyyst-shybvlt-shval-ashyrh-bchlbvn-btam-shvkvld-shvkvld-ashyr-vkrmy-marz-6-ychydvt-shl-60-grm-23-grm-chlbvn-bkvs-applied-nutrition-critical-oats-ckweao</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/marz-chtypy-chlbvn-btam-shvkvld-mms-grm-51-bchtyp-12-ychydvt-8vwjv8</loc>
+    <loc>https://protein-stock.zappy5.app/product/marz-chtypy-chlbvn-btam-shvkvld-mms-grm-51-bchtyp-12-ychydvt-8vwjv8</loc>
     <lastmod>2026-07-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
